@@ -1,0 +1,345 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Addagada 2022]{addagada2022best}
+\abntrefinfo{Addagada}{ADDAGADA}{2022}
+{ADDAGADA, T. Best practices for managing a data fabric.
+\emph{DATAVERSITY}, 2022.}
+
+\bibitem[Akhtar 2021]{akhtar2021mesh}
+\abntrefinfo{Akhtar}{AKHTAR}{2021}
+{AKHTAR, R. Decentralized data mesh architectures: Benefits and challenges.
+\emph{Journal of Data Science}, p. 123--145, 2021.}
+
+\bibitem[Alhassan, Sammon e Daly 2016]{alhassan2016data}
+\abntrefinfo{Alhassan, Sammon e Daly}{ALHASSAN; SAMMON; DALY}{2016}
+{ALHASSAN, I.; SAMMON, D.; DALY, M. Data governance activities: An analysis of
+  the literature.
+\emph{Journal of Decision Systems}, p. 64--75, 2016.}
+
+\bibitem[Arundel e Domingus 2021]{arundel2021kubernetes}
+\abntrefinfo{Arundel e Domingus}{ARUNDEL; DOMINGUS}{2021}
+{ARUNDEL, J.; DOMINGUS, J. \emph{Cloud Native DevOps with Kubernetes}. [S.l.]:
+  O'Reilly Media, 2021.}
+
+\bibitem[Barik 2022]{barik2022data}
+\abntrefinfo{Barik}{BARIK}{2022}
+{BARIK, R. \emph{Data Fabric Primer}.
+[S.l.], 2022. Dispon{\'\i}vel em:
+  \url{https://www.globallogic.com/in/wp-content/uploads/sites/21/2023/12/Paper-Data-Fabric-primer.pdf}.}
+
+\bibitem[Benfeldt, Persson e Madsen 2020]{benfeldt2020data}
+\abntrefinfo{Benfeldt, Persson e Madsen}{BENFELDT; PERSSON; MADSEN}{2020}
+{BENFELDT, O.; PERSSON, J.~S.; MADSEN, S. Data governance as a collective
+  action problem.
+\emph{Information Systems Frontiers}, p. 299--313, 2020.}
+
+\bibitem[Blohm et al. 2024]{blohm2024data}
+\abntrefinfo{Blohm et al.}{BLOHM et al.}{2024}
+{BLOHM, I. et al. Data products, data mesh, and data fabric: New paradigm(s)
+  for data and analytics?
+\emph{Business \& Information Systems Engineering}, p. 643--652, 2024.}
+
+\bibitem[Brown e Johnson 2023]{brown2023securing}
+\abntrefinfo{Brown e Johnson}{BROWN; JOHNSON}{2023}
+{BROWN, S.; JOHNSON, M. Securing fastapi applications: Best practices and
+  patterns.
+\emph{Security Engineering Review}, v.~8, p. 45--67, 2023.}
+
+\bibitem[Burns, Beda e Hightower 2019]{burns2019kubernetes}
+\abntrefinfo{Burns, Beda e Hightower}{BURNS; BEDA; HIGHTOWER}{2019}
+{BURNS, B.; BEDA, J.; HIGHTOWER, K. \emph{Kubernetes: Up and Running: Dive into
+  the Future of Infrastructure}. [S.l.]: O'Reilly Media, 2019.}
+
+\bibitem[Chang e Sharma 2021]{airflow_concepts}
+\abntrefinfo{Chang e Sharma}{CHANG; SHARMA}{2021}
+{CHANG, J.; SHARMA, R. Apache airflow: Platform for programmatically authoring,
+  scheduling and monitoring workflows.
+\emph{Journal of Big Data Processing}, p. 45--67, 2021.}
+
+\bibitem[Chen e Martinez 2023]{chen2023challenges}
+\abntrefinfo{Chen e Martinez}{CHEN; MARTINEZ}{2023}
+{CHEN, D.; MARTINEZ, A. Challenges in implementing ai-powered dermatological
+  diagnosis systems.
+\emph{Journal of Healthcare Engineering}, v.~8, p. 145--167, 2023.}
+
+\bibitem[Chen e Wang 2023]{chen2023quality}
+\abntrefinfo{Chen e Wang}{CHEN; WANG}{2023}
+{CHEN, D.; WANG, L. Quality control in medical image processing pipelines.
+\emph{Biomedical Engineering Review}, v.~10, p. 112--134, 2023.}
+
+\bibitem[Dehghani 2020]{dehghani2020data}
+\abntrefinfo{Dehghani}{DEHGHANI}{2020}
+{DEHGHANI, Z. \emph{Data Mesh: Delivering Data-Driven Value at Scale}. [S.l.:
+  s.n.], 2020.}
+
+\bibitem[Dhayne et al. 2019]{dhayne2019}
+\abntrefinfo{Dhayne et al.}{DHAYNE et al.}{2019}
+{DHAYNE, H. et al. In search of big medical data integration solutions - a
+  comprehensive survey.
+\emph{IEEE Access}, 2019.}
+
+\bibitem[Doan et al. 2008]{doan2008information}
+\abntrefinfo{Doan et al.}{DOAN et al.}{2008}
+{DOAN, A. et al. Information extraction challenges in managing unstructured
+  data.
+\emph{SIGMOD Record}, p. 14--20, 2008.}
+
+\bibitem[Esteva e Topol 2022]{esteva2022deep}
+\abntrefinfo{Esteva e Topol}{ESTEVA; TOPOL}{2022}
+{ESTEVA, A.; TOPOL, E. Deep learning-enabled medical computer vision.
+\emph{Nature Digital Medicine}, v.~5, p.~1--9, 2022.}
+
+\bibitem[Fang 2021]{fang_data_lakes_2021}
+\abntrefinfo{Fang}{FANG}{2021}
+{FANG, T. \emph{Data Lakes: Foundations and Innovations}. [S.l.: s.n.], 2021.}
+
+\bibitem[Foundation 2023]{airflow_practices}
+\abntrefinfo{Foundation}{FOUNDATION}{2023}
+{FOUNDATION, A.~S. \emph{Best Practices for Apache Airflow Implementation}.
+[S.l.], 2023. Dispon{\'\i}vel em: \url{https://airflow.apache.org/docs/}.}
+
+\bibitem[Gade 2022]{gade2024data}
+\abntrefinfo{Gade}{GADE}{2022}
+{GADE, K.~R. Data analytics: Data fabric architecture and its benefits for data
+  management.
+\emph{MZ Computing Journal}, 2022.}
+
+\bibitem[Garcia e Lumbreras 2021]{garcia2021airflow}
+\abntrefinfo{Garcia e Lumbreras}{GARCIA; LUMBRERAS}{2021}
+{GARCIA, M.; LUMBRERAS, J. \emph{Data Pipelines with Apache Airflow}. [S.l.]:
+  Manning Publications, 2021.}
+
+\bibitem[Garcia e Rodriguez 2023]{garcia2023medical}
+\abntrefinfo{Garcia e Rodriguez}{GARCIA; RODRIGUEZ}{2023}
+{GARCIA, M.; RODRIGUEZ, J. Medical image processing: From acquisition to
+  analysis.
+\emph{Journal of Medical Imaging}, v.~12, p. 145--167, 2023.}
+
+\bibitem[{Gartner} 2024]{gartner_data_fabric}
+\abntrefinfo{{Gartner}}{{Gartner}}{2024}
+{{Gartner}. \emph{What is Data Fabric? Uses, Definition \& Trends}. 2024.
+Accessed: 2024-12-19.
+Dispon{\'\i}vel em:
+  \url{https://www.gartner.com/en/data-analytics/topics/data-fabric}.}
+
+\bibitem[Gonzalez 2019]{gonzalez_scalable_systems_2019}
+\abntrefinfo{Gonzalez}{GONZALEZ}{2019}
+{GONZALEZ, M. Scalable systems for big data management.
+\emph{Journal of Big Data}, 2019.}
+
+\bibitem[Haug, Zachariassen e Liempd 2011]{haug2011costs}
+\abntrefinfo{Haug, Zachariassen e Liempd}{HAUG; ZACHARIASSEN; LIEMPD}{2011}
+{HAUG, A.; ZACHARIASSEN, F.; LIEMPD, D. van. The costs of poor data quality.
+\emph{Journal of Industrial Engineering and Management}, p. 168--193, 2011.}
+
+\bibitem[Hechler, Weihrauch e Wu 2023]{hechler2023data}
+\abntrefinfo{Hechler, Weihrauch e Wu}{HECHLER; WEIHRAUCH; WU}{2023}
+{HECHLER, E.; WEIHRAUCH, M.; WU, Y.~C. \emph{Data Fabric and Data Mesh
+  Approaches with AI: A Guide to AI-based Data Cataloging, Governance,
+  Integration, Orchestration, and Consumption}. [S.l.]: Apress, 2023.
+  38--42~p.}
+
+\bibitem[Hightower, Burns e Beda 2019]{hightower2019kubernetes}
+\abntrefinfo{Hightower, Burns e Beda}{HIGHTOWER; BURNS; BEDA}{2019}
+{HIGHTOWER, K.; BURNS, B.; BEDA, J. \emph{Kubernetes: The Complete Guide}.
+  [S.l.]: CNCF, 2019.}
+
+\bibitem[Jahnke, Asher e Keralis 2012]{jahnke2012problem}
+\abntrefinfo{Jahnke, Asher e Keralis}{JAHNKE; ASHER; KERALIS}{2012}
+{JAHNKE, L.; ASHER, A.; KERALIS, S.~D. \emph{The Problem of Data}.
+[S.l.], 2012. Dispon{\'\i}vel em:
+  \url{https://www.clir.org/pubs/reports/pub154/}.}
+
+\bibitem[Johnson 2021]{johnson2021scaling}
+\abntrefinfo{Johnson}{JOHNSON}{2021}
+{JOHNSON, P. Scaling data architectures with mesh principles.
+\emph{Data Engineering Quarterly}, p. 34--50, 2021.}
+
+\bibitem[Katal, Wazid e Goudar 2013]{katal2013big}
+\abntrefinfo{Katal, Wazid e Goudar}{KATAL; WAZID; GOUDAR}{2013}
+{KATAL, A.; WAZID, M.; GOUDAR, R.~H. Big data: Issues, challenges, tools and
+  good practices. In:  \emph{Proceedings of the Sixth International Conference
+  on Contemporary Computing (IC3)}. [S.l.: s.n.], 2013. p. 404--409.}
+
+\bibitem[Kumar e Patel 2023]{kumar2023medical}
+\abntrefinfo{Kumar e Patel}{KUMAR; PATEL}{2023}
+{KUMAR, A.; PATEL, S. \emph{Medical Image Processing Pipelines: Design and
+  Implementation}. [S.l.]: Springer, 2023.}
+
+\bibitem[Kumar e Singh 2023]{kumar2023data}
+\abntrefinfo{Kumar e Singh}{KUMAR; SINGH}{2023a}
+{KUMAR, R.; SINGH, A. Data ingestion strategies for medical imaging systems.
+\emph{Healthcare Informatics Journal}, v.~8, p. 234--256, 2023.}
+
+\bibitem[Kumar e Singh 2023]{kumar2023modern}
+\abntrefinfo{Kumar e Singh}{KUMAR; SINGH}{2023b}
+{KUMAR, R.; SINGH, A. Modern api development with fastapi and python.
+\emph{Journal of Software Engineering}, v.~15, p. 123--145, 2023.}
+
+\bibitem[Kumar e Singh 2022]{kumar2022apache}
+\abntrefinfo{Kumar e Singh}{KUMAR; SINGH}{2022}
+{KUMAR, V.; SINGH, R. Apache airflow: A comprehensive study of workflow
+  management.
+\emph{International Journal of Data Engineering}, v.~13, p. 78--92, 2022.}
+
+\bibitem[L'Heureux et al. 2017]{lheureux2017machine}
+\abntrefinfo{L'Heureux et al.}{L'HEUREUX et al.}{2017}
+{L'HEUREUX, A. et al. Machine learning with big data: Challenges and
+  approaches.
+\emph{IEEE Access}, p. 7776--7797, 2017.}
+
+\bibitem[Luksa 2021]{luksa2021kubernetes}
+\abntrefinfo{Luksa}{LUKSA}{2021}
+{LUKSA, M. \emph{Kubernetes in Action}. [S.l.]: Manning Publications, 2021.}
+
+\bibitem[Martinez e Thompson 2023]{martinez2023best}
+\abntrefinfo{Martinez e Thompson}{MARTINEZ; THOMPSON}{2023}
+{MARTINEZ, C.; THOMPSON, E. Best practices for large-scale fastapi
+  applications.
+\emph{Web Engineering Quarterly}, v.~4, p. 78--95, 2023.}
+
+\bibitem[Martinez 2022]{martinez2022governance}
+\abntrefinfo{Martinez}{MARTINEZ}{2022}
+{MARTINEZ, L. Federated governance in data mesh implementations.
+\emph{International Journal of Data Management}, v.~15, p. 56--78, 2022.}
+
+\bibitem[Mousa e Shiratuddin 2015]{mousa2015data}
+\abntrefinfo{Mousa e Shiratuddin}{MOUSA; SHIRATUDDIN}{2015}
+{MOUSA, A.~H.; SHIRATUDDIN, N. Data warehouse and data virtualization
+  comparative study. In:  \emph{2015 International Conference on Developments
+  of E-Systems Engineering (DeSE)}. [S.l.: s.n.], 2015. p. 369--372.}
+
+\bibitem[Nambiar e Mundra 2022]{nambiar2022overview}
+\abntrefinfo{Nambiar e Mundra}{NAMBIAR; MUNDRA}{2022}
+{NAMBIAR, A.; MUNDRA, D. An overview of data warehouse and data lake in modern
+  enterprise data management.
+\emph{Big Data and Cognitive Computing}, p.~132, 2022.}
+
+\bibitem[Nuthalapati 2018]{Architecting_data_lake_houses}
+\abntrefinfo{Nuthalapati}{NUTHALAPATI}{2018}
+{NUTHALAPATI, A. \emph{Architecting data lake-houses in the cloud: Best
+  practices and future direction}. [S.l.: s.n.], 2018. 1903~p.}
+
+\bibitem[Peterson e Lee 2023]{performance_metrics}
+\abntrefinfo{Peterson e Lee}{PETERSON; LEE}{2023}
+{PETERSON, E.; LEE, J. \emph{FastAPI Performance Analysis in Production
+  Environments}.
+[S.l.], 2023.}
+
+\bibitem[Ramírez 2023]{fastapi_foundation}
+\abntrefinfo{Ramírez}{RAMíREZ}{2023}
+{RAMíREZ, S. Fastapi: A modern framework for building apis with python.
+\emph{Python Software Foundation}, 2023.}
+
+\bibitem[Ramírez e González 2022]{ramirez2022fastapi}
+\abntrefinfo{Ramírez e González}{RAMíREZ; GONZáLEZ}{2022}
+{RAMíREZ, S.; GONZáLEZ, M. \emph{Building Data-Intensive Applications with
+  FastAPI}. [S.l.]: O'Reilly Media, 2022.}
+
+\bibitem[Redman 1998]{impact_poor_data_1998}
+\abntrefinfo{Redman}{REDMAN}{1998}
+{REDMAN, T.~C. The impact of poor data quality on thetypical enterprise.
+\emph{ACM}, p. 79--82, 1998.}
+
+\bibitem[Santoso e Yulia 2017]{santoso2017data}
+\abntrefinfo{Santoso e Yulia}{SANTOSO; YULIA}{2017}
+{SANTOSO, L.~W.; YULIA. Data warehouse with big data technology for higher
+  education. In:  \emph{Proceedings of the 4th Information Systems
+  International Conference (ISICO 2017)}. [S.l.: s.n.], 2017.}
+
+\bibitem[Sharma e Gupta 2021]{sharma2021apache}
+\abntrefinfo{Sharma e Gupta}{SHARMA; GUPTA}{2021}
+{SHARMA, P.; GUPTA, R. Scalable data pipeline orchestration with apache
+  airflow. In:  \emph{Proceedings of the International Conference on Big Data
+  Engineering}. [S.l.: s.n.], 2021. p. 234--245.}
+
+\bibitem[Sharma et al. 2023]{sharma2023data}
+\abntrefinfo{Sharma et al.}{SHARMA et al.}{2023}
+{SHARMA, V. et al. (Ed.). \emph{Data Fabric Architectures: Web-Driven
+  Applications}. [S.l.]: De Gruyter, 2023.}
+
+\bibitem[Smith e Brown 2023]{smith2023quality}
+\abntrefinfo{Smith e Brown}{SMITH; BROWN}{2023a}
+{SMITH, J.; BROWN, R. Quality assurance in medical image processing.
+\emph{Healthcare Data Management}, v.~15, p. 78--95, 2023.}
+
+\bibitem[Smith e Brown 2023]{smith2023image}
+\abntrefinfo{Smith e Brown}{SMITH; BROWN}{2023b}
+{SMITH, J.; BROWN, S. \emph{Image Preprocessing Techniques in Medical
+  Analysis}. [S.l.]: Academic Press, 2023.}
+
+\bibitem[Smith 2023]{smith2023tools}
+\abntrefinfo{Smith}{SMITH}{2023}
+{SMITH, K. Open source tools for data mesh implementations.
+\emph{Open Data Review}, p. 90--105, 2023.}
+
+\bibitem[Stone et al. 2019]{stone2019information}
+\abntrefinfo{Stone et al.}{STONE et al.}{2019}
+{STONE, M. et al. From information mismanagement to misinformation - the dark
+  side of information management.
+\emph{The Bottom Line}, 2019.}
+
+\bibitem[Vaisman e Zimányi 2014]{vaisman2014data}
+\abntrefinfo{Vaisman e Zimányi}{VAISMAN; ZIMáNYI}{2014}
+{VAISMAN, A.; ZIMáNYI, E. \emph{Data Warehouse Systems: Design and
+  Implementation}. [S.l.]: Springer, 2014. 72--80~p.  (Data-Centric Systems and
+  Applications).}
+
+\bibitem[Vass e Stewart 2020]{vass_bigdata_cloud_2020}
+\abntrefinfo{Vass e Stewart}{VASS; STEWART}{2020}
+{VASS, J.; STEWART, M. \emph{Big Data Management in the Cloud Era}. [S.l.:
+  s.n.], 2020.}
+
+\bibitem[Verma, Pedrosa e Korupolu 2020]{kubernetes_arch}
+\abntrefinfo{Verma, Pedrosa e Korupolu}{VERMA; PEDROSA; KORUPOLU}{2020}
+{VERMA, A.; PEDROSA, L.; KORUPOLU, M. Large-scale cluster management at google
+  with borg.
+\emph{Proceedings of the European Conference on Computer Systems}, p. 18--33,
+  2020.}
+
+\bibitem[Volk et al. 2019]{volk2019challenging}
+\abntrefinfo{Volk et al.}{VOLK et al.}{2019}
+{VOLK, M. et al. Challenging big data engineering: Positioning of current and
+  future development. In:  \emph{Proceedings of the 4th International
+  Conference on Internet of Things, Big Data and Security (IoTBDS)}. [S.l.:
+  s.n.], 2019. p. 351--358.}
+
+\bibitem[Wang e Chen 2023]{wang2023automated}
+\abntrefinfo{Wang e Chen}{WANG; CHEN}{2023}
+{WANG, M.; CHEN, L. Automated skin lesion analysis using deep learning
+  pipelines.
+\emph{Journal of Medical Imaging}, v.~10, p. 234--256, 2023.}
+
+\bibitem[Wilson 2023]{wilson2023data}
+\abntrefinfo{Wilson}{WILSON}{2023}
+{WILSON, J. \emph{Data Integration Patterns with FastAPI}. [S.l.]: Apress,
+  2023.}
+
+\bibitem[Xu et al. 2019]{xu2019clinics}
+\abntrefinfo{Xu et al.}{XU et al.}{2019}
+{XU, L. et al. What clinics are expecting from data scientists? a review on
+  data oriented studies through qualitative and quantitative approaches.
+\emph{IEEE Access}, 2019.}
+
+\bibitem[Zagan e Danubianu 2020]{datar_lake_approaches_2020}
+\abntrefinfo{Zagan e Danubianu}{ZAGAN; DANUBIANU}{2020}
+{ZAGAN, E.; DANUBIANU, M. Data lake approaches: A survey.
+p. 189--191, 2020.}
+
+\bibitem[Zhang, Wang e Singh 2021]{zhang2021deep}
+\abntrefinfo{Zhang, Wang e Singh}{ZHANG; WANG; SINGH}{2021}
+{ZHANG, J.; WANG, L.; SINGH, R. Deep learning applications in dermatological
+  image analysis.
+\emph{Medical Image Analysis}, v.~28, p. 187--203, 2021.}
+
+\bibitem[Zhang e Li 2023]{zhang2023augmentation}
+\abntrefinfo{Zhang e Li}{ZHANG; LI}{2023}
+{ZHANG, W.; LI, X. Data augmentation techniques for medical image analysis.
+\emph{Pattern Recognition in Medicine}, v.~15, p. 78--95, 2023.}
+
+\end{thebibliography}
