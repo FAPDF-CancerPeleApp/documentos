@@ -1095,3 +1095,60 @@ O controle de qualidade é fundamental durante todo o processo \cite{chen2023qua
     \item Testes de consistência
 \end{itemize}
 \end{enumerate}
+
+
+\section{MinIO Object Storage}
+O MinIO é uma solução de armazenamento em objetos projetada para alta performance, escalabilidade e segurança. Licenciado como 
+software open source, ele é compatível com a API do Amazon S3 e é amplamente utilizado para implementar plataformas de Armazenamento 
+como Serviço (STaaS). A crescente demanda por aplicações como Big Data, IoT e Inteligência Artificial impulsiona a necessidade de 
+soluções de armazenamento escaláveis e econômicas, área em que o MinIO se destaca \cite{minio_reference_architecture}. 
+
+\subsection{Arquitetura e Benefícios}
+O MinIO adota uma abordagem simplificada para fornecer um sistema de armazenamento eficiente, robusto e de alta disponibilidade. Sua arquitetura em camadas é construída para suportar desde pequenas implementações até clusters globais federados. Entre suas principais características estão \cite{minio_reference_architecture}:
+\begin{itemize}
+    \item Desempenho: Utilizando hardware otimizado, como processadores Intel Xeon e unidades SSD NVMe, o MinIO entrega altas taxas de transferência de dados, permitindo atender às demandas de aplicações nativas em nuvem com baixa latência e alta taxa de transferência.
+    \item Escalabilidade Linear: Clusters do MinIO podem ser ampliados de forma linear, adicionando novos nós sem perda de desempenho, o que é essencial para cenários de armazenamento em larga escala.
+    \item Alta Disponibilidade e Tolerância a Falhas: Com código de apagamento e verificações de proteção contra bitrot, o sistema é projetado para suportar falhas de hardware sem interrupção dos serviços.
+    \item Segurança: Oferece criptografia por objeto com chaves únicas, além de suporte a gerenciamento externo de chaves e modos WORM (Write Once, Read Many).
+    \item Simplicidade Operacional: O design minimalista do MinIO facilita a instalação, configuração e manutenção, reduzindo a necessidade de administração contínua.
+    \item Compatibilidade com Kubernetes: A integração com orquestradores de containers permite a gestão eficiente de recursos, consolidando o MinIO como uma solução nativa para ambientes de nuvem.
+\end{itemize}
+
+\subsection{Relevância no Cenário Atual de Armazenamento em Nuvem}
+O MinIO Object Storage reflete a evolução do armazenamento de dados, alinhando-se às necessidades modernas de computação em nuvem, 
+escalabilidade e gestão eficiente de recursos. A literatura enfatiza que soluções como o MinIO não apenas preenchem lacunas tecnológicas, 
+mas também democratizam o acesso ao armazenamento avançado, oferecendo uma alternativa competitiva às grandes provedoras de serviços 
+em nuvem. Seu papel no ecossistema de armazenamento é crucial para suportar o crescimento exponencial de dados, previsto para 
+ultrapassar 163 Zettabytes até 2025 \cite{minio_reference_architecture}.
+
+
+
+\section{Delta Lake}
+Delta Lake é uma camada de armazenamento de código aberto que combina as melhores características dos data warehouses e data lakes, 
+formando a base para a arquitetura Lakehouse. Criado para solucionar problemas de confiabilidade e escalabilidade de dados, o Delta 
+Lake suporta transações ACID, manipulação escalável de metadados e a unificação de processamento de dados em lote e streaming. Ele 
+é amplamente utilizado em ambientes de big data e inteligência artificial devido à sua capacidade de gerenciar grandes volumes de 
+dados com consistência e performance \cite{lee2024delta}. 
+
+\subsection{Arquitetura e Benefícios}
+O Delta Lake foi concebido para superar limitações de arquiteturas tradicionais de data lakes, que muitas vezes careciam de garantias transacionais e governança de dados. A arquitetura Lakehouse, da qual o Delta Lake faz parte, une a escalabilidade e flexibilidade dos data lakes com a governança e otimização de performance dos data warehouses. Entre suas principais características estão \cite{lee2024delta}:
+\begin{itemize}
+    \item Transações ACID: Garantem integridade de dados em operações concorrentes.
+    \item Time Travel: Permite consultar versões anteriores dos dados para auditorias ou recuperação.
+    \item Unificação de Processamento: Suporte simultâneo a cargas de trabalho em lote e streaming.
+    \item Evolução e Imposição de Esquemas: Garante consistência estrutural nos dados.
+    \item Fonte Única de Verdade: Mantém um log transacional que organiza todas as alterações de dados.
+\end{itemize}
+
+\subsection{Relevância no Cenário Atual de Big Data}
+No cenário atual, caracterizado pela explosão de dados e pela crescente demanda por análise em tempo real, o Delta Lake desempenha 
+um papel central ao permitir que organizações adotem arquiteturas de dados modernas, como o Lakehouse \ref{fig:pipeline_proc}. Essa abordagem resolve limitações 
+de sistemas tradicionais, que frequentemente lidam com silos de dados, altos custos de manutenção e falta de flexibilidade para suportar 
+aplicações avançadas como inteligência artificial e aprendizado de máquina.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figuras/deltaLake.eps}
+    \caption{Delta Lake: Formato transacional escalável e de uso geral para Lakehouse. \cite{lee2024delta}}
+    \label{fig:pipeline_proc}
+\end{figure}

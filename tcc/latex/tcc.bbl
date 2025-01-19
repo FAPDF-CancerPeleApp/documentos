@@ -50,6 +50,13 @@
   patterns.
 \emph{Security Engineering Review}, v.~8, p. 45--67, 2023.}
 
+\bibitem[Build a High-Performance Object Storage-as-a-Service Platform with
+  MinIO 2019]{minio_reference_architecture}
+\abntrefinfo{Build\ldots}{BUILD\ldots}{2019}
+{BUILD a High-Performance Object Storage-as-a-Service Platform with MinIO.
+[S.l.], 2019. Acessado em: 5 jan. 2025. Dispon{\'\i}vel em:
+  \url{https://min.io/resources/docs/CPG-MinIO-reference-architecture.pdf}.}
+
 \bibitem[Burns, Beda e Hightower 2019]{burns2019kubernetes}
 \abntrefinfo{Burns, Beda e Hightower}{BURNS; BEDA; HIGHTOWER}{2019}
 {BURNS, B.; BEDA, J.; HIGHTOWER, K. \emph{Kubernetes: Up and Running: Dive into
@@ -186,6 +193,11 @@ Dispon{\'\i}vel em:
 {KUMAR, V.; SINGH, R. Apache airflow: A comprehensive study of workflow
   management.
 \emph{International Journal of Data Engineering}, v.~13, p. 78--92, 2022.}
+
+\bibitem[Lee et al. 2024]{lee2024delta}
+\abntrefinfo{Lee et al.}{LEE et al.}{2024}
+{LEE, D. et al. \emph{Delta Lake: The Definitive Guide: Modern Data Lakehouse
+  Architectures with Data Lakes}. [S.l.]: O'Reilly Media, 2024.}
 
 \bibitem[L'Heureux et al. 2017]{lheureux2017machine}
 \abntrefinfo{L'Heureux et al.}{L'HEUREUX et al.}{2017}

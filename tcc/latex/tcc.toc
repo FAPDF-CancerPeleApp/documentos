@@ -94,10 +94,16 @@
 \contentsline {subsubsection}{\numberline {1.12.3.1}Etapas do Pipeline}{61}{subsubsection.1.12.3.1}% 
 \contentsline {subsection}{\numberline {1.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{62}{subsection.1.12.4}% 
 \contentsline {subsection}{\numberline {1.12.5}Controle de Qualidade}{62}{subsection.1.12.5}% 
+\contentsline {section}{\numberline {1.13}MinIO Object Storage}{63}{section.1.13}% 
+\contentsline {subsection}{\numberline {1.13.1}Arquitetura e Benef\IeC {\'\i }cios}{63}{subsection.1.13.1}% 
+\contentsline {subsection}{\numberline {1.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{64}{subsection.1.13.2}% 
+\contentsline {section}{\numberline {1.14}Delta Lake}{64}{section.1.14}% 
+\contentsline {subsection}{\numberline {1.14.1}Arquitetura e Benef\IeC {\'\i }cios}{64}{subsection.1.14.1}% 
+\contentsline {subsection}{\numberline {1.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{65}{subsection.1.14.2}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Related Works}}{65}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{65}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{66}{section.2.2}% 
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Related Works}}{67}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{67}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{68}{section.2.2}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{67}{section*.21}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{69}{section*.21}% 
