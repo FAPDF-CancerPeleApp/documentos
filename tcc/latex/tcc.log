@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.28)  19 JAN 2025 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.28)  19 JAN 2025 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,11 +728,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 
 Writing index file tcc.idx 
-(./tcc.aux
-
-LaTeX Warning: Label `fig:pipeline_proc' multiply defined.
-
-)
+(./tcc.aux)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -880,7 +876,7 @@ LaTeX Warning: Citation `NBR14724:2011' on page 3 undefined on input line 2.
 [15] [16
 
 ]) (./fixos/listasAutomaticas.tex (./tcc.lof
-Overfull \hbox (107.15309pt too wide) in paragraph at lines 4--4
+Overfull \hbox (107.15309pt too wide) in paragraph at lines 3--3
  [][] [] []  
  []
 
@@ -902,12 +898,12 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 
  [25]
 [26]
-Overfull \hbox (60.15305pt too wide) in paragraph at lines 105--105
+Overfull \hbox (60.15305pt too wide) in paragraph at lines 93--93
  [][] [] []  
  []
 
 
-Overfull \hbox (383.88104pt too wide) in paragraph at lines 106--106
+Overfull \hbox (383.88104pt too wide) in paragraph at lines 94--94
  [][] [] []  
  []
 
@@ -983,64 +979,62 @@ Overfull \hbox (74.8327pt too wide) in paragraph at lines 363--372
 Underfull \vbox (badness 1694) has occurred while \output is active []
 
  [44]
-[45] [46] [47]
-Overfull \hbox (49.11676pt too wide) in paragraph at lines 479--480
+[45] [46]
+Overfull \hbox (49.11676pt too wide) in paragraph at lines 440--441
 []\T1/lmr/m/n/12 Para uma uti-li-za-ção efe-tiva do Air-flow, al-gu-mas prá-ti-
 cas são re-co-men-da-das ([][][][][][],
  []
 
-
-Overfull \hbox (22.96562pt too wide) in paragraph at lines 493--494
-\T1/lmr/m/n/12 na in-dús-tria para or-ques-tra-ção de con-tai-ners em larga es-
-cala ([][][][][][],
- []
-
-[48] [49] [50] [51]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 610.
+[47] [48] [49] [50]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 529.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [52]
-Overfull \hbox (50.17514pt too wide) in paragraph at lines 652--653
-[]\T1/lmr/m/n/12 Para um de-sen-vol-vi-mento efi-ci-ente com Fas-tAPI, recomend
-a-se ([][][][][][],
+)
+Overfull \hbox (3.21373pt too wide) in paragraph at lines 539--540
+[]\T1/lmr/m/n/12 O Fas-tAPI ofe-rece di-ver-sos me-ca-nis-mos de se-gu-rança ([
+][][][][][], [][][][][][][]).
  []
 
 
-Overfull \hbox (34.70108pt too wide) in paragraph at lines 680--681
-[]\T1/lmr/m/n/12 Apesar de suas van-ta-gens, é im-por-tante con-si-de-rar al-gu
--mas li-mi-ta-ções ([][][][][][],
+Overfull \hbox (25.61392pt too wide) in paragraph at lines 545--546
+[]\T1/lmr/m/n/12 Apesar de suas mui-tas van-ta-gens, o Fas-tAPI tem al-gu-mas l
+i-mi-ta-ções ([][][][][][],
  []
 
-[53] [54] [55] [56] [57] [58] [59] [60]
-Overfull \hbox (49.65926pt too wide) in paragraph at lines 1023--1024
-[]\T1/lmr/m/n/12 O pi-pe-line de pro-ces-sa-mento se-gue uma sequên-cia es-tru-
-tu-rada de ope-ra-ções ([][][][][][],
- []
+[51] [52]
+Underfull \vbox (badness 5203) has occurred while \output is active []
 
-File: figuras/pipeline_processamento.eps Graphic file (type eps)
-<figuras/pipeline_processamento.eps> [61] [62] [63] [64]
+ [53]
+[54] [55]
+Underfull \vbox (badness 5203) has occurred while \output is active []
+
+ [56]
+[57] [58]
 File: figuras/deltaLake.eps Graphic file (type eps)
+ <figuras/deltaLake.eps>
 
-<figuras/deltaLake.eps>) (./editaveis/relatedworks.tex [65] [66
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-]
+) (./editaveis/relatedworks.tex [59] [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67])
+ [61
+
+])
 (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [68]
+ [62]
 bibitemlist
-[69
+[63
 
-] [70] [71])
+] [64] [65])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[72]
+[66]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1064,23 +1058,23 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 4FFBA53FE637019F9F116293574B9C35;7293
-(rerunfilecheck)             After:  E8799C8F1B991293338D60C66F45A30B;7293.
+(rerunfilecheck)             Before: 2C392C7ECC0E8748BE6948EDF624C487;7419
+(rerunfilecheck)             After:  599B4267273A94E917E44460352A3772;7419.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 11920 strings out of 494542
- 179091 string characters out of 6176698
- 328892 words of memory out of 5000000
- 15324 multiletter control sequences out of 15000+600000
+ 11905 strings out of 494542
+ 178903 string characters out of 6176698
+ 329253 words of memory out of 5000000
+ 15310 multiletter control sequences out of 15000+600000
  81839 words of font info for 55 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 45i,13n,51p,1215b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,51p,1407b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (74 pages, 379868 bytes).
+Output written on tcc.dvi (68 pages, 354632 bytes).

@@ -41,69 +41,57 @@
 \contentsline {subsection}{\numberline {1.7.1}Conceitos Fundamentais}{46}{subsection.1.7.1}% 
 \contentsline {subsection}{\numberline {1.7.2}Caracter\IeC {\'\i }sticas Principais}{47}{subsection.1.7.2}% 
 \contentsline {subsection}{\numberline {1.7.3}Arquitetura}{47}{subsection.1.7.3}% 
-\contentsline {subsection}{\numberline {1.7.4}Benef\IeC {\'\i }cios e Limita\IeC {\c c}\IeC {\~o}es}{48}{subsection.1.7.4}% 
-\contentsline {subsubsection}{\numberline {1.7.4.1}Benef\IeC {\'\i }cios}{48}{subsubsection.1.7.4.1}% 
-\contentsline {subsubsection}{\numberline {1.7.4.2}Limita\IeC {\c c}\IeC {\~o}es}{48}{subsubsection.1.7.4.2}% 
-\contentsline {subsection}{\numberline {1.7.5}Melhores Pr\IeC {\'a}ticas}{48}{subsection.1.7.5}% 
+\contentsline {subsection}{\numberline {1.7.4}Benef\IeC {\'\i }cios e Limita\IeC {\c c}\IeC {\~o}es}{47}{subsection.1.7.4}% 
+\contentsline {subsection}{\numberline {1.7.5}Melhores Pr\IeC {\'a}ticas}{47}{subsection.1.7.5}% 
 \contentsline {section}{\numberline {1.8}Kubernetes: Orquestra\IeC {\c c}\IeC {\~a}o de Containers para Escalabilidade}{48}{section.1.8}% 
-\contentsline {subsection}{\numberline {1.8.1}Arquitetura do Kubernetes}{49}{subsection.1.8.1}% 
-\contentsline {subsubsection}{\numberline {1.8.1.1}Control Plane (Master)}{49}{subsubsection.1.8.1.1}% 
-\contentsline {subsubsection}{\numberline {1.8.1.2}Worker Nodes}{49}{subsubsection.1.8.1.2}% 
-\contentsline {subsection}{\numberline {1.8.2}Conceitos Fundamentais}{49}{subsection.1.8.2}% 
+\contentsline {subsection}{\numberline {1.8.1}Arquitetura do Kubernetes}{48}{subsection.1.8.1}% 
+\contentsline {subsubsection}{\numberline {1.8.1.1}Control Plane (Master)}{48}{subsubsection.1.8.1.1}% 
+\contentsline {subsubsection}{\numberline {1.8.1.2}Worker Nodes}{48}{subsubsection.1.8.1.2}% 
+\contentsline {subsection}{\numberline {1.8.2}Conceitos Fundamentais}{48}{subsection.1.8.2}% 
 \contentsline {subsection}{\numberline {1.8.3}Recursos de Escalabilidade}{49}{subsection.1.8.3}% 
-\contentsline {subsubsection}{\numberline {1.8.3.1}Escalabilidade Horizontal}{50}{subsubsection.1.8.3.1}% 
-\contentsline {subsubsection}{\numberline {1.8.3.2}Alta Disponibilidade}{50}{subsubsection.1.8.3.2}% 
-\contentsline {subsection}{\numberline {1.8.4}Benef\IeC {\'\i }cios e Desafios}{50}{subsection.1.8.4}% 
-\contentsline {subsubsection}{\numberline {1.8.4.1}Benef\IeC {\'\i }cios}{50}{subsubsection.1.8.4.1}% 
-\contentsline {subsubsection}{\numberline {1.8.4.2}Desafios}{50}{subsubsection.1.8.4.2}% 
+\contentsline {subsubsection}{\numberline {1.8.3.1}Escalabilidade Horizontal}{49}{subsubsection.1.8.3.1}% 
+\contentsline {subsubsection}{\numberline {1.8.3.2}Alta Disponibilidade}{49}{subsubsection.1.8.3.2}% 
+\contentsline {subsection}{\numberline {1.8.4}Benef\IeC {\'\i }cios e Desafios}{49}{subsection.1.8.4}% 
+\contentsline {subsubsection}{\numberline {1.8.4.1}Benef\IeC {\'\i }cios}{49}{subsubsection.1.8.4.1}% 
+\contentsline {subsubsection}{\numberline {1.8.4.2}Desafios}{49}{subsubsection.1.8.4.2}% 
 \contentsline {subsection}{\numberline {1.8.5}Melhores Pr\IeC {\'a}ticas}{50}{subsection.1.8.5}% 
-\contentsline {section}{\numberline {1.9}FastAPI: Desenvolvimento de APIs para Integra\IeC {\c c}\IeC {\~a}o de Dados}{51}{section.1.9}% 
-\contentsline {subsection}{\numberline {1.9.1}Caracter\IeC {\'\i }sticas Fundamentais}{51}{subsection.1.9.1}% 
-\contentsline {subsection}{\numberline {1.9.2}Arquitetura e Componentes}{51}{subsection.1.9.2}% 
-\contentsline {subsubsection}{\numberline {1.9.2.1}Componentes Principais}{51}{subsubsection.1.9.2.1}% 
-\contentsline {subsection}{\numberline {1.9.3}Integra\IeC {\c c}\IeC {\~a}o de Dados com FastAPI}{52}{subsection.1.9.3}% 
-\contentsline {subsubsection}{\numberline {1.9.3.1}Modelos de Dados}{52}{subsubsection.1.9.3.1}% 
-\contentsline {subsubsection}{\numberline {1.9.3.2}Endpoints para Manipula\IeC {\c c}\IeC {\~a}o de Dados}{52}{subsubsection.1.9.3.2}% 
-\contentsline {subsection}{\numberline {1.9.4}Seguran\IeC {\c c}a e Autentica\IeC {\c c}\IeC {\~a}o}{52}{subsection.1.9.4}% 
-\contentsline {subsection}{\numberline {1.9.5}Performance e Escalabilidade}{52}{subsection.1.9.5}% 
-\contentsline {subsubsection}{\numberline {1.9.5.1}M\IeC {\'e}tricas de Desempenho}{53}{subsubsection.1.9.5.1}% 
-\contentsline {subsection}{\numberline {1.9.6}Melhores Pr\IeC {\'a}ticas}{53}{subsection.1.9.6}% 
-\contentsline {subsection}{\numberline {1.9.7}Limita\IeC {\c c}\IeC {\~o}es e Considera\IeC {\c c}\IeC {\~o}es}{53}{subsection.1.9.7}% 
-\contentsline {section}{\numberline {1.10}Pipelines de Dados no Diagn\IeC {\'o}stico de C\IeC {\^a}ncer de Pele}{54}{section.1.10}% 
-\contentsline {subsection}{\numberline {1.10.1}Arquitetura do Pipeline}{54}{subsection.1.10.1}% 
-\contentsline {subsection}{\numberline {1.10.2}Componentes Essenciais}{54}{subsection.1.10.2}% 
-\contentsline {subsubsection}{\numberline {1.10.2.1}Infraestrutura de Dados}{55}{subsubsection.1.10.2.1}% 
-\contentsline {subsubsection}{\numberline {1.10.2.2}Modelos de Processamento}{55}{subsubsection.1.10.2.2}% 
-\contentsline {subsection}{\numberline {1.10.3}Fluxo de Dados e Processamento}{55}{subsection.1.10.3}% 
-\contentsline {subsection}{\numberline {1.10.4}Garantia de Qualidade}{56}{subsection.1.10.4}% 
-\contentsline {subsection}{\numberline {1.10.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{56}{subsection.1.10.5}% 
-\contentsline {section}{\numberline {1.11}Fluxo de Dados em Arquitetura de Data Fabric}{57}{section.1.11}% 
-\contentsline {subsection}{\numberline {1.11.1}Componentes do Fluxo de Dados}{57}{subsection.1.11.1}% 
-\contentsline {subsection}{\numberline {1.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{57}{subsection.1.11.2}% 
-\contentsline {subsubsection}{\numberline {1.11.2.1}Fluxo Batch}{58}{subsubsection.1.11.2.1}% 
-\contentsline {subsubsection}{\numberline {1.11.2.2}Fluxo Real-time}{58}{subsubsection.1.11.2.2}% 
-\contentsline {subsubsection}{\numberline {1.11.2.3}Fluxo H\IeC {\'\i }brido}{58}{subsubsection.1.11.2.3}% 
-\contentsline {subsection}{\numberline {1.11.3}Gest\IeC {\~a}o e Controle do Fluxo}{58}{subsection.1.11.3}% 
-\contentsline {subsection}{\numberline {1.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{59}{subsection.1.11.4}% 
-\contentsline {subsection}{\numberline {1.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{59}{subsection.1.11.5}% 
-\contentsline {section}{\numberline {1.12}Ingest\IeC {\~a}o de Dados e Preprocessamento de Imagens}{60}{section.1.12}% 
-\contentsline {subsection}{\numberline {1.12.1}Ingest\IeC {\~a}o de Dados}{60}{subsection.1.12.1}% 
-\contentsline {subsubsection}{\numberline {1.12.1.1}Fontes de Dados}{60}{subsubsection.1.12.1.1}% 
-\contentsline {subsection}{\numberline {1.12.2}Preprocessamento de Imagens}{61}{subsection.1.12.2}% 
-\contentsline {subsection}{\numberline {1.12.3}Pipeline de Processamento}{61}{subsection.1.12.3}% 
-\contentsline {subsubsection}{\numberline {1.12.3.1}Etapas do Pipeline}{61}{subsubsection.1.12.3.1}% 
-\contentsline {subsection}{\numberline {1.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{62}{subsection.1.12.4}% 
-\contentsline {subsection}{\numberline {1.12.5}Controle de Qualidade}{62}{subsection.1.12.5}% 
-\contentsline {section}{\numberline {1.13}MinIO Object Storage}{63}{section.1.13}% 
-\contentsline {subsection}{\numberline {1.13.1}Arquitetura e Benef\IeC {\'\i }cios}{63}{subsection.1.13.1}% 
-\contentsline {subsection}{\numberline {1.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{64}{subsection.1.13.2}% 
-\contentsline {section}{\numberline {1.14}Delta Lake}{64}{section.1.14}% 
-\contentsline {subsection}{\numberline {1.14.1}Arquitetura e Benef\IeC {\'\i }cios}{64}{subsection.1.14.1}% 
-\contentsline {subsection}{\numberline {1.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{65}{subsection.1.14.2}% 
+\contentsline {section}{\numberline {1.9}FastAPI: Desenvolvimento de APIs para Integra\IeC {\c c}\IeC {\~a}o de Dados}{50}{section.1.9}% 
+\contentsline {subsection}{\numberline {1.9.1}Caracter\IeC {\'\i }sticas Fundamentais}{50}{subsection.1.9.1}% 
+\contentsline {subsection}{\numberline {1.9.2}Arquitetura e Componentes}{50}{subsection.1.9.2}% 
+\contentsline {subsection}{\numberline {1.9.3}Integra\IeC {\c c}\IeC {\~a}o de Dados com FastAPI}{51}{subsection.1.9.3}% 
+\contentsline {subsection}{\numberline {1.9.4}Seguran\IeC {\c c}a e Autentica\IeC {\c c}\IeC {\~a}o}{51}{subsection.1.9.4}% 
+\contentsline {subsection}{\numberline {1.9.5}Performance e Escalabilidade}{51}{subsection.1.9.5}% 
+\contentsline {subsection}{\numberline {1.9.6}Melhores Pr\IeC {\'a}ticas}{51}{subsection.1.9.6}% 
+\contentsline {subsection}{\numberline {1.9.7}Limita\IeC {\c c}\IeC {\~o}es e Considera\IeC {\c c}\IeC {\~o}es}{52}{subsection.1.9.7}% 
+\contentsline {section}{\numberline {1.10}Pipelines de Dados no Diagn\IeC {\'o}stico de C\IeC {\^a}ncer de Pele}{52}{section.1.10}% 
+\contentsline {subsection}{\numberline {1.10.1}Arquitetura do Pipeline}{52}{subsection.1.10.1}% 
+\contentsline {subsection}{\numberline {1.10.2}Componentes Essenciais}{52}{subsection.1.10.2}% 
+\contentsline {subsection}{\numberline {1.10.3}Fluxo de Dados e Processamento}{52}{subsection.1.10.3}% 
+\contentsline {subsection}{\numberline {1.10.4}Garantia de Qualidade}{53}{subsection.1.10.4}% 
+\contentsline {subsection}{\numberline {1.10.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{53}{subsection.1.10.5}% 
+\contentsline {subsection}{\numberline {1.10.6}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{53}{subsection.1.10.6}% 
+\contentsline {section}{\numberline {1.11}Fluxo de Dados em Arquitetura de Data Fabric}{54}{section.1.11}% 
+\contentsline {subsection}{\numberline {1.11.1}Componentes do Fluxo de Dados}{54}{subsection.1.11.1}% 
+\contentsline {subsection}{\numberline {1.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{54}{subsection.1.11.2}% 
+\contentsline {subsection}{\numberline {1.11.3}Gest\IeC {\~a}o e Controle do Fluxo}{55}{subsection.1.11.3}% 
+\contentsline {subsection}{\numberline {1.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{55}{subsection.1.11.4}% 
+\contentsline {subsection}{\numberline {1.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{55}{subsection.1.11.5}% 
+\contentsline {section}{\numberline {1.12}Ingest\IeC {\~a}o de Dados e Preprocessamento de Imagens}{55}{section.1.12}% 
+\contentsline {subsection}{\numberline {1.12.1}Ingest\IeC {\~a}o de Dados}{56}{subsection.1.12.1}% 
+\contentsline {subsection}{\numberline {1.12.2}Preprocessamento de Imagens}{56}{subsection.1.12.2}% 
+\contentsline {subsection}{\numberline {1.12.3}Pipeline de Processamento}{56}{subsection.1.12.3}% 
+\contentsline {subsection}{\numberline {1.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{57}{subsection.1.12.4}% 
+\contentsline {subsection}{\numberline {1.12.5}Controle de Qualidade}{57}{subsection.1.12.5}% 
+\contentsline {section}{\numberline {1.13}MinIO Object Storage}{57}{section.1.13}% 
+\contentsline {subsection}{\numberline {1.13.1}Arquitetura e Benef\IeC {\'\i }cios}{57}{subsection.1.13.1}% 
+\contentsline {subsection}{\numberline {1.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{58}{subsection.1.13.2}% 
+\contentsline {section}{\numberline {1.14}Delta Lake}{58}{section.1.14}% 
+\contentsline {subsection}{\numberline {1.14.1}Arquitetura e Benef\IeC {\'\i }cios}{58}{subsection.1.14.1}% 
+\contentsline {subsection}{\numberline {1.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{59}{subsection.1.14.2}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Related Works}}{67}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{67}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{68}{section.2.2}% 
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Related Works}}{61}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{61}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{62}{section.2.2}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{69}{section*.21}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{63}{section*.21}% 
