@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.28)  3 JAN 2025 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.28)  19 JAN 2025 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,7 +728,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 
 Writing index file tcc.idx 
-(./tcc.aux)
+(./tcc.aux
+
+LaTeX Warning: Label `fig:pipeline_proc' multiply defined.
+
+)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -875,17 +879,21 @@ LaTeX Warning: Citation `NBR14724:2011' on page 3 undefined on input line 2.
 ]) (./editaveis/abstract.tex
 [15] [16
 
-]) (./fixos/listasAutomaticas.tex (./tcc.lof) [17] [18
+]) (./fixos/listasAutomaticas.tex (./tcc.lof
+Overfull \hbox (107.15309pt too wide) in paragraph at lines 4--4
+ [][] [] []  
+ []
 
-] (./tcc.lot)
-[19] [20
+) [17] [18
+
+] (./tcc.lot) [19] [20
 
 ]) (./editaveis/abreviaturas.tex [21
 
 ] [22
 
-]) (./editaveis/simbolos.tex
-[23
+])
+(./editaveis/simbolos.tex [23
 
 ] [24
 
@@ -894,12 +902,12 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 
  [25]
 [26]
-Overfull \hbox (60.15305pt too wide) in paragraph at lines 99--99
+Overfull \hbox (60.15305pt too wide) in paragraph at lines 105--105
  [][] [] []  
  []
 
 
-Overfull \hbox (383.88104pt too wide) in paragraph at lines 100--100
+Overfull \hbox (383.88104pt too wide) in paragraph at lines 106--106
  [][] [] []  
  []
 
@@ -1011,26 +1019,28 @@ tu-rada de ope-ra-ções ([][][][][][],
  []
 
 File: figuras/pipeline_processamento.eps Graphic file (type eps)
-<figuras/pipeline_processamento.eps> [61] [62]) (./editaveis/relatedworks.tex
-[63] [64
+<figuras/pipeline_processamento.eps> [61] [62] [63] [64]
+File: figuras/deltaLake.eps Graphic file (type eps)
+
+<figuras/deltaLake.eps>) (./editaveis/relatedworks.tex [65] [66
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65])
+ [67])
 (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [66]
+ [68]
 bibitemlist
-[67
+[69
 
-] [68] [69])
+] [70] [71])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[70]
+[72]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1054,23 +1064,23 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 9D23941178E2598505CAE463B31EA041;6869
-(rerunfilecheck)             After:  381421D1922E21A54A10CAFB658AE52D;6869.
+(rerunfilecheck)             Before: 4FFBA53FE637019F9F116293574B9C35;7293
+(rerunfilecheck)             After:  E8799C8F1B991293338D60C66F45A30B;7293.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 11893 strings out of 494542
- 178527 string characters out of 6176698
- 325633 words of memory out of 5000000
- 15298 multiletter control sequences out of 15000+600000
+ 11920 strings out of 494542
+ 179091 string characters out of 6176698
+ 328892 words of memory out of 5000000
+ 15324 multiletter control sequences out of 15000+600000
  81839 words of font info for 55 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,13n,51p,1215b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (72 pages, 357964 bytes).
+Output written on tcc.dvi (74 pages, 379868 bytes).
