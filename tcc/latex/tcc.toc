@@ -92,6 +92,20 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Related Works}}{61}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{61}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{62}{section.2.2}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{63}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Estudo de Caso}{63}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{63}{section.3.2}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{65}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos}{65}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{65}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{65}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}Arquitetura}{66}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Componentes da Arquitetura}{66}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Fluxo de Dados}{66}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{67}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Conclus\IeC {\~a}o}{67}{section.4.4}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{63}{section*.21}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{69}{section*.21}% 

@@ -1,0 +1,64 @@
+% \part{Projeto}
+
+\chapter[Projeto]{Projeto}
+
+\section{Requisitos}
+
+Para o desenvolvimento do projeto de uma arquitetura de Data Fabric para salvar imagens de câncer de pele, foram definidos os seguintes requisitos:
+
+\subsection{Requisitos Funcionais}
+\begin{itemize}
+    \item \textbf{Armazenamento de Imagens}: O sistema deve ser capaz de armazenar grandes volumes de imagens de câncer de pele.
+    \item \textbf{Processamento de Imagens}: O sistema deve permitir o processamento eficiente das imagens armazenadas.
+    \item \textbf{Segurança dos Dados}: O sistema deve garantir a segurança e a privacidade dos dados dos pacientes.
+    \item \textbf{Acessibilidade dos Dados}: Os dados devem estar disponíveis para acesso por pesquisadores e profissionais de saúde de forma segura.
+    \item \textbf{Escalabilidade}: O sistema deve ser escalável para acomodar o aumento no volume de dados ao longo do tempo.
+    \item \textbf{Compartilhamento de Dados}: O sistema deve permitir o compartilhamento seguro de dados utilizando Delta Sharing.
+\end{itemize}
+
+\subsection{Requisitos Não Funcionais}
+\begin{itemize}
+    \item \textbf{Performance}: O sistema deve ser capaz de processar e recuperar dados rapidamente.
+    \item \textbf{Confiabilidade}: O sistema deve garantir a integridade e a consistência dos dados armazenados.
+    \item \textbf{Usabilidade}: A interface do sistema deve ser intuitiva e fácil de usar para os profissionais de saúde.
+    \item \textbf{Manutenibilidade}: O sistema deve ser de fácil manutenção e atualização.
+\end{itemize}
+
+\section{Arquitetura}
+
+A arquitetura do projeto será baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. A seguir, a descrição dos principais componentes da arquitetura:
+
+\subsection{Componentes da Arquitetura}
+\begin{itemize}
+    \item \textbf{Ingestão de Dados}: Utilização de pipelines de ingestão para coletar e armazenar imagens de câncer de pele de diversas fontes (hospitais, clínicas, pesquisas).
+    \item \textbf{Armazenamento de Dados}: Implementação de um sistema de armazenamento distribuído, como MinIO, para garantir a escalabilidade e a disponibilidade das imagens.
+    \item \textbf{Processamento de Dados}: Utilização de ferramentas como Apache Airflow para a orquestração de pipelines de processamento das imagens.
+    \item \textbf{Gestão de Dados}: Aplicação de Data Fabric para fornecer uma camada de abstração que facilita a integração e gestão dos dados distribuídos.
+    \item \textbf{Compartilhamento de Dados}: Utilização de Delta Sharing para permitir o compartilhamento seguro de dados entre diferentes organizações.
+    \item \textbf{Interface de Usuário}: Desenvolvimento de uma interface web utilizando FastAPI para permitir o acesso e a manipulação dos dados por pesquisadores e profissionais de saúde.
+\end{itemize}
+
+\subsection{Fluxo de Dados}
+\begin{itemize}
+    \item \textbf{Coleta e Ingestão}: As imagens são coletadas de diversas fontes e armazenadas no sistema de armazenamento distribuído.
+    \item \textbf{Processamento}: As imagens armazenadas são processadas através de pipelines orquestrados pelo Apache Airflow, que podem incluir etapas de pré-processamento, análise e extração de características.
+    \item \textbf{Armazenamento e Gestão}: Os dados processados são armazenados e geridos pela arquitetura de Data Fabric, que garante a integração e a consistência dos dados.
+    \item \textbf{Compartilhamento de Dados}: Utilizando Delta Sharing, os dados podem ser compartilhados de forma segura com outras organizações e pesquisadores.
+    \item \textbf{Acesso aos Dados}: A interface web desenvolvida com FastAPI permite que os usuários acessem e manipulem os dados de forma segura e eficiente.
+\end{itemize}
+
+\section{Tecnologias Utilizadas}
+
+Com base no referencial teórico, as seguintes tecnologias serão utilizadas no projeto:
+\begin{itemize}
+    \item \textbf{MinIO}: Para o armazenamento distribuído das imagens, garantindo escalabilidade e disponibilidade.
+    \item \textbf{Apache Airflow}: Para a orquestração de pipelines de processamento de dados.
+    \item \textbf{Data Fabric}: Para a integração e gestão de dados de forma unificada.
+    \item \textbf{Delta Sharing}: Para o compartilhamento seguro de dados entre diferentes organizações.
+    \item \textbf{FastAPI}: Para o desenvolvimento da interface web, permitindo o acesso e a manipulação dos dados.
+    \item \textbf{Kubernetes}: Para a orquestração de containers, garantindo a escalabilidade e a alta disponibilidade do sistema.
+\end{itemize}
+
+\section{Conclusão}
+
+O projeto visa implementar uma arquitetura robusta e escalável de Data Fabric para o armazenamento e processamento de imagens de câncer de pele. A utilização das tecnologias mencionadas, incluindo Delta Sharing, garantirá a segurança, a eficiência e a acessibilidade dos dados, contribuindo significativamente para a pesquisa e o diagnóstico médico.
