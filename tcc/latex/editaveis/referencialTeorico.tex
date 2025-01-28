@@ -2,19 +2,6 @@
 
 \chapter[Referencial Teórico]{Referencial Teórico}
 
-
-
-\section{}
-Estas instruções apresentam um conjunto mínimo de exigências necessárias a 
-uniformidade de apresentação do relatório de Trabalho de Conclusão de Curso 
-da FGA. Estilo, concisão e clareza ficam inteiramente sob a 
-responsabilidade do(s) aluno(s) autor(es) do relatório.
-
-As disciplinas de Trabalho de Conclusão de Curso (TCC) 01 e Trabalho de 
-Conclusão de Curso (TCC) 02 se desenvolvem de acordo com Regulamento 
-próprio aprovado pelo Colegiado da FGA. Os alunos matriculados nessas 
-disciplinas devem estar plenamente cientes de tal Regulamento.
-
 \section{Engenharia de Dados}
 
 A era da informação, impulsionada pela digitalização crescente, nos coloca diante de uma explosão 
@@ -35,14 +22,13 @@ oportunidades \cite{impact_poor_data_1998}. A Engenharia de Dados busca assegura
 de limpeza, transformação e validação, garantindo que os dados sejam confiáveis e adequados para análise \cite{haug2011costs}.
 
 \subsection{Histórico e Evolução}
-Embora tenha ganhado destaque recentemente, a Engenharia de Dados tem suas raízes em áreas como
+Engenharia de Dados tem suas raízes em áreas como
 gerenciamento de banco de dados e processamento de dados. O conceito de dados como ativo surgiu em 1994 com o Hawley 
 Committee, que definiu ativos de dados como "Dados que são ou devem ser documentados e que têm 
 valor ou valor potencial". Essa visão impulsionou a importância da governança de dados dentro 
 das organizações \cite{alhassan2016data}. Essa necessidade já apontava para a importância de tratar os dados como um ativo valioso e gerenciá-los adequadamente.
 
-Com o avanço da tecnologia e o surgimento de novas fontes de dados, como mídias sociais, dispositivos IoT e streaming de dados, 
-essa área evoluiu para abranger um espectro mais amplo de tecnologias e práticas. A necessidade de lidar com o Big Data impulsionou 
+A necessidade de lidar com o Big Data impulsionou 
 o desenvolvimento de novas arquiteturas, como o Hadoop e o Spark, e de bancos de dados NoSQL, capazes de lidar com grandes volumes 
 e diferentes formatos de dados \cite{volk2019challenging}. A ascensão da computação em nuvem também desempenhou um papel fundamental na evolução da Engenharia 
 de Dados, fornecendo infraestrutura escalável e flexível para armazenamento e processamento de dados \cite{katal2013big}. Além disso, a integração com 
@@ -66,10 +52,10 @@ processamento de linguagem natural.
 
 A velocidade dos dados é também um aspecto desafiador. O processamento em tempo real, como o streaming de dados, 
 impõe a necessidade de arquiteturas e tecnologias adequadas para lidar com o fluxo constante de informações. 
-A Engenharia de Dados deve se adaptar a essa realidade, desenvolvendo soluções capazes de capturar, processar 
+A Engenharia de Dados desenvolve soluções capazes de capturar, processar 
 e analisar dados em tempo real, garantindo a eficiência e a agilidade necessárias para responder às demandas modernas \cite{lheureux2017machine}.
 
-A qualidade dos dados é um ponto crítico no contexto da Engenharia de Dados. Garantir a precisão, consistência e 
+Garantir a precisão, consistência e 
 confiabilidade das informações é essencial, especialmente no ambiente de Big Data, onde a complexidade e a variedade 
 de dados podem amplificar os problemas relacionados à qualidade. Conforme destacado por Redman (1998), a baixa 
 qualidade dos dados pode resultar em insatisfação dos clientes, aumento de custos, tomada de decisões ineficazes 
@@ -77,7 +63,7 @@ e redução da capacidade de desenvolver e implementar estratégias. Em casos ex
 qualidade dos dados podem representar entre 8\% e 12\% da receita de uma empresa, além de atingir até 40\% a 60\% das 
 despesas em organizações de serviços \cite{impact_poor_data_1998}.
 
-Por fim, a segurança e a privacidade dos dados são aspectos indispensáveis. A proteção de informações sensíveis e 
+A proteção de informações sensíveis e 
 a conformidade com regulamentações, como a GDPR e a LGPD, requerem medidas de segurança abrangentes. Isso inclui 
 a adoção de práticas como criptografia, controle de acesso e anonimização, que são fundamentais para garantir a 
 proteção dos dados e a privacidade dos usuários, atendendo às exigências legais e éticas.
@@ -183,9 +169,9 @@ principais camadas de uma arquitetura geral de um Data Warehouse.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/typical_data_warehouse_architecture.eps}
-    \caption{Arquitetura geral de um Data Warehouse}
+    \caption{Arquitetura geral de um Data Warehouse \cite{vaisman2014data}}
     \label{fig:arquitetura_dw}
-\end{figure}
+\end{figure} 
 
 A arquitetura apresentada é composta por quatro camadas principais:
 \begin{description}
@@ -203,7 +189,6 @@ A arquitetura apresentada é composta por quatro camadas principais:
     de relatórios, ferramentas estatísticas e de mineração de dados, que permitem a exploração dos dados de forma interativa e a geração de 
     insights valiosos para a tomada de decisões empresariais.
 \end{description}
-\cite{vaisman2014data}
 
 \subsection{Quando Utilizar}
 A implementação de um data warehouse é amplamente recomendada em contextos onde as organizações precisam tomar decisões estratégicas baseadas 
@@ -621,8 +606,6 @@ mas também democratizam o acesso ao armazenamento avançado, oferecendo uma alt
 em nuvem. Seu papel no ecossistema de armazenamento é crucial para suportar o crescimento exponencial de dados, previsto para 
 ultrapassar 163 Zettabytes até 2025 \cite{minio_reference_architecture}.
 
-
-
 \section{Delta Lake}
 Delta Lake é uma camada de armazenamento de código aberto que combina as melhores características dos data warehouses e data lakes, 
 formando a base para a arquitetura Lakehouse. Criado para solucionar problemas de confiabilidade e escalabilidade de dados, o Delta 
@@ -632,7 +615,7 @@ dados com consistência e performance \cite{lee2024delta}.
 
 \subsection{Arquitetura e Benefícios}
 O Delta Lake foi concebido para superar limitações de arquiteturas tradicionais de data lakes, que muitas vezes careciam de garantias transacionais e governança de dados. A arquitetura Lakehouse, da qual o Delta Lake faz parte, une a escalabilidade e flexibilidade dos data lakes com a governança e otimização de performance dos data warehouses. Entre suas principais características estão \cite{lee2024delta}:
-\begin{itemize}
+\begin{itemize}[nosep, topsep=0pt, partopsep=0pt]
     \item Transações ACID: Garantem integridade de dados em operações concorrentes.
     \item Time Travel: Permite consultar versões anteriores dos dados para auditorias ou recuperação.
     \item Unificação de Processamento: Suporte simultâneo a cargas de trabalho em lote e streaming.
@@ -646,9 +629,39 @@ um papel central ao permitir que organizações adotem arquiteturas de dados mod
 de sistemas tradicionais, que frequentemente lidam com silos de dados, altos custos de manutenção e falta de flexibilidade para suportar 
 aplicações avançadas como inteligência artificial e aprendizado de máquina.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/deltaLake.eps}
     \caption{Delta Lake: Formato transacional escalável e de uso geral para Lakehouse. \cite{lee2024delta}}
     \label{fig:pipeline_proc}
 \end{figure}
+
+\section{Related Works}
+\subsection{In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}
+A integração de dados médicos, especialmente em oncologia, enfrenta desafios devido à heterogeneidade e complexidade dos dados, 
+incluindo imagens médicas, informações genômicas e registros eletrônicos de saúde (EHRs). Abordagens como data lakes e data 
+warehouses modernos têm se destacado na consolidação de grandes volumes de dados estruturados e não estruturados, possibilitando o
+ armazenamento e processamento eficiente de informações diversas, como imagens de ressonância magnética e dados genômicos. Ferramentas 
+ baseadas em Hadoop, Apache Hive e frameworks semelhantes são amplamente utilizadas para criar plataformas escaláveis e integradas, 
+ promovendo análises mais eficazes, como na previsão de doenças crônicas e prevenção de condições como obesidade. \cite{dhayne2019}
+
+Adicionalmente, soluções baseadas em web semântica e aprendizado de máquina vêm contribuindo significativamente para melhorar a 
+interoperabilidade e a análise de dados médicos. Tecnologias como Linked Open Data (LOD) e ontologias médicas (SNOMED CT e UMLS) 
+aprimoram a semântica dos dados, enquanto modelos de aprendizado profundo (deep learning) avançam na análise de imagens médicas, 
+auxiliando na detecção precoce de doenças e personalização de tratamentos. Iniciativas como o iManageCancer exemplificam o uso de 
+data warehouses semânticos para integrar e analisar dados de forma avançada, reforçando o potencial dessas abordagens no apoio à 
+saúde pública e à medicina personalizada. \cite{dhayne2019}
+
+\subsection{What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}
+A integração de análise de dados em ambientes clínicos, sob o paradigma de "Connected Health" (CH), está transformando a forma como dados 
+médicos são utilizados para melhorar a tomada de decisão e o manejo de doenças. A "Translational Medicine" (TM) atua como um elo essencial 
+entre cientistas de dados e profissionais de saúde, empregando análises preditivas de prontuários eletrônicos e resultados laboratoriais 
+para identificar riscos e aprimorar diagnósticos. Embora abordagens quantitativas sejam predominantes, a combinação com técnicas qualitativas 
+tem demonstrado maior eficácia em áreas como a interpretação de narrativas de pacientes e análise de padrões complexos, especialmente em 
+contextos de doenças como câncer, onde fontes de dados variados, como imagens médicas e genômicas, precisam ser integradas. \cite{xu2019clinics}
+
+Apesar dos avanços, desafios éticos e técnicos, como interoperabilidade e privacidade, permanecem obstáculos significativos. Padrões como HL7
+ e iniciativas como "Big Data to Knowledge" (BD2K) têm promovido o uso de big data biomédico para superar essas barreiras. A integração de 
+ abordagens qualitativas e quantitativas na análise de dados de câncer, aliada à interoperabilidade, representa uma oportunidade crucial para 
+ melhorar diagnósticos precoces e tratamentos personalizados. O desenvolvimento de arquiteturas de dados robustas e interdisciplinares continua 
+ sendo um foco promissor para avanços em sistemas de saúde conectados. \cite{xu2019clinics}

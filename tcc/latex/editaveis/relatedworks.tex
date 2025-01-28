@@ -4,51 +4,31 @@
 
 
 \section{In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}
+A integração de dados médicos, especialmente em oncologia, enfrenta desafios devido à heterogeneidade e complexidade dos dados, 
+incluindo imagens médicas, informações genômicas e registros eletrônicos de saúde (EHRs). Abordagens como data lakes e data 
+warehouses modernos têm se destacado na consolidação de grandes volumes de dados estruturados e não estruturados, possibilitando o
+ armazenamento e processamento eficiente de informações diversas, como imagens de ressonância magnética e dados genômicos. Ferramentas 
+ baseadas em Hadoop, Apache Hive e frameworks semelhantes são amplamente utilizadas para criar plataformas escaláveis e integradas, 
+ promovendo análises mais eficazes, como na previsão de doenças crônicas e prevenção de condições como obesidade. \cite{dhayne2019}
 
-A integração de dados médicos, especialmente em domínios como a oncologia, tem sido foco de extensa pesquisa devido ao crescimento 
-exponencial de dados heterogêneos, incluindo imagens médicas, dados genômicos e registros de saúde eletrônicos (EHRs). A literatura 
-destaca múltiplas abordagens para enfrentar os desafios de integração e análise de dados no setor de saúde. \cite{dhayne2019}
-
-Dhayne et al. \cite{dhayne2019} revisam tecnologias e ferramentas voltadas para a integração de dados médicos, identificando desafios relacionados à 
-heterogeneidade de fontes e complexidade semântica dos dados. Técnicas como data warehouses modernos, data lakes e ferramentas baseadas 
-em Hadoop têm sido propostas para consolidar e gerenciar grandes volumes de dados médicos estruturados e não estruturados. Por exemplo, 
-o uso de arquiteturas baseadas em data lakes demonstrou potencial para integrar dados diversos, como imagens de ressonância magnética e 
-dados de genômica, simplificando o armazenamento e o processamento.
-
-Além disso, soluções baseadas em web semântica e aprendizado de máquina têm se mostrado promissoras. Tecnologias como o Linked Open Data (LOD) 
-e ontologias médicas (ex.: SNOMED CT e UMLS) foram aplicadas para melhorar a interoperabilidade e a análise semântica de dados complexos. 
-Por outro lado, modelos de aprendizado profundo (deep learning) têm sido amplamente empregados para análise de imagens médicas, promovendo 
-a detecção precoce e a personalização de tratamentos em oncologia. \cite{dhayne2019}
-
-Projetos recentes, como o iManageCancer, demonstram a aplicação de data warehouses semânticos para integrar dados estruturados e não estruturados, 
-facilitando análises avançadas e previsões em saúde pública. Iniciativas semelhantes têm usado frameworks como Apache Hive e Hadoop para criar 
-plataformas escaláveis de integração e processamento de dados, destacando-se em domínios como prevenção de obesidade e previsão de doenças crônicas. \cite{dhayne2019}
-
-Apesar do progresso significativo, a literatura aponta lacunas em relação à integração de dados médicos baseados em imagens, como a ausência de 
-abordagens padronizadas para integrar metadados e dados visuais em um framework unificado. Este trabalho busca abordar essa lacuna, propondo uma 
-arquitetura de data fabric específica para imagens de câncer, com foco na interoperabilidade e eficiência analítica.
+Adicionalmente, soluções baseadas em web semântica e aprendizado de máquina vêm contribuindo significativamente para melhorar a 
+interoperabilidade e a análise de dados médicos. Tecnologias como Linked Open Data (LOD) e ontologias médicas (SNOMED CT e UMLS) 
+aprimoram a semântica dos dados, enquanto modelos de aprendizado profundo (deep learning) avançam na análise de imagens médicas, 
+auxiliando na detecção precoce de doenças e personalização de tratamentos. Iniciativas como o iManageCancer exemplificam o uso de 
+data warehouses semânticos para integrar e analisar dados de forma avançada, reforçando o potencial dessas abordagens no apoio à 
+saúde pública e à medicina personalizada. \cite{dhayne2019}
 
 
 \section{What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}
- 
-Recentemente, a exploração de como a análise de dados pode ser integrada a ambientes clínicos para melhorar a tomada de decisão médica e 
-o manejo de doenças. A ideia de "Connected Health" (CH), que conecta pacientes, clínicos e pesquisadores, vem sendo amplamente discutida como 
-um paradigma para transformar dados médicos em informações úteis e acionáveis. Em particular, a "Translational Medicine" (TM) atua como uma 
-ponte entre cientistas de dados e profissionais de saúde, visando à análise preditiva de dados como prontuários eletrônicos e resultados 
-laboratoriais para identificar riscos e formular diagnósticos mais precisos. \cite{xu2019clinics}
+A integração de análise de dados em ambientes clínicos, sob o paradigma de "Connected Health" (CH), está transformando a forma como dados 
+médicos são utilizados para melhorar a tomada de decisão e o manejo de doenças. A "Translational Medicine" (TM) atua como um elo essencial 
+entre cientistas de dados e profissionais de saúde, empregando análises preditivas de prontuários eletrônicos e resultados laboratoriais 
+para identificar riscos e aprimorar diagnósticos. Embora abordagens quantitativas sejam predominantes, a combinação com técnicas qualitativas 
+tem demonstrado maior eficácia em áreas como a interpretação de narrativas de pacientes e análise de padrões complexos, especialmente em 
+contextos de doenças como câncer, onde fontes de dados variados, como imagens médicas e genômicas, precisam ser integradas. \cite{xu2019clinics}
 
-No entanto, enquanto a análise quantitativa é dominante na pesquisa de saúde, revisões apontam que abordagens qualitativas têm demonstrado 
-maior aplicabilidade em áreas como a interpretação de narrativas de pacientes e a análise de padrões complexos em dados de saúde. Estudos 
-demonstraram que técnicas qualitativas, combinadas com análise quantitativa, permitem insights mais abrangentes, especialmente no contexto 
-de doenças como câncer, onde múltiplas fontes de dados, como imagens médicas e genômicas, precisam ser integradas para melhores resultados 
-clínicos. \cite{xu2019clinics}
-
-Ainda assim, desafios éticos e técnicos relacionados à interoperabilidade de dados e à preservação de privacidade continuam sendo barreiras 
-significativas para o uso pleno de sistemas como registros eletrônicos de saúde (EHR). Modelos de sucesso incluem a adoção de padrões de 
-interoperabilidade como o HL7 e iniciativas como o programa "Big Data to Knowledge" (BD2K), que promove a utilização de big data para extrair 
-informações significativas de dados biomédicos.
-
-A integração de técnicas qualitativas e quantitativas na análise de dados de imagens médicas em câncer, alinhada a estratégias de interoperabilidade 
-e padronização, representa uma oportunidade crucial para melhorar a detecção precoce e os tratamentos personalizados. Assim, o desenvolvimento de 
-arquiteturas de dados robustas e interdisciplinares permanece um campo de interesse crescente, com potencial para avanços significativos em 
-sistemas de saúde conectados. \cite{xu2019clinics}
+Apesar dos avanços, desafios éticos e técnicos, como interoperabilidade e privacidade, permanecem obstáculos significativos. Padrões como HL7
+ e iniciativas como "Big Data to Knowledge" (BD2K) têm promovido o uso de big data biomédico para superar essas barreiras. A integração de 
+ abordagens qualitativas e quantitativas na análise de dados de câncer, aliada à interoperabilidade, representa uma oportunidade crucial para 
+ melhorar diagnósticos precoces e tratamentos personalizados. O desenvolvimento de arquiteturas de dados robustas e interdisciplinares continua 
+ sendo um foco promissor para avanços em sistemas de saúde conectados. \cite{xu2019clinics}
