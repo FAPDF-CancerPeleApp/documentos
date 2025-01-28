@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.6)  28 JAN 2025 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  28 JAN 2025 05:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -888,13 +888,12 @@ Overfull \hbox (107.15309pt too wide) in paragraph at lines 3--3
 Underfull \vbox (badness 1325) has occurred while \output is active []
 
  [17]
-[18]
-Overfull \hbox (10.03238pt too wide) in paragraph at lines 89--89
+Overfull \hbox (10.03238pt too wide) in paragraph at lines 83--83
  [][] [] []  
  []
 
-
-Overfull \hbox (299.13713pt too wide) in paragraph at lines 90--90
+[18]
+Overfull \hbox (299.13713pt too wide) in paragraph at lines 84--84
  [][] [] []  
  []
 
@@ -968,38 +967,36 @@ Overfull \hbox (49.11676pt too wide) in paragraph at lines 425--426
 cas são re-co-men-da-das ([][][][][][],
  []
 
-[39] [40] [41]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 514.
+
+Overfull \hbox (7.95158pt too wide) in paragraph at lines 431--432
+\T1/lmr/m/n/12 in-dús-tria para or-ques-tra-ção de con-tai-ners em larga es-cal
+a ([][][][][][],
+ []
+
+[39] [40]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 470.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (3.21373pt too wide) in paragraph at lines 524--525
+) [41]
+Overfull \hbox (3.21373pt too wide) in paragraph at lines 480--481
 []\T1/lmr/m/n/12 O Fas-tAPI ofe-rece di-ver-sos me-ca-nis-mos de se-gu-rança ([
 ][][][][][], [][][][][][][]).
  []
 
-[42]
-Overfull \hbox (25.61392pt too wide) in paragraph at lines 530--531
+
+Overfull \hbox (25.61392pt too wide) in paragraph at lines 486--487
 []\T1/lmr/m/n/12 Apesar de suas mui-tas van-ta-gens, o Fas-tAPI tem al-gu-mas l
 i-mi-ta-ções ([][][][][][],
  []
 
-[43] [44] [45]
-Underfull \vbox (badness 2027) has occurred while \output is active []
-
- [46]
-[47]
-Underfull \vbox (badness 1789) has occurred while \output is active []
-
- [48]
-[49]
+[42] [43] [44] [45] [46] [47] [48] [49]
 File: figuras/deltaLake.eps Graphic file (type eps)
  <figuras/deltaLake.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-[51]) (./editaveis/metodologia.tex [52] [53
+ [50])
+(./editaveis/metodologia.tex [51] [52] [53
 
 ]) (./editaveis/projeto.tex [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1015,7 +1012,17 @@ Overfull \hbox (9.59521pt too wide) in paragraph at lines 54--68
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
-[57] [58]) (./tcc.bbl (./tcc.brf)
+File: figuras/arquitetura.eps Graphic file (type eps)
+
+<figuras/arquitetura.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [57]
+[58]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
@@ -1051,17 +1058,17 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 0262734FF241D04FC11A58F4FFCDB5C8;7292
-(rerunfilecheck)             After:  3A8A0001665FB65A2F4711E1CD140AD7;7292.
+(rerunfilecheck)             Before: 05243AF50F91CC4048B2B6F22A2A14E3;7292
+(rerunfilecheck)             After:  B42BB08C9B189927FAE813606B2865D4;7292.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 11959 strings out of 494542
- 179444 string characters out of 6176699
- 331331 words of memory out of 5000000
- 15365 multiletter control sequences out of 15000+600000
- 78844 words of font info for 54 fonts, out of 8000000 for 9000
+ 11956 strings out of 494542
+ 179482 string characters out of 6176699
+ 330708 words of memory out of 5000000
+ 15362 multiletter control sequences out of 15000+600000
+ 76074 words of font info for 53 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,1407b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (66 pages, 375440 bytes).
+Output written on tcc.dvi (66 pages, 369808 bytes).
