@@ -427,80 +427,36 @@ Para uma utilização efetiva do Airflow, algumas práticas são recomendadas \c
 
 
 \section{Kubernetes: Orquestração de Containers para Escalabilidade}
-O Kubernetes (K8s) é uma plataforma de código aberto para orquestração de containers, originalmente desenvolvida pelo Google e posteriormente doada à Cloud Native Computing Foundation (CNCF). Esta plataforma automatiza deploy, o escalabilidade e o gerenciamento de aplicações containerizadas, tornando-se um padrão de facto na indústria para orquestração de containers em larga escala \cite{burns2019kubernetes}.
-\subsection{Arquitetura do Kubernetes}
-A arquitetura do Kubernetes é baseada em um modelo master-node (também conhecido como control plane e worker nodes), onde cada componente tem responsabilidades específicas \cite{kubernetes_arch}:
-\subsubsection{Control Plane (Master)}
-\begin{itemize}
-\item \textbf{kube-apiserver}: Expõe a API do Kubernetes e atua como frontend do cluster
-\item \textbf{etcd}: Armazenamento consistente e distribuído para todos os dados do cluster
-\item \textbf{kube-scheduler}: Responsável por agendar pods nos nodes do cluster
-\item \textbf{kube-controller-manager}: Executa os processos de controle do cluster
-\end{itemize}
 
-\subsubsection{Worker Nodes}
-\begin{itemize}
-\item \textbf{kubelet}: Agente que garante que os containers estejam rodando em um pod
-\item \textbf{kube-proxy}: Mantém as regras de rede nos nodes
-\item \textbf{Container Runtime}: Software responsável por executar os containers
-\end{itemize}
+O Kubernetes (K8s) é uma plataforma de código aberto para orquestração de containers, originalmente desenvolvida pelo Google e posteriormente doada à Cloud Native Computing Foundation (CNCF). A plataforma automatiza o deploy, a escalabilidade e o gerenciamento de aplicações containerizadas, consolidando-se como um padrão de facto na indústria para orquestração de containers em larga escala \cite{burns2019kubernetes}.
+
+\subsection{Arquitetura do Kubernetes}
+
+A arquitetura do Kubernetes é baseada em um modelo master-node, também conhecido como control plane e worker nodes, onde cada componente desempenha funções específicas \cite{kubernetes_arch}.
+
+O \textbf{Control Plane (Master)} é composto por quatro componentes principais. O \textbf{kube-apiserver} expõe a API do Kubernetes e atua como frontend do cluster. O \textbf{etcd} é um armazenamento consistente e distribuído para todos os dados do cluster. O \textbf{kube-scheduler} é responsável por agendar pods nos nodes do cluster, enquanto o \textbf{kube-controller-manager} executa os processos de controle do cluster.
+
+Nos \textbf{Worker Nodes}, o \textbf{kubelet} atua como agente, garantindo que os containers estejam rodando em um pod. O \textbf{kube-proxy} mantém as regras de rede nos nodes, e o \textbf{Container Runtime} é o software responsável por executar os containers.
 
 \subsection{Conceitos Fundamentais}
-O Kubernetes opera com diversos conceitos fundamentais que formam a base de sua funcionalidade \cite{hightower2019kubernetes}:
-\begin{enumerate}
-\item \textbf{Pods}: A menor unidade implantável no Kubernetes, que pode conter um ou mais containers
-\item \textbf{Services}: Abstração que define um conjunto lógico de pods e uma política de acesso
-\item \textbf{Deployments}: Gerencia a criação e atualização de réplicas de pods
-\item \textbf{StatefulSets}: Gerencia aplicações stateful com identidades persistentes
-\item \textbf{ConfigMaps e Secrets}: Gerenciam configurações e dados sensíveis
-\end{enumerate}
+
+O Kubernetes opera com conceitos fundamentais que formam a base de sua funcionalidade \cite{hightower2019kubernetes}. O \textbf{Pod} é a menor unidade implantável no Kubernetes, podendo conter um ou mais containers. O \textbf{Service} é uma abstração que define um conjunto lógico de pods e uma política de acesso. O \textbf{Deployment} gerencia a criação e atualização de réplicas de pods, enquanto o \textbf{StatefulSet} é utilizado para gerenciar aplicações stateful com identidades persistentes. Além disso, \textbf{ConfigMaps} e \textbf{Secrets} são utilizados para gerenciar configurações e dados sensíveis, respectivamente.
 
 \subsection{Recursos de Escalabilidade}
-O Kubernetes oferece diversos mecanismos para garantir a escalabilidade das aplicações \cite{luksa2021kubernetes}:
-\subsubsection{Escalabilidade Horizontal}
-\begin{itemize}
-\item \textbf{Horizontal Pod Autoscaling (HPA)}: Ajusta automaticamente o número de pods baseado em métricas
-\item \textbf{Cluster Autoscaling}: Adiciona ou remove nodes automaticamente conforme a demanda
-\item \textbf{Load Balancing}: Distribui o tráfego entre múltiplas instâncias de aplicação
-\end{itemize}
 
-\subsubsection{Alta Disponibilidade}
-\begin{itemize}
-\item \textbf{Self-healing}: Reinicia containers que falham, substitui e reagenda containers
-\item \textbf{Rolling Updates}: Permite atualizações sem downtime
-\item \textbf{Multi-zone Deployment}: Distribui a carga entre diferentes zonas de disponibilidade
-\end{itemize}
+O Kubernetes oferece mecanismos robustos para garantir a escalabilidade das aplicações \cite{luksa2021kubernetes}. A \textbf{Escalabilidade Horizontal} é alcançada por meio do \textbf{Horizontal Pod Autoscaling (HPA)}, que ajusta automaticamente o número de pods com base em métricas de utilização, e do \textbf{Cluster Autoscaling}, que adiciona ou remove nodes automaticamente conforme a demanda. O \textbf{Load Balancing} distribui o tráfego entre múltiplas instâncias de aplicação, garantindo uma distribuição equilibrada da carga.
+
+Para \textbf{Alta Disponibilidade}, o Kubernetes implementa mecanismos como \textbf{Self-healing}, que reinicia containers que falham e substitui pods em caso de indisponibilidade, e \textbf{Rolling Updates}, que permitem atualizações sem downtime. Além disso, o \textbf{Multi-zone Deployment} distribui a carga entre diferentes zonas de disponibilidade, aumentando a resiliência do sistema.
 
 \subsection{Benefícios e Desafios}
-\subsubsection{Benefícios}
-\begin{enumerate}
-\item \textbf{Portabilidade}: Funciona em qualquer ambiente (on-premise, nuvem ou híbrido)
-\item \textbf{Escalabilidade}: Gerenciamento automático de recursos e carga
-\item \textbf{Resiliência}: Recuperação automática de falhas
-\item \textbf{Declarativo}: Configuração como código (Infrastructure as Code)
-\end{enumerate}
 
-\subsubsection{Desafios}
-\begin{enumerate}
-\item \textbf{Complexidade}: Curva de aprendizado íngreme
-\item \textbf{Overhead Operacional}: Requer equipe especializada para manutenção
-\item \textbf{Custos}: Pode ser dispendioso em ambientes pequenos
-\item \textbf{Segurança}: Requer atenção especial à configuração de segurança
-\end{enumerate}
+O Kubernetes oferece diversos benefícios, como \textbf{Portabilidade}, funcionando em qualquer ambiente (on-premise, nuvem ou híbrido), \textbf{Escalabilidade} com gerenciamento automático de recursos, \textbf{Resiliência} com recuperação automática de falhas, e uma abordagem \textbf{Declarativa}, onde a configuração é tratada como código (Infrastructure as Code).
+
+No entanto, também apresenta desafios significativos. A \textbf{Complexidade} da plataforma resulta em uma curva de aprendizado íngreme. O \textbf{Overhead Operacional} exige uma equipe especializada para manutenção, e os \textbf{Custos} podem ser elevados em ambientes pequenos. Além disso, a \textbf{Segurança} requer atenção especial, com a necessidade de configurações robustas para proteger o cluster.
 
 \subsection{Melhores Práticas}
 
-Para uma implementação efetiva do Kubernetes, algumas práticas são recomendadas \cite{arundel2021kubernetes}:
-
-\begin{itemize}
-\item \textbf{Segurança}: Implementar políticas de segurança e network policies
-\item \textbf{Monitoramento}: Utilizar ferramentas como Prometheus e Grafana
-\item \textbf{Logging}: Centralizar logs com soluções como ELK Stack
-\item \textbf{Resource Management}: Definir limites e requisitos de recursos
-\item \textbf{Backup}: Implementar estratégias de backup e disaster recovery
-\end{itemize}
-
-
+Para uma implementação efetiva do Kubernetes, é recomendado seguir boas práticas \cite{arundel2021kubernetes}. A \textbf{Segurança} deve ser priorizada, com a implementação de políticas de segurança e network policies. O \textbf{Monitoramento} pode ser realizado com ferramentas como Prometheus e Grafana, enquanto o \textbf{Logging} deve ser centralizado com soluções como o ELK Stack. O \textbf{Gerenciamento de Recursos} deve incluir a definição de limites e requisitos de recursos, e estratégias de \textbf{Backup} e disaster recovery devem ser implementadas para garantir a continuidade dos serviços.
 
 
 \section{FastAPI: Desenvolvimento de APIs para Integração de Dados}
