@@ -21,6 +21,11 @@
   the literature.
 \emph{Journal of Decision Systems}, p. 64--75, 2016.}
 
+\bibitem[Armbrust e Xin 2023]{armbrust2023spark}
+\abntrefinfo{Armbrust e Xin}{ARMBRUST; XIN}{2023}
+{ARMBRUST, M.; XIN, R. \emph{Spark SQL: Relational Data Processing in Spark}.
+  [S.l.]: ACM SIGMOD, 2023.}
+
 \bibitem[Arundel e Domingus 2021]{arundel2021kubernetes}
 \abntrefinfo{Arundel e Domingus}{ARUNDEL; DOMINGUS}{2021}
 {ARUNDEL, J.; DOMINGUS, J. \emph{Cloud Native DevOps with Kubernetes}. [S.l.]:
@@ -61,6 +66,11 @@
 \abntrefinfo{Burns, Beda e Hightower}{BURNS; BEDA; HIGHTOWER}{2019}
 {BURNS, B.; BEDA, J.; HIGHTOWER, K. \emph{Kubernetes: Up and Running: Dive into
   the Future of Infrastructure}. [S.l.]: O'Reilly Media, 2019.}
+
+\bibitem[Chambers e Zaharia 2023]{chambers2023spark}
+\abntrefinfo{Chambers e Zaharia}{CHAMBERS; ZAHARIA}{2023}
+{CHAMBERS, B.; ZAHARIA, M. Spark: The definitive guide.
+\emph{O'Reilly Media}, 2023.}
 
 \bibitem[Chang e Sharma 2021]{airflow_concepts}
 \abntrefinfo{Chang e Sharma}{CHANG; SHARMA}{2021}
@@ -166,6 +176,16 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Johnson}{JOHNSON}{2021}
 {JOHNSON, P. Scaling data architectures with mesh principles.
 \emph{Data Engineering Quarterly}, p. 34--50, 2021.}
+
+\bibitem[Karau e Warren 2023]{karau2023high}
+\abntrefinfo{Karau e Warren}{KARAU; WARREN}{2023a}
+{KARAU, H.; WARREN, R. High performance spark.
+\emph{O'Reilly Media}, 2023.}
+
+\bibitem[Karau e Warren 2023]{karau2023learning}
+\abntrefinfo{Karau e Warren}{KARAU; WARREN}{2023b}
+{KARAU, H.; WARREN, R. \emph{Learning Spark: Lightning-Fast Data Analytics}.
+  [S.l.]: O'Reilly Media, 2023.}
 
 \bibitem[Katal, Wazid e Goudar 2013]{katal2013big}
 \abntrefinfo{Katal, Wazid e Goudar}{KATAL; WAZID; GOUDAR}{2013}
@@ -327,6 +347,11 @@ Dispon{\'\i}vel em:
   pipelines.
 \emph{Journal of Medical Imaging}, v.~10, p. 234--256, 2023.}
 
+\bibitem[Wendell e Zaharia 2023]{wendell2023definitive}
+\abntrefinfo{Wendell e Zaharia}{WENDELL; ZAHARIA}{2023}
+{WENDELL, P.; ZAHARIA, M. \emph{The Definitive Guide to Apache Spark}. [S.l.]:
+  Databricks, 2023.}
+
 \bibitem[Wilson 2023]{wilson2023data}
 \abntrefinfo{Wilson}{WILSON}{2023}
 {WILSON, J. \emph{Data Integration Patterns with FastAPI}. [S.l.]: Apress,
@@ -342,6 +367,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Zagan e Danubianu}{ZAGAN; DANUBIANU}{2020}
 {ZAGAN, E.; DANUBIANU, M. Data lake approaches: A survey.
 p. 189--191, 2020.}
+
+\bibitem[Zaharia, Xin e Wendell 2016]{zaharia2016apache}
+\abntrefinfo{Zaharia, Xin e Wendell}{ZAHARIA; XIN; WENDELL}{2016}
+{ZAHARIA, M.; XIN, R.; WENDELL, P. \emph{Apache Spark: A Unified Engine for Big
+  Data Processing}. [S.l.]: Communications of the ACM, 2016.}
 
 \bibitem[Zhang, Wang e Singh 2021]{zhang2021deep}
 \abntrefinfo{Zhang, Wang e Singh}{ZHANG; WANG; SINGH}{2021}

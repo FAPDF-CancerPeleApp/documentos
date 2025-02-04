@@ -423,7 +423,61 @@ O Apache Airflow possui diversos benefícios, incluindo a configuração como c�
 \subsection{Melhores Práticas}
 Para uma utilização efetiva do Airflow, algumas práticas são recomendadas \cite{airflow_practices}. É importante criar tarefas atômicas e idempotentes, garantir que múltiplas execuções produzam o mesmo resultado, manter documentação clara e atualizada dos DAGs, implementar estratégias robustas de retry e fallback, e configurar alertas e métricas adequadas.
 
+\section{Apache Spark}
+Apache Spark é um framework de computação distribuída de código aberto, projetado para processamento de dados em larga escala. Desenvolvido originalmente na UC Berkeley, o Spark se destaca por sua velocidade e capacidade de processar grandes volumes de dados, oferecendo uma interface unificada para diferentes tipos de processamento \cite{zaharia2016apache}.
 
+\subsection{Arquitetura e Componentes}
+A arquitetura do Spark é construída em torno do conceito de Resilient Distributed Datasets (RDDs), que são coleções distribuídas e tolerantes a falhas de objetos \cite{karau2023learning}. Os principais componentes incluem:
+
+\begin{itemize}
+    \item \textbf{Spark Core}: Engine de processamento distribuído que gerencia a distribuição de tarefas e coordenação de processos.
+    \item \textbf{Spark SQL}: Módulo para processamento de dados estruturados, oferecendo interface SQL e programática.
+    \item \textbf{Spark Streaming}: Permite o processamento de dados em tempo real.
+    \item \textbf{MLlib}: Biblioteca de machine learning distribuída.
+    \item \textbf{GraphX}: API para computação de grafos distribuídos.
+\end{itemize}
+
+\subsection{Processamento de Dados}
+O Spark utiliza uma abordagem de computação em memória que o torna significativamente mais rápido que paradigmas anteriores como MapReduce \cite{chambers2023spark}. As principais características incluem:
+
+\begin{itemize}
+    \item Processamento em memória para maior velocidade
+    \item Lazy evaluation para otimização de operações
+    \item DAG (Directed Acyclic Graph) para planejamento de execução
+    \item Tolerância a falhas através de linhagem de RDDs
+\end{itemize}
+
+\subsection{Spark SQL e DataFrames}
+Spark SQL introduz abstrações modernas como DataFrames e Datasets, que oferecem uma interface mais intuitiva para manipulação de dados estruturados \cite{armbrust2023spark}. Exemplo de código:
+
+\begin{verbatim}
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .appName("ExemploSparkSQL") \
+    .getOrCreate()
+
+df = spark.read.csv("dados.csv")
+df.createOrReplaceTempView("tabela")
+
+resultado = spark.sql("""
+    SELECT coluna1, COUNT(*)
+    FROM tabela
+    GROUP BY coluna1
+""")
+\end{verbatim}
+
+\subsection{Integração com Ecossistema Big Data}
+O Spark trabalha bem com várias outras ferramentas importantes de big data \cite{wendell2023definitive}. Ele usa o Hadoop YARN 
+para controlar melhor os recursos do sistema, e se conecta ao Apache Kafka para processar dados em tempo real. O Spark também 
+funciona junto com o Delta Lake para garantir que os dados sejam guardados de forma segura e organizada. Por fim, sua integração 
+com Kubernetes permite que as aplicações rodem em qualquer ambiente de nuvem de forma mais fácil e flexível.
+
+\subsection{Performance e Otimização}
+Para fazer o Spark funcionar melhor e mais rápido, existem algumas técnicas importantes \cite{karau2023high}. É preciso 
+distribuir os dados de forma inteligente entre os computadores do sistema e configurar corretamente a memória disponível. 
+Também é importante guardar na memória os dados que são usados com mais frequência, e organizar bem as operações que juntam 
+diferentes conjuntos de dados. Dessa forma, o sistema consegue processar grandes volumes de informação de maneira mais eficiente.
 
 \section{Kubernetes: Orquestração de Containers para Escalabilidade}
 

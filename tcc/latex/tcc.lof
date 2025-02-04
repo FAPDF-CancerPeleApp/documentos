@@ -1,5 +1,5 @@
 \babel@toc {brazil}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Arquitetura geral de um Data Warehouse \cite {vaisman2014data}}}{28}{figure.1.1}% 
-\contentsline {figure}{\numberline {2}{\ignorespaces Delta Lake: Formato transacional escal\IeC {\'a}vel e de uso geral para Lakehouse. \cite {lee2024delta}}}{50}{figure.1.2}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces Diagrama da Arquitetura do Projeto }}{58}{figure.3.3}% 
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama da Fluxo de Dados }}{58}{figure.3.4}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Delta Lake: Formato transacional escal\IeC {\'a}vel e de uso geral para Lakehouse. \cite {lee2024delta}}}{52}{figure.1.2}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagrama da Arquitetura do Projeto }}{60}{figure.3.3}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama da Fluxo de Dados }}{61}{figure.3.4}% 
