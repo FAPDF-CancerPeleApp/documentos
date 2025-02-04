@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  28 JAN 2025 05:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.6)  31 JAN 2025 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,7 +736,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 
 Writing index file tcc.idx 
-(./tcc.aux)
+(./tcc.aux
+
+LaTeX Warning: Label `fig:arquitetura_projeto' multiply defined.
+
+)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -915,7 +919,7 @@ Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [24]
 [25] [26]
-Overfull \hbox (2.35042pt too wide) in paragraph at lines 135--136
+Overfull \hbox (2.35042pt too wide) in paragraph at lines 134--135
 []\T1/lmr/m/n/12 Os da-dos em um data wa-rehouse in-cluem um com-po-nente de te
 mpo,
  []
@@ -923,16 +927,16 @@ mpo,
 [27]
 File: figuras/typical_data_warehouse_architecture.eps Graphic file (type eps)
  <figuras/typical_data_warehouse_architecture.eps> [28] [29] [30]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 245.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 244.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 245.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 244.
  [31] [32]
-Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
+Overfull \hbox (79.56772pt too wide) in paragraph at lines 283--284
 \T1/lmr/m/n/12 tindo que as or-ga-ni-za-ções ex-traiam o má-ximo va-lor de seus
  da-dos ([][][][][][],
  []
@@ -941,19 +945,19 @@ Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
  [34]
-Overfull \hbox (17.38094pt too wide) in paragraph at lines 333--334
+Overfull \hbox (17.38094pt too wide) in paragraph at lines 332--333
 \T1/lmr/m/n/12 zindo cus-tos em com-pa-ra-ção aos data wa-rehou-ses tra-di-ci-o
 -nais ([][][][][][],
  []
 
 
-Overfull \hbox (41.48952pt too wide) in paragraph at lines 341--342
+Overfull \hbox (41.48952pt too wide) in paragraph at lines 340--341
 []\T1/lmr/bx/n/12 Desempenho\T1/lmr/m/n/12 : Con-sul-tas em da-dos bru-tos po-d
 em ser len-tas e ine-fi-ci-en-tes ([][][][][][],
  []
 
 
-Overfull \hbox (74.8327pt too wide) in paragraph at lines 348--357
+Overfull \hbox (74.8327pt too wide) in paragraph at lines 347--356
 [][] 
  []
 
@@ -962,30 +966,30 @@ Underfull \vbox (badness 5359) has occurred while \output is active []
 
  [35]
 [36] [37] [38]
-Overfull \hbox (49.11676pt too wide) in paragraph at lines 425--426
+Overfull \hbox (49.11676pt too wide) in paragraph at lines 424--425
 []\T1/lmr/m/n/12 Para uma uti-li-za-ção efe-tiva do Air-flow, al-gu-mas prá-ti-
 cas são re-co-men-da-das ([][][][][][],
  []
 
 
-Overfull \hbox (7.95158pt too wide) in paragraph at lines 431--432
+Overfull \hbox (7.95158pt too wide) in paragraph at lines 430--431
 \T1/lmr/m/n/12 in-dús-tria para or-ques-tra-ção de con-tai-ners em larga es-cal
 a ([][][][][][],
  []
 
 [39] [40]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 470.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 469.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [41]
-Overfull \hbox (3.21373pt too wide) in paragraph at lines 480--481
+Overfull \hbox (3.21373pt too wide) in paragraph at lines 479--480
 []\T1/lmr/m/n/12 O Fas-tAPI ofe-rece di-ver-sos me-ca-nis-mos de se-gu-rança ([
 ][][][][][], [][][][][][][]).
  []
 
 
-Overfull \hbox (25.61392pt too wide) in paragraph at lines 486--487
+Overfull \hbox (25.61392pt too wide) in paragraph at lines 485--486
 []\T1/lmr/m/n/12 Apesar de suas mui-tas van-ta-gens, o Fas-tAPI tem al-gu-mas l
 i-mi-ta-ções ([][][][][][],
  []
@@ -1018,19 +1022,23 @@ File: figuras/arquitetura.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
+File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
+<figuras/diagrama_fluxo_dados.eps>
 Underfull \vbox (badness 2245) has occurred while \output is active []
 
  [57]
-[58]) (./tcc.bbl (./tcc.brf)
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [58]
+[59]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [59] [60
-
-]
+ [60]
 bibitemlist
-[61] [62] [63])
+[61
+
+] [62] [63])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
@@ -1059,16 +1067,19 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
 (rerunfilecheck)             Before: 05243AF50F91CC4048B2B6F22A2A14E3;7292
-(rerunfilecheck)             After:  B42BB08C9B189927FAE813606B2865D4;7292.
+(rerunfilecheck)             After:  ABA241F9E11F80CB119246C4CACFE4B2;7292.
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 11956 strings out of 494542
- 179482 string characters out of 6176699
- 330708 words of memory out of 5000000
- 15362 multiletter control sequences out of 15000+600000
+ 11960 strings out of 494542
+ 179590 string characters out of 6176699
+ 330793 words of memory out of 5000000
+ 15365 multiletter control sequences out of 15000+600000
  76074 words of font info for 53 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,1407b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (66 pages, 369808 bytes).
+Output written on tcc.dvi (66 pages, 371684 bytes).
