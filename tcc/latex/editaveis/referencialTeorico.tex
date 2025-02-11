@@ -168,7 +168,8 @@ principais camadas de uma arquitetura geral de um Data Warehouse.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/typical_data_warehouse_architecture.eps}
-    \caption{Arquitetura geral de um Data Warehouse \cite{vaisman2014data}}
+    \caption{Arquitetura geral de um Data Warehouse}
+    \cite{vaisman2014data}
     \label{fig:arquitetura_dw}
 \end{figure} 
 
@@ -481,7 +482,7 @@ diferentes conjuntos de dados. Dessa forma, o sistema consegue processar grandes
 
 \section{Kubernetes: Orquestração de Containers para Escalabilidade}
 
-O Kubernetes (K8s) é uma plataforma de código aberto para orquestração de containers, originalmente desenvolvida pelo Google e posteriormente doada à Cloud Native Computing Foundation (CNCF). A plataforma automatiza o deploy, a escalabilidade e o gerenciamento de aplicações containerizadas, consolidando-se como um padrão de facto na indústria para orquestração de containers em larga escala \cite{burns2019kubernetes}.
+O Kubernetes é uma plataforma de código aberto para orquestração de containers, originalmente desenvolvida pelo Google e posteriormente doada à Cloud Native Computing Foundation (CNCF). A plataforma automatiza o deploy, a escalabilidade e o gerenciamento de aplicações containerizadas, consolidando-se como um padrão de facto na indústria para orquestração de containers em larga escala \cite{burns2019kubernetes}.
 
 \subsection{Arquitetura do Kubernetes}
 
@@ -544,7 +545,7 @@ Criar pipelines de dados para o diagnóstico de câncer de pele é um ponto muit
 \subsection{Arquitetura do Pipeline}
 A arquitetura de um pipeline de dados para diagnóstico de câncer de pele geralmente tem várias etapas conectadas entre si \cite{esteva2022deep}. Primeiro, na aquisição de dados, são capturadas imagens dermatológicas, digitalizados os prontuários médicos e coletados os metadados clínicos. Depois, no pré-processamento, as imagens são normalizadas, os ruídos removidos, as lesões segmentadas e os dados aumentados. No processamento, são extraídas características das imagens, analisadas texturas e cores, e classificadas as lesões. Por fim, no armazenamento e recuperação, as imagens são guardadas em um banco de dados, utilizando sistemas de cache e realizando backup e redundância.
 \subsection{Componentes Essenciais}
-Os componentes principais do pipeline incluem uma infraestrutura de dados robusta e modelos de processamento avançados \cite{kumar2023medical}. A infraestrutura de dados tem uma camada de armazenamento distribuído para grandes volumes de imagens, recursos computacionais para processar essas imagens, e ferramentas para análise e visualização. Quanto aos modelos de processamento, são usadas redes neurais convolucionais (CNN), algoritmos de segmentação e modelos de classificação para analisar e interpretar as imagens dermatológicas.
+Os componentes principais do pipeline incluem uma infraestrutura de dados robusta e modelos de processamento avançados \cite{kumar2023medical}. A infraestrutura de dados tem uma camada de armazenamento distribuído para grandes volumes de imagens, recursos computacionais para processar essas imagens, e ferramentas para análise e visualização. Quanto aos modelos de processamento, são usadas redes neurais convolucionais, algoritmos de segmentação e modelos de classificação para analisar e interpretar as imagens dermatológicas.
 \subsection{Fluxo de Dados e Processamento}
 O fluxo de dados em um pipeline de diagnóstico de câncer de pele segue um processo bem organizado \cite{wang2023automated}. Primeiro, na ingestão de dados, as imagens dermatoscópicas são coletadas, verificadas quanto à qualidade e padronizadas no formato. No pré-processamento das imagens, o contraste e o brilho são normalizados, os artefatos removidos e a região de interesse segmentada. Na análise e classificação, são extraídas características, aplicados modelos de machine learning e deep learning, e geradas predições.
 \subsection{Garantia de Qualidade}
@@ -641,7 +642,8 @@ aplicações avançadas como inteligência artificial e aprendizado de máquina.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/deltaLake.eps}
-    \caption{Delta Lake: Formato transacional escalável e de uso geral para Lakehouse. \cite{lee2024delta}}
+    \caption{Delta Lake: Formato transacional escalável e de uso geral para Lakehouse}
+    \cite{lee2024delta}
     \label{fig:pipeline_proc}
 \end{figure}
 
