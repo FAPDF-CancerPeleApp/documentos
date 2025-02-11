@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.6)  11 FEB 2025 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  11 FEB 2025 04:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,34 +880,38 @@ Overfull \hbox (6.79524pt too wide) in paragraph at lines 3--3
 ] [14
 
 ])
-(./fixos/indiceAutomatico.tex (./tcc.toc
-Underfull \vbox (badness 1325) has occurred while \output is active []
-
- [15]
-[16]
-Overfull \hbox (10.03238pt too wide) in paragraph at lines 88--88
+(./fixos/indiceAutomatico.tex (./tcc.toc [15] [16]
+Overfull \hbox (10.03238pt too wide) in paragraph at lines 93--93
  [][] [] []  
  []
 
 
-Overfull \hbox (299.13713pt too wide) in paragraph at lines 89--89
+Overfull \hbox (299.13713pt too wide) in paragraph at lines 94--94
  [][] [] []  
  []
 
 ) [17] [18
 
-]) (./editaveis/introducao.tex) (./editaveis/referencialTeorico.tex
-[19
+]) (./editaveis/introducao.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 23.
 
-] [20
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 23.
+ [19
 
-]
+])
+(./editaveis/referencialTeorico.tex [20]
 Overfull \hbox (47.72498pt too wide) in paragraph at lines 19--23
 \T1/lmr/m/n/12 tindo que os da-dos se-jam con-fiá-veis e ade-qua-dos para aná-l
 ise ([][][][][][],
  []
 
-[21]
+[21
+
+]
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [22]
@@ -919,16 +923,8 @@ mpo,
 
 [25]
 File: figuras/typical_data_warehouse_architecture.eps Graphic file (type eps)
- <figuras/typical_data_warehouse_architecture.eps> [26] [27] [28]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 245.
-
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 245.
- [29] [30]
+ <figuras/typical_data_warehouse_architecture.eps> [26] [27] [28] [29]
+[30]
 Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
 \T1/lmr/m/n/12 tindo que as or-ga-ni-za-ções ex-traiam o má-ximo va-lor de seus
  da-dos ([][][][][][],
@@ -1067,17 +1063,17 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: D4C7BE12082E6C3BDFD357D553A81039;7553
-(rerunfilecheck)             After:  C29D065BF9A6EC612B1E410E3B814F25;7553.
+(rerunfilecheck)             Before: 7FCA091B27556E8FA76278EE8476899B;7550
+(rerunfilecheck)             After:  2E6FD670CBA1288DE113EA7F39120868;7550.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12015 strings out of 494542
- 180749 string characters out of 6176699
- 332781 words of memory out of 5000000
- 15422 multiletter control sequences out of 15000+600000
- 76074 words of font info for 53 fonts, out of 8000000 for 9000
+ 12017 strings out of 494542
+ 180753 string characters out of 6176699
+ 332842 words of memory out of 5000000
+ 15426 multiletter control sequences out of 15000+600000
+ 70090 words of font info for 51 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (69 pages, 396276 bytes).
+Output written on tcc.dvi (69 pages, 404780 bytes).
