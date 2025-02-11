@@ -73,7 +73,8 @@ Para o desenvolvimento do projeto de uma arquitetura de Data Fabric para salvar 
 A arquitetura do projeto será baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. A seguir, a descrição dos principais componentes da arquitetura:
 
 \subsection{Diagrama de Arquitetura}
-O diagrama a seguir ilustra a arquitetura proposta do sistema:
+A figura \ref{fig:arquitetura_projeto} ilustra a arquitetura proposta, cujo núcleo é o Data Fabric, responsável por integrar fontes de dados internas e externas, incluindo Google Cloud Storage, MongoDB e bancos de dados relacionais. O MinIO funciona como a fonte interna de armazenamento, dividida nas camadas Bronze, Silver e Gold, que suportam, respectivamente, a inserção inicial, o pré-processamento e o enriquecimento dos dados. A ingestão se inicia por meio de uma DAG de inserção gerenciada pelo Apache Airflow, que realiza coleta (scraping) de imagens de câncer de pele em diferentes repositórios, armazenando-as na camada Bronze do Data Lake (MinIO) junto a seus metadados, os quais são registrados no Delta Lake. Em seguida, ocorre uma nova etapa coordenada por outra DAG do Apache Airflow, na qual o pré-processamento e a análise das imagens são executados, resultando em dados enriquecidos que passam a compor as camadas Silver ou Gold no MinIO, ao mesmo tempo em que o Delta Lake mantém a organização e o controle de versões dos metadados. O Spark atua como motor de processamento que aproveita a camada transacional do Delta Lake para garantir integridade (ACID) e versionamento, além de oferecer as ferramentas necessárias para manipular ou analisar grandes volumes de informações. Por fim, o Delta Sharing possibilita a disponibilização desses dados de maneira segura a pesquisadores e organizações, preservando a governança e a privacidade das informações.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/arquitetura.eps}
@@ -81,13 +82,15 @@ O diagrama a seguir ilustra a arquitetura proposta do sistema:
     \label{fig:arquitetura_projeto}
 \end{figure} 
 
+
 \subsection{Diagrama de Fluxo de Dados}
-O diagrama a seguir ilustra a arquitetura proposta do fluxo de dados no sistema:
+A figura \ref{fig:fluxo_dados_projeto} ilustra um fluxo de dados em que múltiplas fontes (como hospitais, pesquisas colaborativas e repositórios de imagens médicas) alimentam o sistema por meio de uma DAG de inserção, orquestrada pelo Apache Airflow. Essa etapa controla a ingestão de arquivos e seus metadados, direcionando-os ao DataLake, no qual o MinIO provê armazenamento distribuído. Paralelamente, o Delta Lake é responsável por gerenciar as informações de metadados e garantir versionamento e rastreabilidade das atualizações. Na sequência, uma segunda fase de orquestração ocorre na etapa de Processamento de Dados, na qual o próprio Apache Airflow ativa as rotinas de pré-processamento e de análise, empregando o Spark especificamente para transformações nos metadados e extração de insights. Com os dados processados, o sistema conta com um módulo de Governança e Segurança que adota políticas de controle de acesso (RBAC) e está em conformidade com a LGPD, assegurando integridade e privacidade das informações médicas. Por fim, o módulo de Compartilhamento de Dados, apoiado no Delta Sharing, facilita o acesso seguro a pesquisadores e outras organizações, permitindo consultas autorizadas e promovendo a colaboração em larga escala.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/diagrama_fluxo_dados.eps}
     \caption{Diagrama da Fluxo de Dados }
-    \label{fig:arquitetura_projeto}
+    \label{fig:fluxo_dados_projeto}
 \end{figure} 
 
 
@@ -124,6 +127,10 @@ Com base no referencial teórico, as seguintes tecnologias serão utilizadas no 
     \item \textbf{Spark}: Fornece um alto nível de paralelismo, processando grandes quantidades de dados eficientimente em vários nós em um cluster.
 \end{itemize}
 
-\section{Conclusão}
+% \section{Roadmap de Implementação}
 
-O projeto visa implementar uma arquitetura robusta e escalável de Data Fabric para o armazenamento e processamento de imagens de câncer de pele. A utilização das tecnologias mencionadas, incluindo Delta Sharing, garantirá a segurança, a eficiência e a acessibilidade dos dados, contribuindo significativamente para a pesquisa e o diagnóstico médico.
+% A implementação dessa arquitetura será conduzida em etapas sequenciais, cada qual associada a um intervalo de tempo estimado, de modo a garantir uma implantação organizada e confiável. Inicialmente, dedica-se um período de aproximadamente duas semanas à configuração do ambiente de desenvolvimento e à implantação do cluster Kubernetes, estabelecendo a infraestrutura necessária para a orquestração e o provisionamento de contêineres. Na sequência, com o Kubernetes já operacional, realiza-se a configuração do MinIO para armazenamento distribuído de dados brutos.; essas tarefas, que incluem testes iniciais de integração, tendem a demandar mais uma ou duas semanas.
+
+% Em seguida, procede-se à instalação e integração do Delta Lake com MiniO, fundamental para o versionamento e a gestão transacional dos dados, o que costuma levar cerca de uma semana, considerando a adequação às políticas de governança que regem os metadados. Logo após, configura-se o Apache Airflow, que assume o papel de orquestração das DAGs de inserção e de processamento. A etapa de implantação e ajuste das pipelines, contemplando definição de dependências, verificação de logs e testes de escalabilidade, durando de duas a três semanas.
+
+% Por fim, entra-se na fase de implementação do Delta Sharing, que inclui ajustes de segurança (por exemplo, RBAC para controle de acesso e conformidade com a LGPD) e finaliza o ciclo de entrega, em mais duas semanas. Nessa etapa, os recursos de compartilhamento seguro de dados são configurados e submetidos a validações de desempenho e de governança, assegurando que apenas usuários e organizações devidamente autorizados tenham acesso à informação. Após esse período, será realizadas verificações integradas em todo o ecossistema, incluindo testes de carga e monitoramento contínuo, assegurando uma solução robusta, escalável e pronta para suportar o processamento e a análise de grandes volumes de dados de maneira confiável.
