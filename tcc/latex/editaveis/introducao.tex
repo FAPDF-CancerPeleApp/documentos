@@ -1,9 +1,37 @@
-\chapter*[Introdução]{Introdução}
+\chapter[Introdução]{Introdução}
 \addcontentsline{toc}{chapter}{Introdução}
 
-Este documento apresenta considerações gerais e preliminares relacionadas 
-à redação de relatórios de Projeto de Graduação da Faculdade UnB Gama 
-(FGA). São abordados os diferentes aspectos sobre a estrutura do trabalho, 
-uso de programas de auxilio a edição, tiragem de cópias, encadernação, etc.
+\section{INTRODUÇÃO}
 
-Este template é uma adaptação do ABNTeX2\footnote{\url{https://github.com/abntex/abntex2/}}.
+Com o avanço da tecnologia, armazenar e processar grandes volumes de dados ficou mais ágil e inteligente. Nesse cenário, o Data Fabric se destaca como uma solução poderosa, especialmente para lidar com imagens dos diferentes fontes. Ele cria uma conexão fluida e integrada entre os dados, permitindo acesso rápido, seguro e escalável. 
+
+Este trabalho tem como objetivo propor uma arquitetura de Data Fabric para armazenar e processar imagens de câncer de pele. A metodologia usada inclui uma revisão detalhada da literatura já existente e um estudo de caso que analisa os desafios, requisitos e possíveis soluções para implementar essa infraestrutura. A revisão da literatura fornece a base teórica necessária para a viabilidade da proposta, enquanto o estudo de caso oferece uma análise prática das questões envolvidas.
+
+A arquitetura proposta neste estudo é projetada para integrar dados de várias fontes, garantindo a segurança e privacidade no armazenamento e compartilhamento das imagens. Além disso, ela permite uma governança centralizada e a escalabilidade do sistema, aspectos fundamentais para a gestão eficiente de dados médicos. A integração de ferramentas como Kubernetes, MinIO, Delta Lake, Apache Airflow e Delta Sharing é detalhada, destacando suas funções e benefícios no contexto da arquitetura de Data Fabric.
+
+
+
+\subsection{Justificativa}
+
+A demanda por soluções mais inteligentes e seguras para armazenar e processar imagens cresce a cada dia, impulsionando a criação de novas arquiteturas de dados. O Data Fabric surge como uma resposta moderna a esse desafio, oferecendo uma gestão integrada, escalável e eficiente. Com foco na privacidade e na segurança, essa abordagem garante que as informações sejam acessadas e utilizadas de forma confiável, simplificando processos.
+
+
+\subsection{Objetivos}
+
+Os objetivos deste trabalho são:
+\begin{itemize}
+    \item Propor uma arquitetura de Data Fabric para armazenar e processar imagens de câncer de pele.
+    \item Analisar os desafios e requisitos para a implementação desta arquitetura.
+    \item Apresentar um roadmap detalhado para a implementação da arquitetura proposta.
+    \item Unifica dados de várias fontes em um armazenamento MinIO escalável, permitindo análises avançadas com segurança e eficiência.
+\end{itemize}
+
+\subsection{Estrutura do Documento}
+
+Este documento está estruturado da seguinte forma:
+\begin{itemize}
+    \item \textbf{Capítulo 1} - Introdução: Apresenta o contexto, a justificativa, os objetivos e a estrutura do documento.
+    \item \textbf{Capítulo 2} - Referencial Teórico: Revisão da literatura sobre Data Fabric, Engenharia de Dados, Data Warehouse, Data Lake, Data Mesh, Apache Airflow, Apache Spark, Kubernetes, FastAPI, e Pipelines de dados.
+    \item \textbf{Capítulo 3} - Metodologia: Detalhamento da metodologia adotada, incluindo o estudo de caso e as perguntas de pesquisa.
+    \item \textbf{Capítulo 4} - Projeto: Descrição dos requisitos, arquitetura proposta, tecnologias utilizadas e roadmap de implementação.
+\end{itemize}
