@@ -6,7 +6,6 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{19}{chapter.1}% 
-\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{19}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}INTRODU\IeC {\c C}\IeC {\~A}O}{19}{section.1.1}% 
 \contentsline {subsection}{\numberline {1.1.1}Justificativa}{19}{subsection.1.1.1}% 
 \contentsline {subsection}{\numberline {1.1.2}Objetivos}{19}{subsection.1.1.2}% 
@@ -68,29 +67,28 @@
 \contentsline {subsection}{\numberline {2.10.1}Arquitetura do Pipeline}{43}{subsection.2.10.1}% 
 \contentsline {subsection}{\numberline {2.10.2}Componentes Essenciais}{43}{subsection.2.10.2}% 
 \contentsline {subsection}{\numberline {2.10.3}Fluxo de Dados e Processamento}{43}{subsection.2.10.3}% 
-\contentsline {subsection}{\numberline {2.10.4}Garantia de Qualidade}{44}{subsection.2.10.4}% 
+\contentsline {subsection}{\numberline {2.10.4}Garantia de Qualidade}{43}{subsection.2.10.4}% 
 \contentsline {subsection}{\numberline {2.10.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{44}{subsection.2.10.5}% 
-\contentsline {subsection}{\numberline {2.10.6}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{44}{subsection.2.10.6}% 
 \contentsline {section}{\numberline {2.11}Fluxo de Dados em Arquitetura de Data Fabric}{44}{section.2.11}% 
-\contentsline {subsection}{\numberline {2.11.1}Componentes do Fluxo de Dados}{45}{subsection.2.11.1}% 
-\contentsline {subsection}{\numberline {2.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{45}{subsection.2.11.2}% 
+\contentsline {subsection}{\numberline {2.11.1}Componentes do Fluxo de Dados}{44}{subsection.2.11.1}% 
+\contentsline {subsection}{\numberline {2.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{44}{subsection.2.11.2}% 
 \contentsline {subsection}{\numberline {2.11.3}Gest\IeC {\~a}o e Controle do Fluxo}{45}{subsection.2.11.3}% 
-\contentsline {subsection}{\numberline {2.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{46}{subsection.2.11.4}% 
-\contentsline {subsection}{\numberline {2.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{46}{subsection.2.11.5}% 
+\contentsline {subsection}{\numberline {2.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{45}{subsection.2.11.4}% 
+\contentsline {subsection}{\numberline {2.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{45}{subsection.2.11.5}% 
 \contentsline {section}{\numberline {2.12}Ingest\IeC {\~a}o de Dados e Preprocessamento de Imagens}{46}{section.2.12}% 
-\contentsline {subsection}{\numberline {2.12.1}Ingest\IeC {\~a}o de Dados}{47}{subsection.2.12.1}% 
-\contentsline {subsection}{\numberline {2.12.2}Preprocessamento de Imagens}{47}{subsection.2.12.2}% 
+\contentsline {subsection}{\numberline {2.12.1}Ingest\IeC {\~a}o de Dados}{46}{subsection.2.12.1}% 
+\contentsline {subsection}{\numberline {2.12.2}Preprocessamento de Imagens}{46}{subsection.2.12.2}% 
 \contentsline {subsection}{\numberline {2.12.3}Pipeline de Processamento}{47}{subsection.2.12.3}% 
 \contentsline {subsection}{\numberline {2.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{47}{subsection.2.12.4}% 
-\contentsline {subsection}{\numberline {2.12.5}Controle de Qualidade}{48}{subsection.2.12.5}% 
-\contentsline {section}{\numberline {2.13}MinIO Object Storage}{48}{section.2.13}% 
+\contentsline {subsection}{\numberline {2.12.5}Controle de Qualidade}{47}{subsection.2.12.5}% 
+\contentsline {section}{\numberline {2.13}MinIO Object Storage}{47}{section.2.13}% 
 \contentsline {subsection}{\numberline {2.13.1}Arquitetura e Benef\IeC {\'\i }cios}{48}{subsection.2.13.1}% 
-\contentsline {subsection}{\numberline {2.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{49}{subsection.2.13.2}% 
+\contentsline {subsection}{\numberline {2.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{48}{subsection.2.13.2}% 
 \contentsline {section}{\numberline {2.14}Delta Lake}{49}{section.2.14}% 
 \contentsline {subsection}{\numberline {2.14.1}Arquitetura e Benef\IeC {\'\i }cios}{49}{subsection.2.14.1}% 
-\contentsline {subsection}{\numberline {2.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{50}{subsection.2.14.2}% 
-\contentsline {section}{\numberline {2.15}Related Works}{51}{section.2.15}% 
-\contentsline {subsection}{\numberline {2.15.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{51}{subsection.2.15.1}% 
+\contentsline {subsection}{\numberline {2.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{49}{subsection.2.14.2}% 
+\contentsline {section}{\numberline {2.15}Related Works}{50}{section.2.15}% 
+\contentsline {subsection}{\numberline {2.15.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{50}{subsection.2.15.1}% 
 \contentsline {subsection}{\numberline {2.15.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{51}{subsection.2.15.2}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{53}{chapter.3}% 

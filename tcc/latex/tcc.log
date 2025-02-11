@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  11 FEB 2025 04:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  11 FEB 2025 04:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,13 +880,17 @@ Overfull \hbox (6.79524pt too wide) in paragraph at lines 3--3
 ] [14
 
 ])
-(./fixos/indiceAutomatico.tex (./tcc.toc [15] [16]
-Overfull \hbox (10.03238pt too wide) in paragraph at lines 93--93
+(./fixos/indiceAutomatico.tex (./tcc.toc
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
+ [15]
+[16]
+Overfull \hbox (10.03238pt too wide) in paragraph at lines 91--91
  [][] [] []  
  []
 
 
-Overfull \hbox (299.13713pt too wide) in paragraph at lines 94--94
+Overfull \hbox (299.13713pt too wide) in paragraph at lines 92--92
  [][] [] []  
  []
 
@@ -992,23 +996,23 @@ Overfull \hbox (25.61392pt too wide) in paragraph at lines 540--541
 i-mi-ta-ções ([][][][][][],
  []
 
-[42]
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
- [43]
-[44] [45]
+[42] [43] [44] [45]
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [46]
-[47] [48] [49]
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+ [47]
+[48]
 File: figuras/deltaLake.eps Graphic file (type eps)
  <figuras/deltaLake.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50])
-(./editaveis/metodologia.tex [51] [52] [53
+ [49]
+[50]) (./editaveis/metodologia.tex [51] [52
 
-]) (./editaveis/projeto.tex [54]
+] [53]) (./editaveis/projeto.tex
+[54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55
@@ -1063,17 +1067,20 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 7FCA091B27556E8FA76278EE8476899B;7550
-(rerunfilecheck)             After:  2E6FD670CBA1288DE113EA7F39120868;7550.
+(rerunfilecheck)             Before: EE87BE5820AD67DBCB8FE4C51BF6FE67;7424
+(rerunfilecheck)             After:  4FB431BBD635E002C1B8D9A9BFFC0C99;7424.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12017 strings out of 494542
- 180753 string characters out of 6176699
- 332842 words of memory out of 5000000
- 15426 multiletter control sequences out of 15000+600000
+ 12015 strings out of 494542
+ 180739 string characters out of 6176699
+ 332206 words of memory out of 5000000
+ 15424 multiletter control sequences out of 15000+600000
  70090 words of font info for 51 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (69 pages, 404780 bytes).
+Output written on tcc.dvi (69 pages, 399680 bytes).
