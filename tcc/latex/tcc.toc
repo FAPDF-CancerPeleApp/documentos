@@ -92,21 +92,27 @@
 \contentsline {subsection}{\numberline {2.15.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{51}{subsection.2.15.2}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{53}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Estudo de Caso}{53}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Experience report}{53}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{53}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Processo de Constru\IeC {\c c}\IeC {\~a}o da Arquitetura de Data Fabric}{54}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos}{54}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Desenvolvimento da Arquitetura}{54}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Implementa\IeC {\c c}\IeC {\~a}o e Testes}{54}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Li\IeC {\c c}\IeC {\~o}es Aprendidas}{55}{section.3.4}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{55}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Requisitos}{55}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{55}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{56}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{57}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Arquitetura}{57}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Diagrama de Arquitetura}{57}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Diagrama de Fluxo de Dados}{58}{subsection.4.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Componentes da Arquitetura}{59}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Fluxo de Dados}{60}{subsection.4.2.4}% 
-\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{60}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Roadmap de Implementa\IeC {\c c}\IeC {\~a}o}{61}{section.4.4}% 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{57}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos}{57}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{57}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{58}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{59}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Arquitetura}{59}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Diagrama de Arquitetura}{59}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Diagrama de Fluxo de Dados}{60}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Componentes da Arquitetura}{61}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Fluxo de Dados}{62}{subsection.4.2.4}% 
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{62}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{63}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{64}{section.4.5}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{63}{section*.12}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{65}{section*.12}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  11 FEB 2025 04:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  20 FEB 2025 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,13 +897,13 @@ Overfull \hbox (299.13713pt too wide) in paragraph at lines 92--92
 ) [17] [18
 
 ]) (./editaveis/introducao.tex
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 19.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 23.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 19.
  [19
 
 ])
@@ -1011,13 +1011,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49]
 [50]) (./editaveis/metodologia.tex [51] [52
 
-] [53]) (./editaveis/projeto.tex
-[54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [53]
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
- [55
+ [54])
+(./editaveis/projeto.tex [55] [56
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
 Overfull \hbox (9.59521pt too wide) in paragraph at lines 53--67
  [][] 
  []
@@ -1025,25 +1028,25 @@ Overfull \hbox (9.59521pt too wide) in paragraph at lines 53--67
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57]
+ [58]
+[59]
 File: figuras/arquitetura.eps Graphic file (type eps)
- <figuras/arquitetura.eps> [58]
+ <figuras/arquitetura.eps> [60]
 File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
- <figuras/diagrama_fluxo_dados.eps> [59]
-[60]) (./tcc.bbl (./tcc.brf)
+ <figuras/diagrama_fluxo_dados.eps> [61]
+[62] [63]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [61] [62
-
-]
+ [64]
 bibitemlist
-[63] [64] [65] [66])
+[65
+
+] [66] [67] [68])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[67]
+[69]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1075,12 +1078,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12015 strings out of 494542
- 180739 string characters out of 6176699
- 332206 words of memory out of 5000000
- 15424 multiletter control sequences out of 15000+600000
+ 12021 strings out of 494542
+ 180781 string characters out of 6176699
+ 332268 words of memory out of 5000000
+ 15430 multiletter control sequences out of 15000+600000
  70090 words of font info for 51 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (69 pages, 399680 bytes).
+Output written on tcc.dvi (71 pages, 413044 bytes).
