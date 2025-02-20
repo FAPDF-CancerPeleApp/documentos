@@ -98,7 +98,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos}{54}{subsection.3.3.1}% 
 \contentsline {subsection}{\numberline {3.3.2}Desenvolvimento da Arquitetura}{54}{subsection.3.3.2}% 
 \contentsline {subsection}{\numberline {3.3.3}Implementa\IeC {\c c}\IeC {\~a}o e Testes}{54}{subsection.3.3.3}% 
-\contentsline {section}{\numberline {3.4}Li\IeC {\c c}\IeC {\~o}es Aprendidas}{55}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Li\IeC {\c c}\IeC {\~o}es Esperadas}{55}{section.3.4}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{57}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Requisitos}{57}{section.4.1}% 

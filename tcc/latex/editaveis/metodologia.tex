@@ -2,20 +2,24 @@
 
 \section{Experience report}
 
-O Experience report é uma metodologia de pesquisa que descreve e analisa um processo ou projeto específico, destacando os passos tomados, os desafios enfrentados e as lições aprendidas ao longo do caminho. No presente trabalho, optamos por um Experience report para compartilhar o processo de construção de uma arquitetura de Data Fabric para salvar imagens de câncer de pele. Este relatório visa fornecer uma visão detalhada e prática do desenvolvimento do sistema, oferecendo insights valiosos para profissionais e pesquisadores interessados em projetos semelhantes.
+O Experience report é uma metodologia de pesquisa que descreve e analisa um processo ou projeto específico, destacando os passos planejados, os desafios esperados e as estratégias a serem adotadas. No presente trabalho, optamos por um Experience report para documentar o processo de concepção e planejamento da construção de uma arquitetura de Data Fabric para salvar imagens de câncer de pele. Este relatório visa fornecer uma visão detalhada e prática do desenvolvimento do sistema, oferecendo insights valiosos para profissionais e pesquisadores interessados em projetos semelhantes.
 
 \section{Perguntas de Pesquisa}
 
 As perguntas de pesquisa deste Experience report foram formuladas para investigar como a arquitetura de Data Fabric pode ser usada no armazenamento e processamento de imagens de câncer de pele. As perguntas específicas são:
 
-\begin{enumerate} \item \textbf{Como a arquitetura de Data Fabric pode ser implementada para melhorar o armazenamento e o processamento de imagens de câncer de pele?} \begin{itemize} \item Exemplo: Quais são os componentes essenciais para uma arquitetura de Data Fabric eficaz nesse caso? \end{itemize}
+\begin{enumerate}
+\item \textbf{Como a arquitetura de Data Fabric pode ser implementada para melhorar o armazenamento e o processamento de imagens de câncer de pele?}
+\begin{itemize}
+\item Exemplo: Quais são os componentes essenciais para uma arquitetura de Data Fabric eficaz nesse caso?
+\end{itemize}
 
 \item \textbf{Quais são os desafios enfrentados na implementação de uma arquitetura de Data Fabric para imagens médicas?}
 \begin{itemize}
-    \item Exemplo: Quais são as principais dificuldades técnicas e operacionais encontradas durante a implementação?
+    \item Exemplo: Quais são as principais dificuldades técnicas e operacionais que podem surgir durante a implementação?
 \end{itemize}
 
-\item \textbf{De que maneira a arquitetura de Data Fabric impacta a eficiência do processamento de imagens de câncer de pele?}
+\item \textbf{De que maneira a arquitetura de Data Fabric pode impactar a eficiência do processamento de imagens de câncer de pele?}
 \begin{itemize}
     \item Exemplo: Como a utilização de Data Fabric pode influenciar a velocidade e a precisão do processamento dessas imagens?
 \end{itemize}
@@ -29,30 +33,35 @@ As perguntas de pesquisa deste Experience report foram formuladas para investiga
 \begin{itemize}
     \item Exemplo: Quais medidas são recomendadas para proteger as informações sensíveis dos pacientes?
 \end{itemize}
-\end{enumerate}
 
+\end{enumerate}
 
 \section{Processo de Construção da Arquitetura de Data Fabric}
 
-A construção da arquitetura de Data Fabric para salvar imagens de câncer de pele envolveu várias etapas, desde a definição dos requisitos até a implementação e testes finais. A seguir, detalhamos cada uma dessas etapas:
+A construção da arquitetura de Data Fabric para salvar imagens de câncer de pele será realizada no TCC2 e envolverá diversas etapas, desde a definição dos requisitos até a implementação e testes finais. A seguir, detalhamos o planejamento dessas etapas:
 
 \subsection{Definição de Requisitos}
 
-Para o desenvolvimento do projeto, foram definidos requisitos funcionais e não funcionais, além de histórias de usuário que orientam a construção do sistema. Esses requisitos foram essenciais para garantir que o sistema atenda às necessidades dos usuários e cumpra com as expectativas de desempenho, segurança e escalabilidade.
+Para o desenvolvimento do projeto, serão definidos requisitos funcionais e não funcionais, além de histórias de usuário que orientarão a construção do sistema. Esses requisitos serão essenciais para garantir que o sistema atenda às necessidades dos usuários e cumpra com as expectativas de desempenho, segurança e escalabilidade.
 
 \subsection{Desenvolvimento da Arquitetura}
 
-A arquitetura do projeto foi baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. Incluímos componentes como MinIO para armazenamento distribuído, Apache Airflow para orquestração de pipelines, Delta Lake para gestão transacional de dados e Delta Sharing para compartilhamento seguro de dados.
+A arquitetura do projeto será baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. Planejamos incluir componentes como MinIO para armazenamento distribuído, Apache Airflow para orquestração de pipelines, Delta Lake para gestão transacional de dados e Delta Sharing para compartilhamento seguro de dados.
 
 \subsection{Implementação e Testes}
 
-A implementação foi conduzida em etapas sequenciais, com testes realizados em cada fase para garantir a funcionalidade e a integração dos componentes. Utilizamos Kubernetes para orquestração de contêineres, garantindo escalabilidade e alta disponibilidade do sistema. Os testes incluíram verificação de desempenho, segurança e conformidade com regulamentações de proteção de dados como a LGPD.
+A implementação será conduzida no TCC2, seguindo uma abordagem iterativa com testes realizados em cada fase para garantir a funcionalidade e a integração dos componentes. Pretendemos utilizar Kubernetes para orquestração de contêineres, garantindo escalabilidade e alta disponibilidade do sistema. Os testes incluirão verificação de desempenho, segurança e conformidade com regulamentações de proteção de dados como a LGPD.
 
-\section{Lições Aprendidas}
+\section{Lições Esperadas}
 
-Durante o desenvolvimento do projeto, várias lições foram aprendidas que podem ser úteis para futuros projetos semelhantes:
+Com base no planejamento do projeto, antecipamos algumas lições que poderão ser aprendidas durante o desenvolvimento e que poderão servir como diretrizes para futuros projetos semelhantes:
 
-\begin{itemize} \item \textbf{Importância da Governança de Dados}: A gestão centralizada dos dados e o controle de acesso baseado em papéis foram cruciais para garantir a segurança e a privacidade das informações dos pacientes. \item \textbf{Scalabilidade e Desempenho}: Utilizar ferramentas como Kubernetes e Apache Spark foi fundamental para garantir que o sistema pudesse escalar e processar grandes volumes de dados de forma eficiente. \item \textbf{Interoperabilidade}: A adoção de padrões como FHIR facilitou a integração com diferentes fontes de dados e sistemas existentes. \item \textbf{Colaboração e Compartilhamento de Dados}: O uso de Delta Sharing permitiu compartilhar dados de forma segura e eficiente com outras organizações e pesquisadores, promovendo a colaboração em larga escala. \item \textbf{Conformidade com Regulamentações}: Garantir a conformidade com regulamentações de proteção de dados, como a LGPD, foi essencial para a aceitação e confiança dos usuários no sistema. \end{itemize}
+\begin{itemize}
+\item \textbf{Importância da Governança de Dados}: A gestão centralizada dos dados e o controle de acesso baseado em papéis serão cruciais para garantir a segurança e a privacidade das informações dos pacientes.
+\item \textbf{Escalabilidade e Desempenho}: Ferramentas como Kubernetes e Apache Spark serão fundamentais para garantir que o sistema possa escalar e processar grandes volumes de dados de forma eficiente.
+\item \textbf{Interoperabilidade}: A adoção de padrões como FHIR poderá facilitar a integração com diferentes fontes de dados e sistemas existentes.
+\item \textbf{Colaboração e Compartilhamento de Dados}: O uso de Delta Sharing permitirá compartilhar dados de forma segura e eficiente com outras organizações e pesquisadores, promovendo a colaboração em larga escala.
+\item \textbf{Conformidade com Regulamentações}: Garantir a conformidade com regulamentações de proteção de dados, como a LGPD, será essencial para a aceitação e confiança dos usuários no sistema.
+\end{itemize}
 
-Estas lições aprendidas destacam a importância de uma abordagem estruturada e bem planejada para o desenvolvimento de sistemas complexos como a arquitetura de Data Fabric, e fornecem diretrizes valiosas para futuros projetos na área de saúde e tecnologia.
-
+Estas considerações destacam a importância de uma abordagem estruturada e bem planejada para o desenvolvimento de sistemas complexos como a arquitetura de Data Fabric, servindo como base para a execução do projeto no TCC2.

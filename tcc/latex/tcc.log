@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  20 FEB 2025 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  20 FEB 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,10 +1011,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49]
 [50]) (./editaveis/metodologia.tex [51] [52
 
-] [53]
-Underfull \vbox (badness 1389) has occurred while \output is active []
-
- [54])
+] [53] [54])
 (./editaveis/projeto.tex [55] [56
 
 ]
@@ -1086,4 +1083,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (71 pages, 413020 bytes).
+Output written on tcc.dvi (71 pages, 413228 bytes).
