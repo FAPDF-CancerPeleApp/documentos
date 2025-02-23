@@ -95,10 +95,14 @@
 \contentsline {section}{\numberline {3.1}Experience report}{53}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{53}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Processo de Constru\IeC {\c c}\IeC {\~a}o da Arquitetura de Data Fabric}{54}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos}{54}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Desenvolvimento da Arquitetura}{54}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Implementa\IeC {\c c}\IeC {\~a}o e Testes}{54}{subsection.3.3.3}% 
-\contentsline {section}{\numberline {3.4}Li\IeC {\c c}\IeC {\~o}es Esperadas}{55}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.3.1}Implementa\IeC {\c c}\IeC {\~a}o da Arquitetura}{54}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Testes e Valida\IeC {\c c}\IeC {\~a}o}{54}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Resultados Esperados}{54}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Li\IeC {\c c}\IeC {\~o}es Aprendidas}{55}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Benef\IeC {\'\i }cios de Integrar Fontes Externas de Dados}{55}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Por que Data Fabric em vez de apenas um Data Lake}{55}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Automa\IeC {\c c}\IeC {\~a}o e Efici\IeC {\^e}ncia Operacional}{55}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Import\IeC {\^a}ncia da Seguran\IeC {\c c}a e Conformidade}{56}{subsection.3.4.4}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{57}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Requisitos}{57}{section.4.1}% 
