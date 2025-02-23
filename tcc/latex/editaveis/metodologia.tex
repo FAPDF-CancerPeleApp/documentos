@@ -2,7 +2,7 @@
 
 \section{Experience report}
 
-O Experience report é uma metodologia de pesquisa que descreve e analisa um processo ou projeto específico, destacando os passos planejados, os desafios esperados e as estratégias a serem adotadas. No presente trabalho, optamos por um Experience report para documentar o processo de concepção e planejamento da construção de uma arquitetura de Data Fabric para salvar imagens de câncer de pele. Este relatório visa fornecer uma visão detalhada e prática do desenvolvimento do sistema, oferecendo insights valiosos para profissionais e pesquisadores interessados em projetos semelhantes.
+O Experience report é uma metodologia de pesquisa que descreve e analisa um processo ou projeto específico, destacando os passos planejados, os desafios esperados e as estratégias a serem adotadas. No presente trabalho, optamos por um Experience report para documentar o processo de concepção e planejamento da construção de uma arquitetura de Data Fabric para imagens de câncer de pele. 
 
 \section{Perguntas de Pesquisa}
 
@@ -38,30 +38,33 @@ As perguntas de pesquisa deste Experience report foram formuladas para investiga
 
 \section{Processo de Construção da Arquitetura de Data Fabric}
 
-A construção da arquitetura de Data Fabric para salvar imagens de câncer de pele será realizada no TCC2 e envolverá diversas etapas, desde a definição dos requisitos até a implementação e testes finais. A seguir, detalhamos o planejamento dessas etapas:
+A construção da arquitetura de Data Fabric para armazenamento e processamento de imagens de câncer de pele será realizada no TCC2, com base nos requisitos definidos. O objetivo será validar a viabilidade da arquitetura proposta e garantir que os componentes funcionem de maneira integrada, eficiente e segura. A seguir, detalhamos as etapas que serão seguidas na execução do projeto.
 
-\subsection{Definição de Requisitos}
+\subsection{Implementação da Arquitetura}
 
-Para o desenvolvimento do projeto, serão definidos requisitos funcionais e não funcionais, além de histórias de usuário que orientarão a construção do sistema. Esses requisitos serão essenciais para garantir que o sistema atenda às necessidades dos usuários e cumpra com as expectativas de desempenho, segurança e escalabilidade.
+A implementação será conduzida de forma iterativa e incremental, garantindo que cada componente seja validado antes da integração final. A arquitetura será implantada utilizando Kubernetes, proporcionando escalabilidade e alta disponibilidade. Os principais componentes a serem configurados incluem o MinIO para armazenamento distribuído de imagens médicas, Apache Airflow para orquestração de pipelines de dados, Delta Lake para gestão transacional e versionamento dos dados e Delta Sharing para compartilhamento seguro e governança de dados, onde cada componente será implantado e testado individualmente antes da integração completa da solução.
 
-\subsection{Desenvolvimento da Arquitetura}
+\subsection{Testes e Validação}
 
-A arquitetura do projeto será baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. Planejamos incluir componentes como MinIO para armazenamento distribuído, Apache Airflow para orquestração de pipelines, Delta Lake para gestão transacional de dados e Delta Sharing para compartilhamento seguro de dados.
+Os testes no TCC2 serão fundamentais para avaliar a eficiência, segurança e confiabilidade da arquitetura. Serão realizadas verificações de integração para garantir a comunicação entre os componentes, testes de desempenho para avaliar a escalabilidade e latência no processamento de imagens médicas, testes de segurança para validar criptografia, controle de acesso e anonimização de dados conforme a LGPD, além de testes de conformidade para assegurar o alinhamento com regulamentações e boas práticas de proteção de dados.
 
-\subsection{Implementação e Testes}
+\subsection{Resultados Esperados}
+Ao final do TCC2, espera-se obter uma arquitetura funcional, testada e validada, pronta para aplicação prática no armazenamento e processamento de imagens de câncer de pele. A implementação servirá como base para futuras melhorias e adaptações, além de permitir a análise de desafios práticos não previstos no modelo teórico.
 
-A implementação será conduzida no TCC2, seguindo uma abordagem iterativa com testes realizados em cada fase para garantir a funcionalidade e a integração dos componentes. Pretendemos utilizar Kubernetes para orquestração de contêineres, garantindo escalabilidade e alta disponibilidade do sistema. Os testes incluirão verificação de desempenho, segurança e conformidade com regulamentações de proteção de dados como a LGPD.
+\section{Lições Aprendidas}
+A proposta desenvolvida concentrou-se em projetar uma arquitetura de Data Fabric para armazenamento e processamento de imagens de câncer de pele, sem a realização de experimentos práticos. O estudo teórico e a elaboração do projeto proporcionaram reflexões importantes que direcionaram escolhas tecnológicas e de design. A seguir, destacamos as principais lições aprendidas.
 
-\section{Lições Esperadas}
+\subsection{Benefícios de Integrar Fontes Externas de Dados}
+A integração de dados provenientes de fontes externas, como bases públicas, bancos de parceiros e repositórios de pesquisas clínicas, mostrou-se essencial para aprimorar a diversidade e a qualidade dos dados. No caso de imagens médicas, especialmente em diagnósticos de câncer de pele, essa diversidade é fundamental para reduzir vieses e melhorar a generalização dos modelos de machine learning. Além disso, a integração evita a criação de silos de dados, garantindo que as informações sejam acessíveis e analisáveis de forma unificada e segura. Outro benefício é a otimização de custos e esforços, pois a centralização da ingestão e do gerenciamento de dados permite maior produtividade, eliminando a necessidade de recriar processos de ETL, ferramentas de segurança e configurações de infraestrutura para cada nova fonte.
 
-Com base no planejamento do projeto, antecipamos algumas lições que poderão ser aprendidas durante o desenvolvimento e que poderão servir como diretrizes para futuros projetos semelhantes:
+\subsection{Por que Data Fabric em vez de apenas um Data Lake}
+Embora um Data Lake isolado pudesse armazenar grandes volumes de dados não estruturados, a adoção de uma abordagem de Data Fabric se mostrou mais vantajosa. Isso porque o Data Fabric oferece uma visão global e governança unificada, com mecanismos avançados de auditoria, segurança granular e rastreabilidade, superando a limitação dos Data Lakes tradicionais, que funcionam apenas como grandes repositórios de arquivos. Além disso, o Data Fabric permite a integração com diversas fontes de dados, suportando múltiplos formatos e ecossistemas híbridos sem exigir a migração física dos dados para um único local. Outro diferencial é a camada semântica e o uso avançado de metadados, que possibilitam a descoberta, catalogação e correlação automática dos dados, facilitando a busca e o consumo self-service de informações. Por fim, o Data Fabric se destaca pela automação de processos de ingestão, limpeza e enriquecimento de dados por meio de orquestradores como o Apache Airflow, tornando a arquitetura mais escalável e reduzindo custos operacionais.
 
-\begin{itemize}
-\item \textbf{Importância da Governança de Dados}: A gestão centralizada dos dados e o controle de acesso baseado em papéis serão cruciais para garantir a segurança e a privacidade das informações dos pacientes.
-\item \textbf{Escalabilidade e Desempenho}: Ferramentas como Kubernetes e Apache Spark serão fundamentais para garantir que o sistema possa escalar e processar grandes volumes de dados de forma eficiente.
-\item \textbf{Interoperabilidade}: A adoção de padrões como FHIR poderá facilitar a integração com diferentes fontes de dados e sistemas existentes.
-\item \textbf{Colaboração e Compartilhamento de Dados}: O uso de Delta Sharing permitirá compartilhar dados de forma segura e eficiente com outras organizações e pesquisadores, promovendo a colaboração em larga escala.
-\item \textbf{Conformidade com Regulamentações}: Garantir a conformidade com regulamentações de proteção de dados, como a LGPD, será essencial para a aceitação e confiança dos usuários no sistema.
-\end{itemize}
+\subsection{Automação e Eficiência Operacional}
+A arquitetura projetada destacou a importância da automação para garantir escalabilidade. O Apache Airflow desempenha um papel fundamental na automação das etapas de ingestão, limpeza e processamento dos dados, permitindo que as equipes foquem em análise e desenvolvimento, e não em tarefas repetitivas. Além disso, a integração do Delta Lake e do Delta Sharing permitiu maior controle sobre a qualidade e versionamento dos dados, viabilizando auditorias detalhadas e o compartilhamento seguro de informações entre diferentes organizações, garantindo conformidade com a LGPD.
 
-Estas considerações destacam a importância de uma abordagem estruturada e bem planejada para o desenvolvimento de sistemas complexos como a arquitetura de Data Fabric, servindo como base para a execução do projeto no TCC2.
+\subsection{Importância da Segurança e Conformidade}
+A conformidade com regulamentações como a LGPD deve ser priorizada desde o início do projeto. Medidas como criptografia, controle de acesso baseado em funções (RBAC) e anonimização de dados são essenciais para proteger informações sensíveis e garantir transparência e rastreabilidade no uso dos dados.
+
+
+O estudo reforçou que um Data Fabric bem estruturado pode melhorar significativamente a qualidade, governança e eficiência operacional de um sistema de análise de imagens médicas. A escolha cuidadosa das tecnologias, a integração de fontes diversas e a automação de processos são fatores-chave para o sucesso do projeto. Além disso, a segurança e conformidade com regulamentações não devem ser vistas apenas como obrigações, mas como diferenciais estratégicos que garantem confiabilidade e longevidade à solução desenvolvida.

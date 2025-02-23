@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.1.28)  20 FEB 2025 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2024.11.6)  20 FEB 2025 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,13 +1011,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49]
 [50]) (./editaveis/metodologia.tex [51] [52
 
-] [53] [54])
-(./editaveis/projeto.tex [55] [56
-
-]
+] [53] [54] [55])
+(./editaveis/projeto.tex [56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [57
+
+]
 Overfull \hbox (9.59521pt too wide) in paragraph at lines 53--67
  [][] 
  []
@@ -1075,12 +1075,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12021 strings out of 494542
- 180781 string characters out of 6176699
- 332268 words of memory out of 5000000
- 15430 multiletter control sequences out of 15000+600000
+ 12025 strings out of 494542
+ 180809 string characters out of 6176699
+ 332314 words of memory out of 5000000
+ 15434 multiletter control sequences out of 15000+600000
  70090 words of font info for 51 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (71 pages, 413228 bytes).
+Output written on tcc.dvi (71 pages, 419240 bytes).
