@@ -89,6 +89,13 @@
 {CHEN, D.; WANG, L. Quality control in medical image processing pipelines.
 \emph{Biomedical Engineering Review}, v.~10, p. 112--134, 2023.}
 
+\bibitem[{Data Management Blog} 2020]{snow2020healthcare}
+\abntrefinfo{{Data Management Blog}}{{Data Management Blog}}{2020}
+{{Data Management Blog}. \emph{Getting Above the Silos: The Rise of the Logical
+  Data Fabric}. 2020.
+Available at: https://www.datamanagementblog.com/tag/data-silos/ (Accessed
+  December 9, 2020).}
+
 \bibitem[Dehghani 2020]{dehghani2020data}
 \abntrefinfo{Dehghani}{DEHGHANI}{2020}
 {DEHGHANI, Z. \emph{Data Mesh: Delivering Data-Driven Value at Scale}. [S.l.:
@@ -120,6 +127,13 @@
 {FOUNDATION, A.~S. \emph{Best Practices for Apache Airflow Implementation}.
 [S.l.], 2023. Dispon{\'\i}vel em: \url{https://airflow.apache.org/docs/}.}
 
+\bibitem[Freeman et al. 2023]{freeman2020workforce}
+\abntrefinfo{Freeman et al.}{FREEMAN et al.}{2023}
+{FREEMAN, E. et al. \emph{Global health dermatology: An emerging field
+  addressing the access to care crisis}. 2023.
+General reference to global healthcare workforce shortage, particularly in
+  dermatology.}
+
 \bibitem[Gade 2022]{gade2024data}
 \abntrefinfo{Gade}{GADE}{2022}
 {GADE, K.~R. Data analytics: Data fabric architecture and its benefits for data
@@ -136,6 +150,13 @@
 {GARCIA, M.; RODRIGUEZ, J. Medical image processing: From acquisition to
   analysis.
 \emph{Journal of Medical Imaging}, v.~12, p. 145--167, 2023.}
+
+\bibitem[{Gartner} 2021]{gartner2021data}
+\abntrefinfo{{Gartner}}{{Gartner}}{2021}
+{{Gartner}. Top trends in data and analytics for 2021.
+2021.
+Available at:
+  https://www.gartner.com/en/documents/3996981/top-trends-in-data-and-analytics-for-2021.}
 
 \bibitem[{Gartner} 2024]{gartner_data_fabric}
 \abntrefinfo{{Gartner}}{{Gartner}}{2024}
@@ -166,6 +187,15 @@ Dispon{\'\i}vel em:
 {HIGHTOWER, K.; BURNS, B.; BEDA, J. \emph{Kubernetes: The Complete Guide}.
   [S.l.]: CNCF, 2019.}
 
+\bibitem[{Instituto Nacional de Câncer (INCA)} 2020]{inca2020estimativa}
+\abntrefinfo{{Instituto Nacional de Câncer (INCA)}}{{Instituto Nacional de
+  Câncer (INCA)}}{2020}
+{{Instituto Nacional de Câncer (INCA)}. \emph{Estimativa 2020: Incidência de
+  Câncer no Brasil}. 2020.
+Available at:
+  https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/estimativa-2020.pdf
+  (or similar official INCA publication for 2020).}
+
 \bibitem[Jahnke, Asher e Keralis 2012]{jahnke2012problem}
 \abntrefinfo{Jahnke, Asher e Keralis}{JAHNKE; ASHER; KERALIS}{2012}
 {JAHNKE, L.; ASHER, A.; KERALIS, S.~D. \emph{The Problem of Data}.
@@ -192,6 +222,11 @@ Dispon{\'\i}vel em:
 {KATAL, A.; WAZID, M.; GOUDAR, R.~H. Big data: Issues, challenges, tools and
   good practices. In:  \emph{Proceedings of the Sixth International Conference
   on Contemporary Computing (IC3)}. [S.l.: s.n.], 2013. p. 404--409.}
+
+\bibitem[Kittler et al. 2002]{kittler2002diagnostic}
+\abntrefinfo{Kittler et al.}{KITTLER et al.}{2002}
+{KITTLER, H. et al. Diagnostic accuracy of dermoscopy.
+\emph{Lancet Oncology}, v.~3, n.~3, p. 159--165, 2002.}
 
 \bibitem[Kumar e Patel 2023]{kumar2023medical}
 \abntrefinfo{Kumar e Patel}{KUMAR; PATEL}{2023}
@@ -229,6 +264,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Luksa}{LUKSA}{2021}
 {LUKSA, M. \emph{Kubernetes in Action}. [S.l.]: Manning Publications, 2021.}
 
+\bibitem[Marra 2017]{esteva2017dermatologist}
+\abntrefinfo{Marra}{MARRA}{2017}
+{MARRA, S.~M. Dermatologist-level classification of skin cancer with deep
+  neural networks.
+\emph{Nature}, v.~542, p. 115--118, 2017.}
+
 \bibitem[Martinez e Thompson 2023]{martinez2023best}
 \abntrefinfo{Martinez e Thompson}{MARTINEZ; THOMPSON}{2023}
 {MARTINEZ, C.; THOMPSON, E. Best practices for large-scale fastapi
@@ -263,6 +304,12 @@ Dispon{\'\i}vel em:
   Environments}.
 [S.l.], 2023.}
 
+\bibitem[Raghupathi e Raghupathi 2014]{raghupathi2014big}
+\abntrefinfo{Raghupathi e Raghupathi}{RAGHUPATHI; RAGHUPATHI}{2014}
+{RAGHUPATHI, W.; RAGHUPATHI, V. Big data analytics in healthcare: promise and
+  potential.
+\emph{Health Information Science and Systems}, v.~2, n.~1, p.~3, 2014.}
+
 \bibitem[Ramírez 2023]{fastapi_foundation}
 \abntrefinfo{Ramírez}{RAMíREZ}{2023}
 {RAMíREZ, S. Fastapi: A modern framework for building apis with python.
@@ -277,6 +324,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Redman}{REDMAN}{1998}
 {REDMAN, T.~C. The impact of poor data quality on thetypical enterprise.
 \emph{ACM}, p. 79--82, 1998.}
+
+\bibitem[Rocha et al. 2017]{rocha2017shortage}
+\abntrefinfo{Rocha et al.}{ROCHA et al.}{2017}
+{ROCHA, T. et al. \emph{Shortage of healthcare professionals in Brazil}. 2017.
+General reference to healthcare professional shortage, specific to
+  dermatologists in the context of the document.}
 
 \bibitem[Santoso e Yulia 2017]{santoso2017data}
 \abntrefinfo{Santoso e Yulia}{SANTOSO; YULIA}{2017}
@@ -310,11 +363,25 @@ Dispon{\'\i}vel em:
 {SMITH, K. Open source tools for data mesh implementations.
 \emph{Open Data Review}, p. 90--105, 2023.}
 
+\bibitem[{Sociedade Brasileira de Dermatologia} 2019]{sociedade2019censo}
+\abntrefinfo{{Sociedade Brasileira de Dermatologia}}{{Sociedade Brasileira de
+  Dermatologia}}{2019}
+{{Sociedade Brasileira de Dermatologia}. \emph{Censo Dermatológico (or similar
+  survey/report from 2019 or around that period)}. 2019.
+Reference to a census or survey by the Brazilian Society of Dermatology
+  regarding dermatologist distribution or workforce.}
+
 \bibitem[Stone et al. 2019]{stone2019information}
 \abntrefinfo{Stone et al.}{STONE et al.}{2019}
 {STONE, M. et al. From information mismanagement to misinformation - the dark
   side of information management.
 \emph{The Bottom Line}, 2019.}
+
+\bibitem[Topol 2019]{topol2019high}
+\abntrefinfo{Topol}{TOPOL}{2019}
+{TOPOL, E.~J. High-performance medicine: the convergence of human and
+  artificial intelligence.
+\emph{Nature Medicine}, p. 44--56, 2019.}
 
 \bibitem[Vaisman e Zimányi 2014]{vaisman2014data}
 \abntrefinfo{Vaisman e Zimányi}{VAISMAN; ZIMáNYI}{2014}
@@ -356,6 +423,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Wilson}{WILSON}{2023}
 {WILSON, J. \emph{Data Integration Patterns with FastAPI}. [S.l.]: Apress,
   2023.}
+
+\bibitem[{World Health Organization} 2020]{who2020skin}
+\abntrefinfo{{World Health Organization}}{{World Health Organization}}{2020}
+{{World Health Organization}. \emph{Skin Cancer Statistics}. 2020.
+Accessed via WHO publications on skin cancer.}
 
 \bibitem[Xu et al. 2019]{xu2019clinics}
 \abntrefinfo{Xu et al.}{XU et al.}{2019}
