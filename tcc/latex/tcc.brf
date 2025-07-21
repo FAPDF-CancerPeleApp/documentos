@@ -1,20 +1,22 @@
-\backcite {topol2019high, esteva2017dermatologist}{{19}{1.1}{section.1.1}}
-\backcite {topol2019high, esteva2017dermatologist}{{19}{1.1}{section.1.1}}
+\backcite {esteva2017dermatologist, topol2019high}{{19}{1.1}{section.1.1}}
+\backcite {esteva2017dermatologist, topol2019high}{{19}{1.1}{section.1.1}}
+\backcite {daneshjou2022disparities}{{19}{1.1}{section.1.1}}
 \backcite {who2020skin}{{19}{1.1}{section.1.1}}
-\backcite {inca2020estimativa}{{19}{1.1}{section.1.1}}
-\backcite {rocha2017shortage}{{19}{1.1}{section.1.1}}
-\backcite {raghupathi2014big}{{19}{1.1}{section.1.1}}
-\backcite {gartner2021data, snow2020healthcare}{{19}{1.1}{section.1.1}}
-\backcite {gartner2021data, snow2020healthcare}{{19}{1.1}{section.1.1}}
-\backcite {kittler2002diagnostic}{{19}{1.1.1}{subsection.1.1.1}}
-\backcite {freeman2020workforce, sociedade2019censo}{{19}{1.1.1}{subsection.1.1.1}}
-\backcite {freeman2020workforce, sociedade2019censo}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {ashrafzadeh2019global}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {mehta2019high}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {lehne2019digital}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {leroux2020standardization}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {daneshjou2022disparities}{{20}{1.1.1}{subsection.1.1.1}}
-\backcite {wilkinson2016fair}{{20}{1.1.1}{subsection.1.1.1}}
+\backcite {freeman2020workforce, inca2020estimativa}{{19}{1.1}{section.1.1}}
+\backcite {freeman2020workforce, inca2020estimativa}{{19}{1.1}{section.1.1}}
+\backcite {raghupathi2014big, lehne2019digital}{{19}{1.1}{section.1.1}}
+\backcite {raghupathi2014big, lehne2019digital}{{19}{1.1}{section.1.1}}
+\backcite {benfeldt2020data}{{19}{1.2}{section.1.2}}
+\backcite {gartner2021data, sharma2023data}{{20}{1.3}{section.1.3}}
+\backcite {gartner2021data, sharma2023data}{{20}{1.3}{section.1.3}}
+\backcite {benfeldt2020data}{{20}{1.4}{section.1.4}}
+\backcite {sharma2023data}{{21}{1.7}{section.1.7}}
+\backcite {lee2024delta}{{21}{1.7}{section.1.7}}
+\backcite {sharma2023data,lee2024delta}{{21}{1.7}{section.1.7}}
+\backcite {sharma2023data,lee2024delta}{{21}{1.7}{section.1.7}}
+\backcite {sharma2023data}{{21}{1.7}{section.1.7}}
+\backcite {lee2024delta}{{21}{1.7}{section.1.7}}
+\backcite {benfeldt2020data}{{22}{1.7}{section.1.7}}
 \backcite {impact_poor_data_1998}{{23}{2.1}{section.2.1}}
 \backcite {haug2011costs}{{23}{2.1}{section.2.1}}
 \backcite {alhassan2016data}{{23}{2.1.1}{subsection.2.1.1}}

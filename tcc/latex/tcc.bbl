@@ -89,12 +89,11 @@
 {CHEN, D.; WANG, L. Quality control in medical image processing pipelines.
 \emph{Biomedical Engineering Review}, v.~10, p. 112--134, 2023.}
 
-\bibitem[{Data Management Blog} 2020]{snow2020healthcare}
-\abntrefinfo{{Data Management Blog}}{{Data Management Blog}}{2020}
-{{Data Management Blog}. \emph{Getting Above the Silos: The Rise of the Logical
-  Data Fabric}. 2020.
-Available at: https://www.datamanagementblog.com/tag/data-silos/ (Accessed
-  December 9, 2020).}
+\bibitem[Daneshjou et al. 2022]{daneshjou2022disparities}
+\abntrefinfo{Daneshjou et al.}{DANESHJOU et al.}{2022}
+{DANESHJOU, R. et al. Disparities in dermatology ai performance on a diverse,
+  curated clinical image set.
+\emph{Science Advances}, v.~8, n.~32, p. abq6147, 2022.}
 
 \bibitem[Dehghani 2020]{dehghani2020data}
 \abntrefinfo{Dehghani}{DEHGHANI}{2020}
@@ -223,11 +222,6 @@ Available at:
   good practices. In:  \emph{Proceedings of the Sixth International Conference
   on Contemporary Computing (IC3)}. [S.l.: s.n.], 2013. p. 404--409.}
 
-\bibitem[Kittler et al. 2002]{kittler2002diagnostic}
-\abntrefinfo{Kittler et al.}{KITTLER et al.}{2002}
-{KITTLER, H. et al. Diagnostic accuracy of dermoscopy.
-\emph{Lancet Oncology}, v.~3, n.~3, p. 159--165, 2002.}
-
 \bibitem[Kumar e Patel 2023]{kumar2023medical}
 \abntrefinfo{Kumar e Patel}{KUMAR; PATEL}{2023}
 {KUMAR, A.; PATEL, S. \emph{Medical Image Processing Pipelines: Design and
@@ -253,6 +247,11 @@ Available at:
 \abntrefinfo{Lee et al.}{LEE et al.}{2024}
 {LEE, D. et al. \emph{Delta Lake: The Definitive Guide: Modern Data Lakehouse
   Architectures with Data Lakes}. [S.l.]: O'Reilly Media, 2024.}
+
+\bibitem[Lehne et al. 2019]{lehne2019digital}
+\abntrefinfo{Lehne et al.}{LEHNE et al.}{2019}
+{LEHNE, M. et al. Why digital medicine depends on interoperability.
+\emph{NPJ Digital Medicine}, v.~2, n.~1, p.~79, 2019.}
 
 \bibitem[L'Heureux et al. 2017]{lheureux2017machine}
 \abntrefinfo{L'Heureux et al.}{L'HEUREUX et al.}{2017}
@@ -325,12 +324,6 @@ Available at:
 {REDMAN, T.~C. The impact of poor data quality on thetypical enterprise.
 \emph{ACM}, p. 79--82, 1998.}
 
-\bibitem[Rocha et al. 2017]{rocha2017shortage}
-\abntrefinfo{Rocha et al.}{ROCHA et al.}{2017}
-{ROCHA, T. et al. \emph{Shortage of healthcare professionals in Brazil}. 2017.
-General reference to healthcare professional shortage, specific to
-  dermatologists in the context of the document.}
-
 \bibitem[Santoso e Yulia 2017]{santoso2017data}
 \abntrefinfo{Santoso e Yulia}{SANTOSO; YULIA}{2017}
 {SANTOSO, L.~W.; YULIA. Data warehouse with big data technology for higher
@@ -362,14 +355,6 @@ General reference to healthcare professional shortage, specific to
 \abntrefinfo{Smith}{SMITH}{2023}
 {SMITH, K. Open source tools for data mesh implementations.
 \emph{Open Data Review}, p. 90--105, 2023.}
-
-\bibitem[{Sociedade Brasileira de Dermatologia} 2019]{sociedade2019censo}
-\abntrefinfo{{Sociedade Brasileira de Dermatologia}}{{Sociedade Brasileira de
-  Dermatologia}}{2019}
-{{Sociedade Brasileira de Dermatologia}. \emph{Censo Dermatológico (or similar
-  survey/report from 2019 or around that period)}. 2019.
-Reference to a census or survey by the Brazilian Society of Dermatology
-  regarding dermatologist distribution or workforce.}
 
 \bibitem[Stone et al. 2019]{stone2019information}
 \abntrefinfo{Stone et al.}{STONE et al.}{2019}

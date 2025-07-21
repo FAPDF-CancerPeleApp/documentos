@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.6.9)  9 JUN 2025 04:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  21 JUL 2025 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,75 +885,26 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 
  [15]
 [16]
-Overfull \hbox (10.03238pt too wide) in paragraph at lines 91--91
+Overfull \hbox (10.03238pt too wide) in paragraph at lines 94--94
  [][] [] []  
  []
 
 
-Overfull \hbox (299.13713pt too wide) in paragraph at lines 92--92
+Overfull \hbox (299.13713pt too wide) in paragraph at lines 95--95
  [][] [] []  
  []
 
 ) [17] [18
 
 ]) (./editaveis/introducao.tex
-Overfull \hbox (1.60977pt too wide) in paragraph at lines 6--7
-\T1/lmr/m/n/12 cân-cer de pele não-melanoma e 132.000 de me-la-noma por ano ([]
-[][][][][],
- []
-
-
-Overfull \hbox (110.8722pt too wide) in paragraph at lines 6--7
-\T1/lmr/m/n/12 pre-senta 30% de to-dos os tu-mo-res ma-lig-nos, sendo o mais co
--mum no país ([][][][][][],
- []
-
-
-LaTeX Warning: Citation `ashrafzadeh2019global' on page 19 undefined on input l
-ine 13.
-
-
-Overfull \hbox (1.96147pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/12 tâ-neas e se-me-lhan-ças en-tre pa-to-lo-gias, le-vando a di-ag-
-nós-ti-cos im-pre-ci-sos ([][][][][][],
- []
-
-
-Overfull \hbox (64.12845pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/12 pe-ci-a-lista para cada 25.000 ha-bi-tan-tes ([][][][][][], [][]
-[][][][][]; [][][][][][],
+Overfull \hbox (4.12048pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 cu-los ainda não su-pe-ra-dos ([][][][][][], [][][][][][][]; [][
+][][][][],
  []
 
 [19
 
-]
-
-LaTeX Warning: Citation `mehta2019high' on page 20 undefined on input line 15.
-
-
-LaTeX Warning: Citation `lehne2019digital' on page 20 undefined on input line 1
-5.
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 19.
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 19.
-
-
-LaTeX Warning: Citation `leroux2020standardization' on page 20 undefined on inp
-ut line 19.
-
-
-LaTeX Warning: Citation `daneshjou2022disparities' on page 20 undefined on inpu
-t line 21.
-
-
-LaTeX Warning: Citation `wilkinson2016fair' on page 20 undefined on input line 
-23.
-
-[20] [21]) (./editaveis/referencialTeorico.tex [22]
+] [20] [21]) (./editaveis/referencialTeorico.tex [22]
 Overfull \hbox (47.72498pt too wide) in paragraph at lines 19--23
 \T1/lmr/m/n/12 tindo que os da-dos se-jam con-fiá-veis e ade-qua-dos para aná-l
 ise ([][][][][][],
@@ -973,8 +924,16 @@ mpo,
 
 [27]
 File: figuras/typical_data_warehouse_architecture.eps Graphic file (type eps)
- <figuras/typical_data_warehouse_architecture.eps> [28] [29] [30] [31]
-[32]
+ <figuras/typical_data_warehouse_architecture.eps> [28] [29] [30]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 245.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 245.
+ [31] [32]
 Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
 \T1/lmr/m/n/12 tindo que as or-ga-ni-za-ções ex-traiam o má-ximo va-lor de seus
  da-dos ([][][][][][],
@@ -1057,13 +1016,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [51]
 [52]) (./editaveis/metodologia.tex [53] [54
 
-] [55] [56] [57])
-(./editaveis/projeto.tex [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59
+] [55] [56])
+(./editaveis/projeto.tex [57] [58
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
 Overfull \hbox (9.59521pt too wide) in paragraph at lines 53--67
  [][] 
  []
@@ -1085,19 +1044,19 @@ File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
 bibitemlist
 [67
 
-]
-Underfull \hbox (badness 1496) in paragraph at lines 198--198
+] [68]
+Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 198--198
+Underfull \hbox (badness 2096) in paragraph at lines 197--197
 \T1/lmr/m/it/12 In-ci-dên-cia de Cân-cer no Bra-sil\T1/lmr/m/n/12 . 2020. Avai-
 la-ble at: 
  []
 
-[68] [69] [70])
+[69] [70])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
@@ -1125,23 +1084,20 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 8301F47F61DB1053AE275F3945970CB2;8542
-(rerunfilecheck)             After:  9BFFBB60AAAA701CDE91FE8945C42F8F;8542.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Before: 22CC3C345E0A4AF6147AEA3005FCE61C;8604
+(rerunfilecheck)             After:  F1F8641CC1118CF23FE54E8143AB4738;8604.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12168 strings out of 494542
- 184111 string characters out of 6176700
- 335282 words of memory out of 5000000
- 15577 multiletter control sequences out of 15000+600000
+ 12104 strings out of 494542
+ 182631 string characters out of 6176699
+ 335923 words of memory out of 5000000
+ 15513 multiletter control sequences out of 15000+600000
  70090 words of font info for 51 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (73 pages, 442256 bytes).
+Output written on tcc.dvi (73 pages, 440508 bytes).
