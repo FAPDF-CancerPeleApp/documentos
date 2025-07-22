@@ -1,53 +1,150 @@
 \chapter{Metodologia}
 
-\section{Relato de Experiência}
+\section{Abordagem de Pesquisa}
 
-Este trabalho adota a abordagem de \textit{Experience Report} (relato de experiência) como metodologia principal. Esse tipo de pesquisa busca descrever, analisar criticamente e compartilhar aprendizados obtidos durante a concepção, implementação e validação de soluções tecnológicas em cenários reais. A escolha deste método se justifica pela necessidade de documentar desafios, decisões e práticas durante o desenvolvimento da arquitetura Data Fabric para integração de imagens dermatológicas no contexto do SUS.
+Este trabalho adota a metodologia de \textit{Experience Report} (Relato de Experiência) para documentar o processo de concepção, desenvolvimento e implementação da arquitetura Data Fabric DermAlert. Essa abordagem é especialmente adequada para pesquisas que visam compartilhar aprendizados práticos advindos da implementação de soluções tecnológicas inovadoras em contextos reais, permitindo a análise crítica de desafios, decisões arquiteturais e lições aprendidas ao longo do desenvolvimento. A escolha por este método se fundamenta na natureza aplicada do projeto, que integra aspectos tecnológicos, regulatórios e clínicos na criação de uma solução para integração de dados dermatológicos heterogêneos no âmbito do Sistema Único de Saúde (SUS) brasileiro.
 
 \section{Perguntas de Pesquisa}
 
-As perguntas de pesquisa que nortearam este relato foram:
+O desenvolvimento da arquitetura DermAlert foi orientado pelas seguintes perguntas de pesquisa:
 
 \begin{enumerate}
-    \item Como a arquitetura de Data Fabric pode ser implementada para melhorar o armazenamento e o processamento de imagens de câncer de pele?
-    \item Quais são os principais desafios técnicos, operacionais e regulatórios enfrentados na implementação de uma arquitetura Data Fabric para imagens médicas?
-    \item De que maneira a arquitetura proposta impacta a eficiência, escalabilidade e precisão no processamento de imagens dermatológicas?
-    \item Qual a percepção dos profissionais de saúde quanto à usabilidade, benefícios e limitações da solução desenvolvida?
-    \item Quais práticas garantem segurança, privacidade e conformidade na gestão de dados sensíveis em uma arquitetura Data Fabric?
+    \item Como implementar uma arquitetura Data Fabric que atenda aos requisitos específicos de armazenamento, processamento e governança de imagens dermatológicas e metadados clínicos associados?
+    \item Quais são os principais desafios técnicos, operacionais e regulamentares na implementação de uma arquitetura Data Fabric para dados médicos sensíveis em conformidade com a LGPD?
+    \item De que forma a integração semântica pode resolver a heterogeneidade entre diferentes instituições de saúde em um sistema distribuído?
+    \item Como a virtualização e federação de dados podem melhorar a eficiência no acesso a informações distribuídas sem comprometer a segurança e governança?
+    \item Qual o impacto da arquitetura proposta na qualidade, diversidade e acessibilidade dos dados para o desenvolvimento de modelos de \textit{machine learning} mais equitativos?
 \end{enumerate}
 
-\section{Processo de Construção e Validação da Arquitetura}
+\section{Processo de Desenvolvimento da Arquitetura}
 
-O desenvolvimento da arquitetura DermAlert foi realizado em ciclos iterativos e incrementais, com foco na robustez, flexibilidade e aderência à legislação vigente (LGPD). As principais etapas desse processo incluíram o levantamento de requisitos, desenho e implementação arquitetural, testes e validação com usuários e especialistas.
+O desenvolvimento da arquitetura foi dividido nas seguintes fases:
 
-O levantamento de requisitos envolveu reuniões com profissionais de saúde, especialistas em TI e stakeholders institucionais, buscando compreender necessidades funcionais e não funcionais. Dentre os principais requisitos levantados estavam a diversidade e o volume de imagens e metadados clínicos, interoperabilidade com múltiplas fontes, escalabilidade, segurança, resiliência e baixo custo operacional.
+\subsection{Fase 1: Levantamento de Requisitos e Análise de Contexto}
 
-A arquitetura foi planejada para combinar armazenamento distribuído (MinIO), gerenciamento transacional (Delta Lake), orquestração de pipelines de dados (Apache Airflow), compartilhamento seguro (Delta Sharing), processamento em larga escala (Apache Spark), integração semântica e implantação em Kubernetes para alta disponibilidade.
+O processo iniciou-se com uma análise abrangente do contexto dermatológico brasileiro, incluindo:
+\begin{itemize}
+    \item Desafios epidemiológicos: análise de estatísticas do INCA sobre câncer de pele e necessidades de detecção precoce;
+    \item Limitações tecnológicas: identificação de vieses em bases de dados existentes (como o ISIC Archive) e necessidade de maior diversidade de tons de pele;
+    \item Requisitos regulatórios: mapeamento das exigências da LGPD e normas de segurança em saúde;
+    \item Necessidades operacionais: levantamento de fluxos de trabalho e limitações de infraestrutura junto a profissionais da Atenção Primária.
+\end{itemize}
 
-A implementação foi realizada de maneira incremental, validando cada componente antes da integração completa. Os testes envolveram integração dos módulos, avaliação de desempenho (latência, throughput), testes de segurança (criptografia, anonimização, RBAC e LGPD) e testes de usabilidade com profissionais de saúde.
+\subsection{Fase 2: Concepção Arquitetural}
 
-Para garantir a governança dos dados, estabeleceu-se um catálogo de metadados, logs de auditoria, automação de processos com Airflow e mecanismos de controle de acesso baseados em papéis. O sistema foi projetado para ser auditável, seguro e escalável.
+A arquitetura foi concebida com base nos seguintes princípios:
+\begin{itemize}
+    \item Descentralização: manutenção dos dados em suas fontes originais;
+    \item Elasticidade e escalabilidade: expansão dinâmica da infraestrutura;
+    \item Segurança e governança: conformidade regulatória desde o design;
+    \item Interoperabilidade: integração semântica entre fontes heterogêneas;
+    \item Custo-efetividade: uso de tecnologias \textit{open source}.
+\end{itemize}
 
-\section{Critérios de Validação e Resultados Esperados}
+\subsection{Fase 3: Seleção e Integração Tecnológica}
 
-A arquitetura foi avaliada segundo critérios objetivos de:
+A seleção das tecnologias considerou cinco critérios principais:
+\begin{itemize}
+    \item Escalabilidade;
+    \item Manutenibilidade;
+    \item Resiliência;
+    \item Custo-efetividade;
+    \item Flexibilidade.
+\end{itemize}
 
-- Escalabilidade (capacidade de lidar com aumento de dados e consultas sem perda significativa de performance)
-- Resiliência (tolerância a falhas e recuperação automática)
-- Segurança e privacidade (aderência à LGPD, criptografia e anonimização)
-- Usabilidade (satisfação dos profissionais de saúde)
-- Governança (rastreabilidade, versionamento e compartilhamento seguro dos dados)
+O \textit{stack} tecnológico implementado incluiu:
+\begin{itemize}
+    \item Armazenamento distribuído: MinIO (arquitetura em camadas: bronze, prata, ouro);
+    \item Gerenciamento transacional: Delta Lake para metadados, versionamento e auditoria;
+    \item Orquestração: Apache Airflow para automação de pipelines;
+    \item Processamento: Apache Spark para análises em larga escala;
+    \item Compartilhamento: Delta Sharing para colaboração segura;
+    \item API: FastAPI para interface de acesso;
+    \item Containerização: Kubernetes para alta disponibilidade;
+    \item Governança: catálogo integrado de metadados com IA/ML para descoberta automática.
+    \item Interface de usuário: Next.js/React com Redux para desenvolvimento do frontend, proporcionando experiências reativas, escaláveis e integradas ao backend.
+\end{itemize}
 
-Espera-se ao final obter uma arquitetura funcional, testada e validada, pronta para uso real e para expansão futura.
+\subsection{Fase 4: Implementação da Camada de Integração Semântica}
 
-\section{Lições Aprendidas e Boas Práticas}
+Desenvolvimento de sistema de equivalências terminológicas, incluindo:
+\begin{itemize}
+    \item Mapeamento direto e agrupamentos hierárquicos de termos clínicos;
+    \item Propagação transitiva de equivalências na rede semântica;
+    \item Interoperabilidade multi-institucional entre diferentes nomenclaturas.
+\end{itemize}
 
-A experiência demonstrou que a integração de múltiplas fontes é essencial para reduzir viés e melhorar a qualidade dos dados, especialmente em IA para saúde. A adoção de Data Fabric, em vez de apenas Data Lake, proporcionou governança, automação e integração superiores, evitando silos e facilitando o consumo self-service dos dados.
+\subsection{Fase 5: Desenvolvimento do Aplicativo de Coleta}
 
-A automação dos processos com Apache Airflow foi fundamental para escalabilidade e eficiência operacional, enquanto a governança, com catálogos de metadados e logs de auditoria, garantiu rastreabilidade e segurança. O uso de tecnologias open source permitiu flexibilidade, independência tecnológica e sustentabilidade.
+Desenvolvimento do aplicativo DermAlert para uso em postos de saúde, contemplando:
+\begin{itemize}
+    \item Fluxo clínico otimizado;
+    \item Captura padronizada de imagens;
+    \item Consentimento digital integrado;
+    \item Anonimização dos dados coletados;
+    \item Sincronização assíncrona com o Data Fabric.
+\end{itemize}
 
-A conformidade regulatória não foi vista apenas como obrigação, mas como diferencial estratégico, com práticas de anonimização, criptografia e controle de acesso desde o início do projeto.
+\section{Estratégia de Validação}
+
+\subsection{Validação Técnica}
+
+\begin{itemize}
+    \item Testes de integração entre componentes e consistência do pipeline;
+    \item Avaliação de desempenho: latência de consultas, throughput e escalabilidade;
+    \item Segurança e conformidade: auditoria de criptografia, anonimização, RBAC e aderência à LGPD.
+\end{itemize}
+
+\subsection{Validação Operacional}
+
+\begin{itemize}
+    \item Testes com usuários reais: avaliação de usabilidade e aderência aos fluxos clínicos;
+    \item Piloto controlado em cinco unidades de saúde: monitoramento de métricas operacionais e impacto no trabalho.
+\end{itemize}
+
+\section{Critérios de Avaliação}
+
+\subsection{Métricas Quantitativas}
+
+\begin{itemize}
+    \item Escalabilidade: suporte a uso simultâneo sem degradação;
+    \item Disponibilidade: uptime superior a 99,5\%;
+    \item Latência: resposta inferior a 2s para consultas padrão;
+    \item Throughput: processamento de até 1000 imagens/hora;
+    \item Qualidade de dados: métricas para imagens (resolução, SNR, nitidez, contraste).
+\end{itemize}
+
+\subsection{Métricas Qualitativas}
+
+\begin{itemize}
+    \item Usabilidade: questionários estruturados com profissionais;
+    \item Interoperabilidade: integração com fontes heterogêneas;
+    \item Governança: eficácia de rastreabilidade e auditoria;
+    \item Diversidade: representatividade de tons de pele na base.
+\end{itemize}
+
+
+
+\section{Considerações sobre Sustentabilidade}
+
+\subsection{Sustentabilidade Tecnológica}
+
+\begin{itemize}
+    \item Open source: independência de fornecedores;
+    \item Modularidade: evolução e substituição de componentes;
+    \item Padronização: aderência a padrões internacionais de interoperabilidade;
+    \item Comunidade: engajamento com desenvolvedores.
+\end{itemize}
+
+\subsection{Sustentabilidade Operacional}
+
+\begin{itemize}
+    \item Capacitação de equipes técnicas;
+    \item Documentação operacional e de manutenção;
+    \item Suporte técnico continuado;
+    \item Roadmap de evolução futura.
+\end{itemize}
 
 \section{Considerações Finais sobre a Metodologia}
 
-A metodologia adotada permitiu não só o desenvolvimento robusto da arquitetura, mas também sua validação prática em cenários reais. O ciclo de implementação, validação e refinamento contínuo consolidou as bases para futuras expansões do projeto, incluindo integração com aprendizado federado, análise longitudinal e suporte a novas subespecialidades dermatológicas.
+A abordagem adotada proporcionou base sólida para o desenvolvimento da arquitetura DermAlert, garantindo não só viabilidade técnica, mas também adequação ao contexto da saúde pública brasileira, com foco em equidade, segurança e sustentabilidade.
