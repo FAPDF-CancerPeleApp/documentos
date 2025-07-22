@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  21 JUL 2025 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  22 JUL 2025 07:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -717,7 +717,7 @@ Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count170
@@ -725,9 +725,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box34
 \@float@everytoks=\toks34
 \@floatcapt=\box35
-) (./fixos/comandos.tex) (./fixos/customizacoes.sty) (./editaveis/informacoes.t
-ex)
-(./fixos/informacoes.tex) (./fixos/setup.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip263
+\LTright=\skip264
+\LTpre=\skip265
+\LTpost=\skip266
+\LTchunksize=\count171
+\LTcapwidth=\dimen157
+\LT@head=\box36
+\LT@firsthead=\box37
+\LT@foot=\box38
+\LT@lastfoot=\box39
+\LT@cols=\count172
+\LT@rows=\count173
+\c@LT@tables=\count174
+\c@LT@chunks=\count175
+\LT@p@ftn=\toks35
+))
+(./fixos/comandos.tex) (./fixos/customizacoes.sty) (./editaveis/informacoes.tex
+) (./fixos/informacoes.tex) (./fixos/setup.tex
 Package color Info: Redefining color blue on input line 1.
 Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 )
@@ -757,7 +775,7 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box36
+\AtBeginShipoutBox=\box40
 Package hyperref Info: Link coloring ON on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -766,7 +784,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count176
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -774,8 +792,8 @@ LaTeX Info: Redefining \nameref on input line 9.
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
-\myptabbox=\box37
-\myptabboxwidth=\skip263
+\myptabbox=\box41
+\myptabboxwidth=\skip267
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 9.
@@ -894,55 +912,58 @@ Overfull \hbox (299.13713pt too wide) in paragraph at lines 95--95
  [][] [] []  
  []
 
-) [17] [18
-
-]) (./editaveis/introducao.tex
-Overfull \hbox (4.12048pt too wide) in paragraph at lines 7--8
-\T1/lmr/m/n/12 cu-los ainda não su-pe-ra-dos ([][][][][][], [][][][][][][]; [][
-][][][][],
+[17]) [18]) (./editaveis/introducao.tex
+Overfull \hbox (23.76833pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 pre-sen-tam gran-des obs-tá-cu-los ([][][][][][], [][][][][][][]
+; [][][][][][],
  []
 
-[19
 
-] [20] [21]) (./editaveis/referencialTeorico.tex [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+
+]
+[20]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 36.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 36.
+ [21] [22])
+(./editaveis/referencialTeorico.tex [23] [24
+
+]
 Overfull \hbox (47.72498pt too wide) in paragraph at lines 19--23
 \T1/lmr/m/n/12 tindo que os da-dos se-jam con-fiá-veis e ade-qua-dos para aná-l
 ise ([][][][][][],
  []
 
-[23
-
-]
+[25]
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [24]
-[25] [26]
+ [26]
+[27] [28]
 Overfull \hbox (2.35042pt too wide) in paragraph at lines 134--135
 []\T1/lmr/m/n/12 Os da-dos em um data wa-rehouse in-cluem um com-po-nente de te
 mpo,
  []
 
-[27]
+[29]
 File: figuras/typical_data_warehouse_architecture.eps Graphic file (type eps)
- <figuras/typical_data_warehouse_architecture.eps> [28] [29] [30]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 245.
-
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 245.
- [31] [32]
+ <figuras/typical_data_warehouse_architecture.eps> [30] [31] [32] [33]
+[34]
 Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
 \T1/lmr/m/n/12 tindo que as or-ga-ni-za-ções ex-traiam o má-ximo va-lor de seus
  da-dos ([][][][][][],
  []
 
-[33]
+[35]
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
- [34]
+ [36]
 Overfull \hbox (17.38094pt too wide) in paragraph at lines 333--334
 \T1/lmr/m/n/12 zindo cus-tos em com-pa-ra-ção aos data wa-rehou-ses tra-di-ci-o
 -nais ([][][][][][],
@@ -962,14 +983,14 @@ Overfull \hbox (74.8327pt too wide) in paragraph at lines 348--357
 
 Underfull \vbox (badness 5359) has occurred while \output is active []
 
- [35]
-[36] [37] [38]
+ [37]
+[38] [39] [40]
 Overfull \hbox (49.11676pt too wide) in paragraph at lines 425--426
 []\T1/lmr/m/n/12 Para uma uti-li-za-ção efe-tiva do Air-flow, al-gu-mas prá-ti-
 cas são re-co-men-da-das ([][][][][][],
  []
 
-[39]
+[41]
 Overfull \hbox (17.26836pt too wide) in paragraph at lines 442--443
 \T1/lmr/m/n/12 va-mente mais rá-pido que pa-ra-dig-mas an-te-ri-o-res como Ma-p
 Re-duce ([][][][][][],
@@ -985,11 +1006,11 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 454.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [40]
+) [42]
 Underfull \vbox (badness 4403) has occurred while \output is active []
 
- [41]
-[42] [43]
+ [43]
+[44] [45]
 Overfull \hbox (3.21373pt too wide) in paragraph at lines 534--535
 []\T1/lmr/m/n/12 O Fas-tAPI ofe-rece di-ver-sos me-ca-nis-mos de se-gu-rança ([
 ][][][][][], [][][][][][][]).
@@ -1001,50 +1022,77 @@ Overfull \hbox (25.61392pt too wide) in paragraph at lines 540--541
 i-mi-ta-ções ([][][][][][],
  []
 
-[44] [45] [46] [47]
+[46] [47] [48] [49]
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
- [48]
+ [50]
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [49]
-[50]
+ [51]
+[52]
 File: figuras/deltaLake.eps Graphic file (type eps)
  <figuras/deltaLake.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-[52]) (./editaveis/metodologia.tex [53] [54
+ [53]
+[54]) (./editaveis/metodologia.tex [55] [56
 
-] [55] [56])
-(./editaveis/projeto.tex [57] [58
+] [57] [58] [59] [60])
+(./editaveis/projeto.tex [61] [62
 
 ]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 14.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
-Overfull \hbox (9.59521pt too wide) in paragraph at lines 53--67
- [][] 
+ [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Overfull \vbox (19.22592pt too high) has occurred while \output is active []
+
+
+[67]
+File: figuras/diagrama_geral_arquitetura.eps Graphic file (type eps)
+ <figuras/diagrama_geral_arquitetura.eps> [68]
+File: figuras/arquitetura.eps Graphic file (type eps)
+ <figuras/arquitetura.eps>
+File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
+
+<figuras/diagrama_fluxo_dados.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[69]
+Overfull \hbox (2.70137pt too wide) in paragraph at lines 142--143
+[]\T1/lmr/bx/n/12 Armazenamento Dis-tri-buído\T1/lmr/m/n/12 : Mi-nIO es-tru-tu-
+rado em múl-ti-plas ca-ma-das (Bronze,
  []
 
+[70] [71]
+File: figuras/app_screenshot.eps Graphic file (type eps)
+ <figuras/app_screenshot.eps> [72] [73] [74]
+Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
+[]\T1/lmr/m/n/12 Implementação de RBAC, crip-to-gra-fia, ano-ni-mi-za-ção e con
+-for-mi-dade com LGPD. 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-[61]
-File: figuras/arquitetura.eps Graphic file (type eps)
- <figuras/arquitetura.eps> [62]
-File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
- <figuras/diagrama_fluxo_dados.eps> [63]
-[64] [65]) (./tcc.bbl (./tcc.brf)
+) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [66]
-bibitemlist
-[67
+ [75] [76
 
-] [68]
+]
+bibitemlist
+[77] [78]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1056,11 +1104,11 @@ Underfull \hbox (badness 2096) in paragraph at lines 197--197
 la-ble at: 
  []
 
-[69] [70])
+[79] [80])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[71]
+[81]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1084,20 +1132,20 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 22CC3C345E0A4AF6147AEA3005FCE61C;8604
-(rerunfilecheck)             After:  F1F8641CC1118CF23FE54E8143AB4738;8604.
+(rerunfilecheck)             Before: 668918C1E5C1812B03B302E49E8FD8E1;8604
+(rerunfilecheck)             After:  A67E007329CE4DFDE29744C34E118544;8604.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12104 strings out of 494542
- 182631 string characters out of 6176699
- 335923 words of memory out of 5000000
- 15513 multiletter control sequences out of 15000+600000
- 70090 words of font info for 51 fonts, out of 8000000 for 9000
+ 12218 strings out of 494542
+ 184105 string characters out of 6176699
+ 343258 words of memory out of 5000000
+ 15621 multiletter control sequences out of 15000+600000
+ 85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (73 pages, 440508 bytes).
+Output written on tcc.dvi (83 pages, 479616 bytes).

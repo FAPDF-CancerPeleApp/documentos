@@ -2,57 +2,67 @@
 
 \section{Contexto e Motivação}
 
-A revolução digital no setor de saúde tem sido impulsionada por avanços em inteligência artificial (IA) e aprendizado de máquina (ML), especialmente em áreas como a dermatologia, onde o reconhecimento visual é peça-chave para o diagnóstico clínico \cite{esteva2017dermatologist, topol2019high}. A capacidade de analisar grandes volumes de imagens cutâneas por meio de algoritmos sofisticados permite o desenvolvimento de sistemas de apoio à decisão, capazes de aumentar a precisão diagnóstica e reduzir o impacto da escassez de especialistas, sobretudo em regiões remotas \cite{daneshjou2022disparities}.
+O uso de inteligência artificial na medicina tem crescido rapidamente, especialmente em áreas como dermatologia, onde a análise visual é central para o diagnóstico \cite{esteva2017dermatologist, topol2019high}. A capacidade de processar grandes volumes de imagens de pele através de algoritmos permite criar sistemas que auxiliam médicos, aumentam a precisão dos diagnósticos e ajudam a compensar a falta de especialistas em regiões distantes \cite{daneshjou2022disparities}.
 
-O câncer de pele, considerado o tipo de neoplasia mais prevalente no Brasil e no mundo, apresenta alta incidência e demanda estratégias eficientes de rastreamento e diagnóstico precoce \cite{who2020skin}. Embora a detecção em estágios iniciais aumente significativamente as chances de cura, fatores como a desigualdade na distribuição de dermatologistas e o acesso limitado a recursos especializados representam obstáculos ainda não superados \cite{freeman2020workforce, inca2020estimativa}. Além disso, a crescente digitalização dos sistemas de saúde tem promovido uma explosão na geração de dados clínicos, imagens médicas, registros eletrônicos e dados genômicos, tornando o gerenciamento e a integração destas informações um desafio técnico relevante \cite{raghupathi2014big, lehne2019digital}.
+O câncer de pele é o tipo mais comum de câncer no Brasil e no mundo, exigindo estratégias eficazes para detecção precoce \cite{who2020skin}. Embora o diagnóstico em estágios iniciais aumente muito as chances de cura, problemas como a distribuição irregular de dermatologistas e o acesso limitado a recursos especializados ainda representam grandes obstáculos \cite{freeman2020workforce, inca2020estimativa}. Além disso, a digitalização dos sistemas de saúde tem gerado uma explosão de dados clínicos, imagens médicas e registros eletrônicos, tornando o gerenciamento e a integração dessas informações um desafio técnico complexo \cite{raghupathi2014big, lehne2019digital}.
 
-\section{Desafios na Integração de Dados Dermatológicos}
+\section{Problemas na Integração de Dados Dermatológicos}
 
-O cenário brasileiro reflete um ambiente onde a fragmentação dos dados é predominante, com informações distribuídas entre múltiplos sistemas legados, bancos de dados isolados e protocolos de armazenamento heterogêneos. Essa fragmentação compromete a visão longitudinal do paciente, limita a execução de análises epidemiológicas robustas e dificulta o desenvolvimento de soluções de IA capazes de generalizar para diferentes contextos populacionais.
+O cenário brasileiro apresenta uma fragmentação intensa dos dados, com informações espalhadas entre múltiplos sistemas antigos, bancos de dados isolados e formas diferentes de armazenamento. Essa fragmentação prejudica o acompanhamento completo do paciente, limita análises epidemiológicas consistentes e dificulta o desenvolvimento de soluções de IA que funcionem bem em diferentes contextos populacionais.
 
-Além disso, a diversidade de padrões de codificação, taxonomias clínicas e formatos de imagens dificulta a interoperabilidade entre instituições e compromete a normalização dos dados. A ausência de mecanismos integrados de governança e rastreabilidade acarreta riscos de inconsistência, duplicação e problemas de privacidade, especialmente diante de regulamentações como a LGPD e a GDPR \cite{benfeldt2020data}. Dessa forma, é evidente a necessidade de arquiteturas flexíveis e escaláveis, capazes de promover a integração semântica e operacional dos dados clínicos dermatológicos.
+A diversidade de padrões de codificação, classificações clínicas e formatos de imagens também complica a comunicação entre instituições e compromete a padronização dos dados. A ausência de sistemas integrados de governança e rastreamento cria riscos de inconsistência, duplicação e problemas de privacidade, especialmente considerando regulamentações como a LGPD \cite{benfeldt2020data}. Isso mostra a necessidade de arquiteturas flexíveis e escaláveis que promovam a integração semântica e operacional dos dados clínicos dermatológicos.
 
-\section{Arquitetura Data Fabric: Fundamentos e Aplicações}
+\section{Arquitetura Data Fabric: Conceitos e Aplicações}
 
-A abordagem de Data Fabric surge como uma resposta técnica inovadora para os desafios descritos. Trata-se de uma arquitetura orientada à integração distribuída, capaz de conectar fontes de dados heterogêneas sem exigir movimentação física dos registros \cite{gartner2021data, sharma2023data}. O Data Fabric estabelece uma camada de abstração que permite a orquestração de fluxos, virtualização de dados, aplicação de políticas de governança unificadas e automação de processos de descoberta e padronização de esquemas. Essa arquitetura viabiliza o acesso federado, seguro e auditável a múltiplos repositórios clínicos, promovendo análises em tempo real e facilitando a incorporação de novos dados e fontes à medida que o ecossistema evolui.
+A abordagem Data Fabric surge como uma solução técnica para os desafios apresentados. Trata-se de uma arquitetura focada na integração distribuída, capaz de conectar fontes de dados diferentes sem precisar mover fisicamente os registros \cite{gartner2021data, sharma2023data}. O Data Fabric cria uma camada de abstração que permite orquestrar fluxos de dados, virtualizar informações, aplicar políticas de governança uniformes e automatizar processos de descoberta e padronização.
 
-No contexto da dermatologia, a arquitetura Data Fabric permite, por exemplo, o mapeamento dinâmico de terminologias clínicas divergentes, a centralização lógica de imagens e metadados, e a integração de pipelines de processamento avançado para análise automatizada de lesões cutâneas. Além disso, possibilita a implementação de mecanismos de equivalência semântica, assegurando que informações codificadas de maneiras distintas possam ser corretamente interpretadas e utilizadas em análises clínicas e populacionais.
+Esta arquitetura possibilita acesso federado, seguro e auditável a múltiplos repositórios clínicos, facilitando análises em tempo real e incorporação de novos dados conforme o sistema evolui. No contexto dermatológico, o Data Fabric permite mapear dinamicamente terminologias clínicas diferentes, centralizar logicamente imagens e metadados, e integrar pipelines de processamento avançado para análise automatizada de lesões de pele. Também viabiliza a implementação de equivalências semânticas, garantindo que informações codificadas de formas distintas sejam corretamente interpretadas em análises clínicas e populacionais.
 
 \section{Governança, Segurança e Conformidade}
 
-Um dos pilares técnicos do Data Fabric é a governança integrada, que contempla desde o controle de acesso granular, passando pela rastreabilidade da linhagem dos dados, até a aplicação de políticas de anonimização e criptografia. O uso de catálogos de metadados inteligentes, potencializados por técnicas de IA, permite automatizar o enriquecimento, a classificação e a descoberta de informações relevantes, reduzindo o risco de exposição indevida e facilitando auditorias. Tais mecanismos são fundamentais para garantir aderência a normas como a LGPD, promovendo o uso ético e seguro dos dados sensíveis \cite{benfeldt2020data}.
+Um dos pilares fundamentais do Data Fabric é a governança integrada, que inclui controle de acesso detalhado, rastreabilidade da origem dos dados e aplicação de políticas de anonimização e criptografia. O uso de catálogos de metadados inteligentes, potencializados por técnicas de IA, permite automatizar o enriquecimento, classificação e descoberta de informações relevantes, reduzindo riscos de exposição inadequada e facilitando auditorias. Esses mecanismos são essenciais para garantir conformidade com normas como a LGPD, promovendo uso ético e seguro de dados sensíveis \cite{benfeldt2020data}.
 
-\section{Cenário de Aplicação: O DermAlert}
+\section{Aplicação Prática: O DermAlert}
 
-O desenvolvimento da plataforma DermAlert exemplifica a aplicação prática dos conceitos acima. Trata-se de uma solução baseada em Data Fabric, desenhada para integrar imagens dermatológicas e metadados clínicos provenientes de múltiplas instituições, respeitando os mais altos padrões de segurança, escalabilidade e interoperabilidade. O DermAlert incorpora pipelines que automatizam a ingestão, validação e enriquecimento dos dados, além de dispor de mecanismos de equivalência semântica e compartilhamento seguro. Seu foco é proporcionar uma base robusta para o desenvolvimento de modelos de IA mais justos, abrangentes e capazes de atender à diversidade da população brasileira.
+O desenvolvimento da plataforma DermAlert demonstra a aplicação prática desses conceitos. É uma solução baseada em Data Fabric, projetada para integrar imagens dermatológicas e metadados clínicos de múltiplas instituições, respeitando altos padrões de segurança, escalabilidade e interoperabilidade. O DermAlert incorpora pipelines que automatizam a captura, validação e enriquecimento dos dados, além de ter mecanismos de equivalência semântica e compartilhamento seguro.
 
-A plataforma DermAlert prioriza a flexibilidade na integração de fontes, a governança distribuída e a conformidade regulatória, estabelecendo um novo paradigma para a gestão de dados dermatológicos no país.
-
-\section{Estrutura do Trabalho}
-
-Este trabalho está estruturado de forma a apresentar, inicialmente, o contexto e os desafios da integração de dados em dermatologia, detalhar os fundamentos técnicos da arquitetura Data Fabric, discutir sua aplicação na plataforma DermAlert e, por fim, analisar as contribuições, limitações e perspectivas futuras da proposta.
-
+O objetivo é fornecer uma base sólida para o desenvolvimento de modelos de IA mais justos, abrangentes e capazes de atender à diversidade da população brasileira. A plataforma DermAlert prioriza flexibilidade na integração de fontes, governança distribuída e conformidade regulatória, estabelecendo um novo paradigma para gestão de dados dermatológicos no país.
 
 \section{Objetivos}
 
 Este trabalho tem como objetivo geral propor, projetar e validar uma arquitetura Data Fabric para integração e gestão de dados dermatológicos em ambientes de alta heterogeneidade e governança distribuída. Especificamente, busca-se:
 
-Projetar e implementar uma arquitetura Data Fabric abrangente voltada ao contexto dermatológico, com camadas de virtualização de dados, metadados inteligentes e federação de consultas. Isso permitirá o acesso unificado a diversas fontes heterogêneas, promovendo consistência, qualidade e governança das informações \cite{sharma2023data}.
+\begin{itemize}
+\item Projetar e implementar uma arquitetura Data Fabric voltada ao contexto dermatológico, com camadas de virtualização de dados, metadados inteligentes e federação de consultas, permitindo acesso unificado a diversas fontes heterogêneas \cite{sharma2023data}.
 
-Desenvolver conectores especializados para integração de múltiplas fontes de dados dermatológicos, empregando técnicas de virtualização e abstração para criar uma visão lógica unificada dos dados, sem necessidade de replicação física \cite{lee2024delta}.
+\item Desenvolver conectores especializados para integração de múltiplas fontes de dados dermatológicos, usando técnicas de virtualização para criar uma visão lógica unificada dos dados sem necessidade de replicação física \cite{lee2024delta}.
 
-Implementar um catálogo de metadados abrangente, com mecanismos automatizados de descoberta de esquemas e relacionamentos, capaz de mapear semanticamente conceitos clínicos entre diferentes fontes e facilitar a compreensão do contexto das informações disponíveis \cite{sharma2023data,lee2024delta}.
+\item Implementar um catálogo de metadados abrangente, com mecanismos automatizados de descoberta de esquemas e relacionamentos, capaz de mapear semanticamente conceitos clínicos entre diferentes fontes \cite{sharma2023data,lee2024delta}.
 
-Desenvolver mecanismos de tradução e otimização de consultas distribuídas, de modo a permitir operações analíticas eficientes sobre bancos de dados paralelos com diferentes modelos de acesso e estruturas de armazenamento \cite{sharma2023data}.
+\item Desenvolver mecanismos de tradução e otimização de consultas distribuídas, permitindo operações analíticas eficientes sobre bancos de dados paralelos com diferentes modelos de acesso \cite{sharma2023data}.
 
-Estabelecer pipelines automatizados de ingestão, processamento e análise de dados utilizando tecnologias de orquestração, com DAGs específicos para fluxos de trabalho clínicos em dermatologia, garantindo a rastreabilidade completa da linhagem dos dados \cite{lee2024delta}.
+\item Estabelecer pipelines automatizados de ingestão, processamento e análise de dados usando tecnologias de orquestração, com DAGs específicos para fluxos de trabalho clínicos em dermatologia \cite{lee2024delta}.
 
-Implementar módulos de processamento de imagens dermatológicas integrados à arquitetura Data Fabric, possibilitando normalização, segmentação e extração de características relevantes diretamente nas fontes de dados ou por meio de processamento federado.
+\item Implementar módulos de processamento de imagens dermatológicas integrados à arquitetura Data Fabric, possibilitando normalização, segmentação e extração de características relevantes.
 
-Desenvolver interfaces de visualização interativas que explorem a capacidade do Data Fabric de fornecer visões contextuais e multidimensionais dos dados, integrando informações visuais, clínicas e históricas em dashboards adaptados a diferentes perfis de usuários.
+\item Desenvolver interfaces de visualização interativas que explorem a capacidade do Data Fabric de fornecer visões contextuais e multidimensionais dos dados em dashboards adaptados a diferentes perfis de usuários.
 
-Implantar mecanismos robustos de governança de dados distribuídos, em conformidade com regulamentações de proteção de dados, como LGPD e HIPAA, garantindo segurança, rastreabilidade e auditoria \cite{benfeldt2020data}.
+\item Implantar mecanismos robustos de governança de dados distribuídos, em conformidade com regulamentações como LGPD, garantindo segurança, rastreabilidade e auditoria \cite{benfeldt2020data}.
 
-Desenvolver APIs e conectores de interoperabilidade compatíveis com padrões de saúde, expondo as capacidades do Data Fabric para integração com ecossistemas externos e permitindo o consumo simplificado dos dados integrados por aplicações terceiras.
+\item Desenvolver APIs e conectores de interoperabilidade compatíveis com padrões de saúde, expondo as capacidades do Data Fabric para integração com ecossistemas externos.
 
-Validar a eficácia da arquitetura Data Fabric em cenários práticos de diagnóstico dermatológico, mensurando melhorias em precisão diagnóstica, redução de tempo de espera e aumento da acessibilidade a cuidados especializados.
+\item Validar a eficácia da arquitetura Data Fabric em cenários práticos de diagnóstico dermatológico, mensurando melhorias em precisão diagnóstica, redução de tempo de espera e aumento da acessibilidade a cuidados especializados.
+\end{itemize}
+\section{Estrutura do Trabalho}
+
+Este trabalho está estruturado para fornecer uma compreensão abrangente sobre os desafios, fundamentos técnicos e soluções para integração de dados em dermatologia, com foco na arquitetura Data Fabric aplicada à plataforma DermAlert. A seguir, descreve-se a organização dos capítulos:
+
+\begin{itemize}
+    \item \textbf{Capítulo 1 – Introdução:} apresenta o contexto e motivação do tema, os principais problemas na integração de dados dermatológicos, os conceitos iniciais da arquitetura Data Fabric, questões de governança, segurança e conformidade, a aplicação prática na plataforma DermAlert, os objetivos do trabalho e, por fim, a estrutura do documento.
+    \item \textbf{Capítulo 2 – Referencial Teórico:} discute os principais conceitos e tecnologias relacionadas à engenharia de dados, data warehouse, data fabric, data lake, data mesh, orquestração de pipelines com Apache Airflow, processamento distribuído com Apache Spark, orquestração de containers com Kubernetes, desenvolvimento de APIs com FastAPI, pipelines de dados para diagnóstico de câncer de pele, fluxo de dados em arquitetura data fabric, ingestão e preprocessamento de imagens, armazenamento de objetos com MinIO, arquitetura Delta Lake e trabalhos relacionados.
+    \item \textbf{Capítulo 3 – Metodologia:} detalha a abordagem de pesquisa adotada, as perguntas de pesquisa, o processo de desenvolvimento da arquitetura proposta, as fases de levantamento de requisitos, concepção arquitetural, integração tecnológica, implementação da camada semântica, desenvolvimento do aplicativo, estratégias de validação (técnica e operacional), critérios de avaliação (métricas quantitativas e qualitativas), considerações de sustentabilidade e observações finais sobre a metodologia.
+    \item \textbf{Capítulo 4 – Projeto:} apresenta os requisitos funcionais e não funcionais do sistema, histórias de usuário, a arquitetura detalhada da solução, diagramas de arquitetura e fluxo de dados, descrição dos componentes, tecnologias utilizadas, roadmap e plano de implementação, além do detalhamento das etapas de construção.
+    \item \textbf{Referências:} reúne todas as fontes bibliográficas utilizadas no desenvolvimento do trabalho.
+\end{itemize}
+
+Dessa forma, o documento busca não apenas apresentar o embasamento teórico e metodológico, mas também detalhar a aplicação prática e os resultados obtidos com a proposta da arquitetura Data Fabric no contexto da integração de dados em dermatologia.
