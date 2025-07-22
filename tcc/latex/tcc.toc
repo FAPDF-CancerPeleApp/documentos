@@ -98,41 +98,30 @@
 \contentsline {section}{\numberline {3.1}Abordagem de Pesquisa}{57}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{57}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{57}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Fase 1: Levantamento de Requisitos e An\IeC {\'a}lise de Contexto}{58}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Fase 2: Concep\IeC {\c c}\IeC {\~a}o Arquitetural}{58}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Fase 3: Sele\IeC {\c c}\IeC {\~a}o e Integra\IeC {\c c}\IeC {\~a}o Tecnol\IeC {\'o}gica}{58}{subsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Fase 4: Implementa\IeC {\c c}\IeC {\~a}o da Camada de Integra\IeC {\c c}\IeC {\~a}o Sem\IeC {\^a}ntica}{59}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}Fase 5: Desenvolvimento do Aplicativo de Coleta}{59}{subsection.3.3.5}% 
-\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o}{60}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Valida\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{60}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Valida\IeC {\c c}\IeC {\~a}o Operacional}{60}{subsection.3.4.2}% 
-\contentsline {section}{\numberline {3.5}Crit\IeC {\'e}rios de Avalia\IeC {\c c}\IeC {\~a}o}{60}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}M\IeC {\'e}tricas Quantitativas}{60}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}M\IeC {\'e}tricas Qualitativas}{60}{subsection.3.5.2}% 
-\contentsline {section}{\numberline {3.6}Considera\IeC {\c c}\IeC {\~o}es sobre Sustentabilidade}{61}{section.3.6}% 
-\contentsline {subsection}{\numberline {3.6.1}Sustentabilidade Tecnol\IeC {\'o}gica}{61}{subsection.3.6.1}% 
-\contentsline {subsection}{\numberline {3.6.2}Sustentabilidade Operacional}{61}{subsection.3.6.2}% 
-\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Metodologia}{61}{section.3.7}% 
+\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o}{58}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Crit\IeC {\'e}rios de Avalia\IeC {\c c}\IeC {\~a}o}{58}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Considera\IeC {\c c}\IeC {\~o}es sobre Sustentabilidade}{58}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Metodologia}{58}{section.3.7}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{63}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Requisitos}{63}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{64}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{65}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{67}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Arquitetura}{68}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{68}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{68}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{69}{subsubsection.4.2.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{69}{subsubsection.4.2.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{69}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{70}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{71}{subsection.4.2.5}% 
-\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{71}{subsection.4.2.6}% 
-\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{72}{subsection.4.2.7}% 
-\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{73}{subsection.4.2.8}% 
-\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{73}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{73}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{74}{section.4.5}% 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{59}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos}{59}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{60}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{61}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{63}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Arquitetura}{64}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{64}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{64}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{65}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{65}{subsubsection.4.2.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{65}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{66}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{67}{subsection.4.2.5}% 
+\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{67}{subsection.4.2.6}% 
+\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{68}{subsection.4.2.7}% 
+\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{69}{subsection.4.2.8}% 
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{69}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{69}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{70}{section.4.5}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{77}{section*.12}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{73}{section*.12}% 

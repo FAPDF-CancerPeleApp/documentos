@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  22 JUL 2025 07:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  22 JUL 2025 07:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1037,31 +1037,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [53]
 [54]) (./editaveis/metodologia.tex [55] [56
 
-] [57] [58] [59] [60])
-(./editaveis/projeto.tex [61] [62
-
-]
+] [57]) (./editaveis/projeto.tex
+[58]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [59
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
+ [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [62]
 Overfull \vbox (19.22592pt too high) has occurred while \output is active []
 
 
-[67]
+[63]
 File: figuras/diagrama_geral_arquitetura.eps Graphic file (type eps)
- <figuras/diagrama_geral_arquitetura.eps> [68]
+ <figuras/diagrama_geral_arquitetura.eps> [64]
 File: figuras/arquitetura.eps Graphic file (type eps)
  <figuras/arquitetura.eps>
 File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
@@ -1070,15 +1070,15 @@ File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[69]
+[65]
 Overfull \hbox (2.70137pt too wide) in paragraph at lines 142--143
 []\T1/lmr/bx/n/12 Armazenamento Dis-tri-buído\T1/lmr/m/n/12 : Mi-nIO es-tru-tu-
 rado em múl-ti-plas ca-ma-das (Bronze,
  []
 
-[70] [71]
+[66] [67]
 File: figuras/app_screenshot.eps Graphic file (type eps)
- <figuras/app_screenshot.eps> [72] [73] [74]
+ <figuras/app_screenshot.eps> [68] [69] [70]
 Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
 []\T1/lmr/m/n/12 Implementação de RBAC, crip-to-gra-fia, ano-ni-mi-za-ção e con
 -for-mi-dade com LGPD. 
@@ -1088,11 +1088,11 @@ Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [75] [76
+ [71] [72
 
 ]
 bibitemlist
-[77] [78]
+[73] [74]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1104,11 +1104,11 @@ Underfull \hbox (badness 2096) in paragraph at lines 197--197
 la-ble at: 
  []
 
-[79] [80])
+[75] [76])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[81]
+[77]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1140,12 +1140,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 12218 strings out of 494542
- 184105 string characters out of 6176699
- 343258 words of memory out of 5000000
- 15621 multiletter control sequences out of 15000+600000
+ 12207 strings out of 494542
+ 184028 string characters out of 6176699
+ 343134 words of memory out of 5000000
+ 15610 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (83 pages, 479616 bytes).
+Output written on tcc.dvi (79 pages, 463756 bytes).
