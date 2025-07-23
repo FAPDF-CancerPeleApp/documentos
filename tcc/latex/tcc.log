@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  22 JUL 2025 07:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.23)  23 JUL 2025 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,41 +878,55 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [4
 
-]) (./editaveis/resumo.tex [5]
-[6
+]) (./editaveis/agradecimentos.tex
+[5
 
-]) (./editaveis/abstract.tex [7] [8
+] [6
 
-]) (./fixos/listasAutomaticas.tex
-(./tcc.lof
+]) (./editaveis/resumo.tex [7] [8
+
+]) (./editaveis/abstract.tex [9]
+[10
+
+]) (./fixos/listasAutomaticas.tex (./tcc.lof
 Overfull \hbox (6.79524pt too wide) in paragraph at lines 3--3
  [][] [] []  
  []
 
-) [9] [10
 
-] (./tcc.lot) [11] [12
+Overfull \hbox (18.25887pt too wide) in paragraph at lines 9--9
+ [][] [] []  
+ []
 
-]) (./editaveis/abreviaturas.tex [13
 
-] [14
+Overfull \hbox (22.96082pt too wide) in paragraph at lines 10--10
+ [][] [] []  
+ []
+
+) [11] [12
+
+] (./tcc.lot) [13] [14
+
+]) (./editaveis/abreviaturas.tex [15
+
+] [16
 
 ])
 (./fixos/indiceAutomatico.tex (./tcc.toc
 Underfull \vbox (badness 1325) has occurred while \output is active []
 
- [15]
-[16]
-Overfull \hbox (10.03238pt too wide) in paragraph at lines 94--94
+ [17]
+[18]
+Overfull \hbox (10.03238pt too wide) in paragraph at lines 95--95
  [][] [] []  
  []
 
 
-Overfull \hbox (299.13713pt too wide) in paragraph at lines 95--95
+Overfull \hbox (299.13713pt too wide) in paragraph at lines 96--96
  [][] [] []  
  []
 
-[17]) [18]) (./editaveis/introducao.tex
+[19]) [20]) (./editaveis/introducao.tex
 Overfull \hbox (23.76833pt too wide) in paragraph at lines 7--8
 \T1/lmr/m/n/12 pre-sen-tam gran-des obs-tá-cu-los ([][][][][][], [][][][][][][]
 ; [][][][][][],
@@ -921,19 +935,19 @@ Overfull \hbox (23.76833pt too wide) in paragraph at lines 7--8
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [21
 
 
 ]
-[20]
+[22]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 36.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 36.
- [21] [22])
-(./editaveis/referencialTeorico.tex [23] [24
+ [23] [24])
+(./editaveis/referencialTeorico.tex [25] [26
 
 ]
 Overfull \hbox (47.72498pt too wide) in paragraph at lines 19--23
@@ -941,29 +955,29 @@ Overfull \hbox (47.72498pt too wide) in paragraph at lines 19--23
 ise ([][][][][][],
  []
 
-[25]
+[27]
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [26]
-[27] [28]
+ [28]
+[29] [30]
 Overfull \hbox (2.35042pt too wide) in paragraph at lines 134--135
 []\T1/lmr/m/n/12 Os da-dos em um data wa-rehouse in-cluem um com-po-nente de te
 mpo,
  []
 
-[29]
+[31]
 File: figuras/typical_data_warehouse_architecture.eps Graphic file (type eps)
- <figuras/typical_data_warehouse_architecture.eps> [30] [31] [32] [33]
-[34]
+ <figuras/typical_data_warehouse_architecture.eps> [32] [33] [34] [35]
+[36]
 Overfull \hbox (79.56772pt too wide) in paragraph at lines 284--285
 \T1/lmr/m/n/12 tindo que as or-ga-ni-za-ções ex-traiam o má-ximo va-lor de seus
  da-dos ([][][][][][],
  []
 
-[35]
+[37]
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
- [36]
+ [38]
 Overfull \hbox (17.38094pt too wide) in paragraph at lines 333--334
 \T1/lmr/m/n/12 zindo cus-tos em com-pa-ra-ção aos data wa-rehou-ses tra-di-ci-o
 -nais ([][][][][][],
@@ -983,14 +997,14 @@ Overfull \hbox (74.8327pt too wide) in paragraph at lines 348--357
 
 Underfull \vbox (badness 5359) has occurred while \output is active []
 
- [37]
-[38] [39] [40]
+ [39]
+[40] [41] [42]
 Overfull \hbox (49.11676pt too wide) in paragraph at lines 425--426
 []\T1/lmr/m/n/12 Para uma uti-li-za-ção efe-tiva do Air-flow, al-gu-mas prá-ti-
 cas são re-co-men-da-das ([][][][][][],
  []
 
-[41]
+[43]
 Overfull \hbox (17.26836pt too wide) in paragraph at lines 442--443
 \T1/lmr/m/n/12 va-mente mais rá-pido que pa-ra-dig-mas an-te-ri-o-res como Ma-p
 Re-duce ([][][][][][],
@@ -1006,11 +1020,11 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 454.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [42]
+) [44]
 Underfull \vbox (badness 4403) has occurred while \output is active []
 
- [43]
-[44] [45]
+ [45]
+[46] [47]
 Overfull \hbox (3.21373pt too wide) in paragraph at lines 534--535
 []\T1/lmr/m/n/12 O Fas-tAPI ofe-rece di-ver-sos me-ca-nis-mos de se-gu-rança ([
 ][][][][][], [][][][][][][]).
@@ -1022,46 +1036,46 @@ Overfull \hbox (25.61392pt too wide) in paragraph at lines 540--541
 i-mi-ta-ções ([][][][][][],
  []
 
-[46] [47] [48] [49]
+[48] [49] [50] [51]
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
- [50]
+ [52]
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [51]
-[52]
+ [53]
+[54]
 File: figuras/deltaLake.eps Graphic file (type eps)
  <figuras/deltaLake.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-[54]) (./editaveis/metodologia.tex [55] [56
+ [55]
+[56]) (./editaveis/metodologia.tex [57] [58
 
-] [57]) (./editaveis/projeto.tex
-[58]
+] [59]) (./editaveis/projeto.tex
+[60]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59
+ [61
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
 Overfull \vbox (19.22592pt too high) has occurred while \output is active []
 
 
-[63]
+[65]
 File: figuras/diagrama_geral_arquitetura.eps Graphic file (type eps)
- <figuras/diagrama_geral_arquitetura.eps> [64]
+ <figuras/diagrama_geral_arquitetura.eps> [66]
 File: figuras/arquitetura.eps Graphic file (type eps)
  <figuras/arquitetura.eps>
 File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
@@ -1070,29 +1084,42 @@ File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65]
+[67]
 Overfull \hbox (2.70137pt too wide) in paragraph at lines 142--143
 []\T1/lmr/bx/n/12 Armazenamento Dis-tri-buído\T1/lmr/m/n/12 : Mi-nIO es-tru-tu-
 rado em múl-ti-plas ca-ma-das (Bronze,
  []
 
-[66] [67]
+[68] [69]
 File: figuras/app_screenshot.eps Graphic file (type eps)
- <figuras/app_screenshot.eps> [68] [69] [70]
+ <figuras/app_screenshot.eps> [70] [71] [72]
 Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
 []\T1/lmr/m/n/12 Implementação de RBAC, crip-to-gra-fia, ano-ni-mi-za-ção e con
 -for-mi-dade com LGPD. 
  []
 
-) (./tcc.bbl (./tcc.brf)
+) (./editaveis/implementacao.tex [73] [74
+
+] [75]
+File: figuras/app_screenshot.eps Graphic file (type eps)
+ <figuras/app_screenshot.eps>
+File: figuras/app_screenshot.eps Graphic file (type eps)
+
+<figuras/app_screenshot.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+File: figuras/app_screenshot.eps Graphic file (type eps)
+
+<figuras/app_screenshot.eps> [77]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [71] [72
-
-]
+ [78]
 bibitemlist
-[73] [74]
+[79
+
+] [80]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1104,11 +1131,11 @@ Underfull \hbox (badness 2096) in paragraph at lines 197--197
 la-ble at: 
  []
 
-[75] [76])
+[81] [82])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[77]
+[83]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1118,34 +1145,34 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `tcc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 51.
 \BKM@file=\write9
 \openout9 = `tcc.out.ps'.
 
  (./tcc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 
 
 Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 668918C1E5C1812B03B302E49E8FD8E1;8604
-(rerunfilecheck)             After:  A67E007329CE4DFDE29744C34E118544;8604.
+(rerunfilecheck)             Before: DB9DE3FF2EFC2B976D6AAF70E1176A7D;8610
+(rerunfilecheck)             After:  3093CD9149D8F950EC83B0A50136BE79;8610.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 12207 strings out of 494542
- 184028 string characters out of 6176699
- 343134 words of memory out of 5000000
- 15610 multiletter control sequences out of 15000+600000
+ 12226 strings out of 494542
+ 184401 string characters out of 6176699
+ 343936 words of memory out of 5000000
+ 15624 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (79 pages, 463756 bytes).
+Output written on tcc.dvi (85 pages, 485640 bytes).
