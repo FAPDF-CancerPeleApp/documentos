@@ -4,124 +4,132 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{19}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Contexto e Motiva\IeC {\c c}\IeC {\~a}o}{19}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Problemas na Integra\IeC {\c c}\IeC {\~a}o de Dados Dermatol\IeC {\'o}gicos}{19}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Arquitetura Data Fabric: Conceitos e Aplica\IeC {\c c}\IeC {\~o}es}{20}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}Governan\IeC {\c c}a, Seguran\IeC {\c c}a e Conformidade}{20}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}Aplica\IeC {\c c}\IeC {\~a}o Pr\IeC {\'a}tica: O DermAlert}{20}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Objetivos}{21}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Estrutura do Trabalho}{22}{section.1.7}% 
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{21}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Contexto e Motiva\IeC {\c c}\IeC {\~a}o}{21}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Problemas na Integra\IeC {\c c}\IeC {\~a}o de Dados Dermatol\IeC {\'o}gicos}{21}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Arquitetura Data Fabric: Conceitos e Aplica\IeC {\c c}\IeC {\~o}es}{22}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Governan\IeC {\c c}a, Seguran\IeC {\c c}a e Conformidade}{22}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Aplica\IeC {\c c}\IeC {\~a}o Pr\IeC {\'a}tica: O DermAlert}{22}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Objetivos}{23}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Estrutura do Trabalho}{24}{section.1.7}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{25}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Engenharia de Dados}{25}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Hist\IeC {\'o}rico e Evolu\IeC {\c c}\IeC {\~a}o}{25}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Desafios Atuais}{26}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Impacto das Dificuldades}{27}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Pr\IeC {\'a}ticas de Engenharia de Dados}{27}{subsection.2.1.4}% 
-\contentsline {section}{\numberline {2.2}Data Warehouse}{28}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Defini\IeC {\c c}\IeC {\~a}o e Conceito}{29}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Arquitetura}{30}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Quando Utilizar}{31}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Quando N\IeC {\~a}o Utilizar}{32}{subsection.2.2.4}% 
-\contentsline {section}{\numberline {2.3}Data Fabric}{32}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o e Conceito}{33}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Arquitetura}{34}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Quando Utilizar}{35}{subsection.2.3.3}% 
-\contentsline {subsection}{\numberline {2.3.4}Quando N\IeC {\~a}o Utilizar}{36}{subsection.2.3.4}% 
-\contentsline {section}{\numberline {2.4}Data Lake}{36}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Tabela Comparativa: Data Lakes vs. Bancos de Dados Tradicionais}{38}{subsection.2.4.1}% 
-\contentsline {section}{\numberline {2.5}Data Mesh: Um Paradigma para Gest\IeC {\~a}o de Dados Descentralizados}{38}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}O que \IeC {\'e} Data Mesh?}{38}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Princ\IeC {\'\i }pios Fundamentais do Data Mesh}{38}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Vantagens e Desvantagens do Data Mesh}{39}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}Quando Utilizar Data Mesh?}{39}{subsection.2.5.4}% 
-\contentsline {subsection}{\numberline {2.5.5}Quando N\IeC {\~a}o Utilizar Data Mesh?}{39}{subsection.2.5.5}% 
-\contentsline {subsection}{\numberline {2.5.6}Ferramentas Open Source para Data Mesh}{39}{subsection.2.5.6}% 
-\contentsline {subsection}{\numberline {2.5.7}Conclus\IeC {\~a}o}{40}{subsection.2.5.7}% 
-\contentsline {section}{\numberline {2.6}Apache Airflow: Orquestra\IeC {\c c}\IeC {\~a}o de Pipelines}{40}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Conceitos Fundamentais}{40}{subsection.2.6.1}% 
-\contentsline {subsection}{\numberline {2.6.2}Caracter\IeC {\'\i }sticas Principais}{40}{subsection.2.6.2}% 
-\contentsline {subsection}{\numberline {2.6.3}Arquitetura}{40}{subsection.2.6.3}% 
-\contentsline {subsection}{\numberline {2.6.4}Benef\IeC {\'\i }cios e Limita\IeC {\c c}\IeC {\~o}es}{41}{subsection.2.6.4}% 
-\contentsline {subsection}{\numberline {2.6.5}Melhores Pr\IeC {\'a}ticas}{41}{subsection.2.6.5}% 
-\contentsline {section}{\numberline {2.7}Apache Spark}{41}{section.2.7}% 
-\contentsline {subsection}{\numberline {2.7.1}Arquitetura e Componentes}{41}{subsection.2.7.1}% 
-\contentsline {subsection}{\numberline {2.7.2}Processamento de Dados}{42}{subsection.2.7.2}% 
-\contentsline {subsection}{\numberline {2.7.3}Spark SQL e DataFrames}{42}{subsection.2.7.3}% 
-\contentsline {subsection}{\numberline {2.7.4}Integra\IeC {\c c}\IeC {\~a}o com Ecossistema Big Data}{42}{subsection.2.7.4}% 
-\contentsline {subsection}{\numberline {2.7.5}Performance e Otimiza\IeC {\c c}\IeC {\~a}o}{43}{subsection.2.7.5}% 
-\contentsline {section}{\numberline {2.8}Kubernetes: Orquestra\IeC {\c c}\IeC {\~a}o de Containers para Escalabilidade}{43}{section.2.8}% 
-\contentsline {subsection}{\numberline {2.8.1}Arquitetura do Kubernetes}{43}{subsection.2.8.1}% 
-\contentsline {subsection}{\numberline {2.8.2}Conceitos Fundamentais}{44}{subsection.2.8.2}% 
-\contentsline {subsection}{\numberline {2.8.3}Recursos de Escalabilidade}{44}{subsection.2.8.3}% 
-\contentsline {subsection}{\numberline {2.8.4}Benef\IeC {\'\i }cios e Desafios}{44}{subsection.2.8.4}% 
-\contentsline {subsection}{\numberline {2.8.5}Melhores Pr\IeC {\'a}ticas}{44}{subsection.2.8.5}% 
-\contentsline {section}{\numberline {2.9}FastAPI: Desenvolvimento de APIs para Integra\IeC {\c c}\IeC {\~a}o de Dados}{45}{section.2.9}% 
-\contentsline {subsection}{\numberline {2.9.1}Caracter\IeC {\'\i }sticas Fundamentais}{45}{subsection.2.9.1}% 
-\contentsline {subsection}{\numberline {2.9.2}Arquitetura e Componentes}{45}{subsection.2.9.2}% 
-\contentsline {subsection}{\numberline {2.9.3}Integra\IeC {\c c}\IeC {\~a}o de Dados com FastAPI}{45}{subsection.2.9.3}% 
-\contentsline {subsection}{\numberline {2.9.4}Seguran\IeC {\c c}a e Autentica\IeC {\c c}\IeC {\~a}o}{46}{subsection.2.9.4}% 
-\contentsline {subsection}{\numberline {2.9.5}Performance e Escalabilidade}{46}{subsection.2.9.5}% 
-\contentsline {subsection}{\numberline {2.9.6}Melhores Pr\IeC {\'a}ticas}{46}{subsection.2.9.6}% 
-\contentsline {subsection}{\numberline {2.9.7}Limita\IeC {\c c}\IeC {\~o}es e Considera\IeC {\c c}\IeC {\~o}es}{46}{subsection.2.9.7}% 
-\contentsline {section}{\numberline {2.10}Pipelines de Dados no Diagn\IeC {\'o}stico de C\IeC {\^a}ncer de Pele}{47}{section.2.10}% 
-\contentsline {subsection}{\numberline {2.10.1}Arquitetura do Pipeline}{47}{subsection.2.10.1}% 
-\contentsline {subsection}{\numberline {2.10.2}Componentes Essenciais}{47}{subsection.2.10.2}% 
-\contentsline {subsection}{\numberline {2.10.3}Fluxo de Dados e Processamento}{47}{subsection.2.10.3}% 
-\contentsline {subsection}{\numberline {2.10.4}Garantia de Qualidade}{47}{subsection.2.10.4}% 
-\contentsline {subsection}{\numberline {2.10.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{48}{subsection.2.10.5}% 
-\contentsline {section}{\numberline {2.11}Fluxo de Dados em Arquitetura de Data Fabric}{48}{section.2.11}% 
-\contentsline {subsection}{\numberline {2.11.1}Componentes do Fluxo de Dados}{48}{subsection.2.11.1}% 
-\contentsline {subsection}{\numberline {2.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{48}{subsection.2.11.2}% 
-\contentsline {subsection}{\numberline {2.11.3}Gest\IeC {\~a}o e Controle do Fluxo}{49}{subsection.2.11.3}% 
-\contentsline {subsection}{\numberline {2.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{49}{subsection.2.11.4}% 
-\contentsline {subsection}{\numberline {2.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{49}{subsection.2.11.5}% 
-\contentsline {section}{\numberline {2.12}Ingest\IeC {\~a}o de Dados e Preprocessamento de Imagens}{50}{section.2.12}% 
-\contentsline {subsection}{\numberline {2.12.1}Ingest\IeC {\~a}o de Dados}{50}{subsection.2.12.1}% 
-\contentsline {subsection}{\numberline {2.12.2}Preprocessamento de Imagens}{50}{subsection.2.12.2}% 
-\contentsline {subsection}{\numberline {2.12.3}Pipeline de Processamento}{51}{subsection.2.12.3}% 
-\contentsline {subsection}{\numberline {2.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{51}{subsection.2.12.4}% 
-\contentsline {subsection}{\numberline {2.12.5}Controle de Qualidade}{51}{subsection.2.12.5}% 
-\contentsline {section}{\numberline {2.13}MinIO Object Storage}{51}{section.2.13}% 
-\contentsline {subsection}{\numberline {2.13.1}Arquitetura e Benef\IeC {\'\i }cios}{52}{subsection.2.13.1}% 
-\contentsline {subsection}{\numberline {2.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{52}{subsection.2.13.2}% 
-\contentsline {section}{\numberline {2.14}Delta Lake}{53}{section.2.14}% 
-\contentsline {subsection}{\numberline {2.14.1}Arquitetura e Benef\IeC {\'\i }cios}{53}{subsection.2.14.1}% 
-\contentsline {subsection}{\numberline {2.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{53}{subsection.2.14.2}% 
-\contentsline {section}{\numberline {2.15}Related Works}{54}{section.2.15}% 
-\contentsline {subsection}{\numberline {2.15.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{54}{subsection.2.15.1}% 
-\contentsline {subsection}{\numberline {2.15.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{55}{subsection.2.15.2}% 
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{27}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Engenharia de Dados}{27}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Hist\IeC {\'o}rico e Evolu\IeC {\c c}\IeC {\~a}o}{27}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Desafios Atuais}{28}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Impacto das Dificuldades}{29}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Pr\IeC {\'a}ticas de Engenharia de Dados}{29}{subsection.2.1.4}% 
+\contentsline {section}{\numberline {2.2}Data Warehouse}{30}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Defini\IeC {\c c}\IeC {\~a}o e Conceito}{31}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Arquitetura}{32}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Quando Utilizar}{33}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Quando N\IeC {\~a}o Utilizar}{34}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}Data Fabric}{34}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o e Conceito}{35}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Arquitetura}{36}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Quando Utilizar}{37}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Quando N\IeC {\~a}o Utilizar}{38}{subsection.2.3.4}% 
+\contentsline {section}{\numberline {2.4}Data Lake}{38}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Tabela Comparativa: Data Lakes vs. Bancos de Dados Tradicionais}{40}{subsection.2.4.1}% 
+\contentsline {section}{\numberline {2.5}Data Mesh: Um Paradigma para Gest\IeC {\~a}o de Dados Descentralizados}{40}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}O que \IeC {\'e} Data Mesh?}{40}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Princ\IeC {\'\i }pios Fundamentais do Data Mesh}{40}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Vantagens e Desvantagens do Data Mesh}{41}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Quando Utilizar Data Mesh?}{41}{subsection.2.5.4}% 
+\contentsline {subsection}{\numberline {2.5.5}Quando N\IeC {\~a}o Utilizar Data Mesh?}{41}{subsection.2.5.5}% 
+\contentsline {subsection}{\numberline {2.5.6}Ferramentas Open Source para Data Mesh}{41}{subsection.2.5.6}% 
+\contentsline {subsection}{\numberline {2.5.7}Conclus\IeC {\~a}o}{42}{subsection.2.5.7}% 
+\contentsline {section}{\numberline {2.6}Apache Airflow: Orquestra\IeC {\c c}\IeC {\~a}o de Pipelines}{42}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Conceitos Fundamentais}{42}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.2}Caracter\IeC {\'\i }sticas Principais}{42}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.3}Arquitetura}{42}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.4}Benef\IeC {\'\i }cios e Limita\IeC {\c c}\IeC {\~o}es}{43}{subsection.2.6.4}% 
+\contentsline {subsection}{\numberline {2.6.5}Melhores Pr\IeC {\'a}ticas}{43}{subsection.2.6.5}% 
+\contentsline {section}{\numberline {2.7}Apache Spark}{43}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}Arquitetura e Componentes}{43}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.2}Processamento de Dados}{44}{subsection.2.7.2}% 
+\contentsline {subsection}{\numberline {2.7.3}Spark SQL e DataFrames}{44}{subsection.2.7.3}% 
+\contentsline {subsection}{\numberline {2.7.4}Integra\IeC {\c c}\IeC {\~a}o com Ecossistema Big Data}{44}{subsection.2.7.4}% 
+\contentsline {subsection}{\numberline {2.7.5}Performance e Otimiza\IeC {\c c}\IeC {\~a}o}{45}{subsection.2.7.5}% 
+\contentsline {section}{\numberline {2.8}Kubernetes: Orquestra\IeC {\c c}\IeC {\~a}o de Containers para Escalabilidade}{45}{section.2.8}% 
+\contentsline {subsection}{\numberline {2.8.1}Arquitetura do Kubernetes}{45}{subsection.2.8.1}% 
+\contentsline {subsection}{\numberline {2.8.2}Conceitos Fundamentais}{46}{subsection.2.8.2}% 
+\contentsline {subsection}{\numberline {2.8.3}Recursos de Escalabilidade}{46}{subsection.2.8.3}% 
+\contentsline {subsection}{\numberline {2.8.4}Benef\IeC {\'\i }cios e Desafios}{46}{subsection.2.8.4}% 
+\contentsline {subsection}{\numberline {2.8.5}Melhores Pr\IeC {\'a}ticas}{46}{subsection.2.8.5}% 
+\contentsline {section}{\numberline {2.9}FastAPI: Desenvolvimento de APIs para Integra\IeC {\c c}\IeC {\~a}o de Dados}{47}{section.2.9}% 
+\contentsline {subsection}{\numberline {2.9.1}Caracter\IeC {\'\i }sticas Fundamentais}{47}{subsection.2.9.1}% 
+\contentsline {subsection}{\numberline {2.9.2}Arquitetura e Componentes}{47}{subsection.2.9.2}% 
+\contentsline {subsection}{\numberline {2.9.3}Integra\IeC {\c c}\IeC {\~a}o de Dados com FastAPI}{47}{subsection.2.9.3}% 
+\contentsline {subsection}{\numberline {2.9.4}Seguran\IeC {\c c}a e Autentica\IeC {\c c}\IeC {\~a}o}{48}{subsection.2.9.4}% 
+\contentsline {subsection}{\numberline {2.9.5}Performance e Escalabilidade}{48}{subsection.2.9.5}% 
+\contentsline {subsection}{\numberline {2.9.6}Melhores Pr\IeC {\'a}ticas}{48}{subsection.2.9.6}% 
+\contentsline {subsection}{\numberline {2.9.7}Limita\IeC {\c c}\IeC {\~o}es e Considera\IeC {\c c}\IeC {\~o}es}{48}{subsection.2.9.7}% 
+\contentsline {section}{\numberline {2.10}Pipelines de Dados no Diagn\IeC {\'o}stico de C\IeC {\^a}ncer de Pele}{49}{section.2.10}% 
+\contentsline {subsection}{\numberline {2.10.1}Arquitetura do Pipeline}{49}{subsection.2.10.1}% 
+\contentsline {subsection}{\numberline {2.10.2}Componentes Essenciais}{49}{subsection.2.10.2}% 
+\contentsline {subsection}{\numberline {2.10.3}Fluxo de Dados e Processamento}{49}{subsection.2.10.3}% 
+\contentsline {subsection}{\numberline {2.10.4}Garantia de Qualidade}{49}{subsection.2.10.4}% 
+\contentsline {subsection}{\numberline {2.10.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{50}{subsection.2.10.5}% 
+\contentsline {section}{\numberline {2.11}Fluxo de Dados em Arquitetura de Data Fabric}{50}{section.2.11}% 
+\contentsline {subsection}{\numberline {2.11.1}Componentes do Fluxo de Dados}{50}{subsection.2.11.1}% 
+\contentsline {subsection}{\numberline {2.11.2}Padr\IeC {\~o}es de Fluxo de Dados}{50}{subsection.2.11.2}% 
+\contentsline {subsection}{\numberline {2.11.3}Gest\IeC {\~a}o e Controle do Fluxo}{51}{subsection.2.11.3}% 
+\contentsline {subsection}{\numberline {2.11.4}Integra\IeC {\c c}\IeC {\~a}o e Interoperabilidade}{51}{subsection.2.11.4}% 
+\contentsline {subsection}{\numberline {2.11.5}Desafios e Considera\IeC {\c c}\IeC {\~o}es}{51}{subsection.2.11.5}% 
+\contentsline {section}{\numberline {2.12}Ingest\IeC {\~a}o de Dados e Preprocessamento de Imagens}{52}{section.2.12}% 
+\contentsline {subsection}{\numberline {2.12.1}Ingest\IeC {\~a}o de Dados}{52}{subsection.2.12.1}% 
+\contentsline {subsection}{\numberline {2.12.2}Preprocessamento de Imagens}{52}{subsection.2.12.2}% 
+\contentsline {subsection}{\numberline {2.12.3}Pipeline de Processamento}{53}{subsection.2.12.3}% 
+\contentsline {subsection}{\numberline {2.12.4}T\IeC {\'e}cnicas de Augmenta\IeC {\c c}\IeC {\~a}o de Dados}{53}{subsection.2.12.4}% 
+\contentsline {subsection}{\numberline {2.12.5}Controle de Qualidade}{53}{subsection.2.12.5}% 
+\contentsline {section}{\numberline {2.13}MinIO Object Storage}{53}{section.2.13}% 
+\contentsline {subsection}{\numberline {2.13.1}Arquitetura e Benef\IeC {\'\i }cios}{54}{subsection.2.13.1}% 
+\contentsline {subsection}{\numberline {2.13.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Armazenamento em Nuvem}{54}{subsection.2.13.2}% 
+\contentsline {section}{\numberline {2.14}Delta Lake}{55}{section.2.14}% 
+\contentsline {subsection}{\numberline {2.14.1}Arquitetura e Benef\IeC {\'\i }cios}{55}{subsection.2.14.1}% 
+\contentsline {subsection}{\numberline {2.14.2}Relev\IeC {\^a}ncia no Cen\IeC {\'a}rio Atual de Big Data}{55}{subsection.2.14.2}% 
+\contentsline {section}{\numberline {2.15}Related Works}{56}{section.2.15}% 
+\contentsline {subsection}{\numberline {2.15.1}In Search of Big Medical Data Integration Solutions - A Comprehensive Survey}{56}{subsection.2.15.1}% 
+\contentsline {subsection}{\numberline {2.15.2}What Clinics Are Expecting From Data Scientists? A Review on Data Oriented Studies Through Qualitative and Quantitative Approaches}{57}{subsection.2.15.2}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{57}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Abordagem de Pesquisa}{57}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{57}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{57}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o}{58}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Crit\IeC {\'e}rios de Avalia\IeC {\c c}\IeC {\~a}o}{58}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Considera\IeC {\c c}\IeC {\~o}es sobre Sustentabilidade}{58}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Metodologia}{58}{section.3.7}% 
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{59}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Abordagem de Pesquisa}{59}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{59}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{59}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o}{60}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Crit\IeC {\'e}rios de Avalia\IeC {\c c}\IeC {\~a}o}{60}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Considera\IeC {\c c}\IeC {\~o}es sobre Sustentabilidade}{60}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Metodologia}{60}{section.3.7}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{59}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Requisitos}{59}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{60}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{61}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{63}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Arquitetura}{64}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{64}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{64}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{65}{subsubsection.4.2.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{65}{subsubsection.4.2.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{65}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{66}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{67}{subsection.4.2.5}% 
-\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{67}{subsection.4.2.6}% 
-\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{68}{subsection.4.2.7}% 
-\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{69}{subsection.4.2.8}% 
-\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{69}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{69}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{70}{section.4.5}% 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{61}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos}{61}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{62}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{63}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{65}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Arquitetura}{66}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{66}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{66}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{67}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{67}{subsubsection.4.2.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{67}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{68}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{69}{subsection.4.2.5}% 
+\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{69}{subsection.4.2.6}% 
+\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{70}{subsection.4.2.7}% 
+\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{71}{subsection.4.2.8}% 
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{71}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{71}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{72}{section.4.5}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o Realizada e Considera\IeC {\c c}\IeC {\~o}es Finais}}{75}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Implementa\IeC {\c c}\IeC {\~a}o Realizada (TCC2)}{75}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Infraestrutura Inicial Implantada}{75}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Telas do Sistema Implementado}{76}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.2}Evolu\IeC {\c c}\IeC {\~o}es Futuras}{77}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Conclus\IeC {\~a}o}{78}{section.5.3}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{73}{section*.12}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{79}{section*.14}% 
