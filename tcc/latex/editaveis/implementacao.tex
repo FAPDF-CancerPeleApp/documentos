@@ -1,41 +1,122 @@
 \chapter{Implementação Realizada e Considerações Finais}
 
+
 \section{Implementação Realizada (TCC2)}
 Durante o segundo trabalho de conclusão de curso (TCC2), foram priorizadas as etapas iniciais da arquitetura DermAlert com foco na viabilidade prática, validação da arquitetura proposta e demonstração de um protótipo funcional.
 
-\subsection{Infraestrutura Inicial Implantada}
-Durante o desenvolvimento do TCC2, foi implantada uma arquitetura inicial funcional da solução DermAlert, focada em validar os principais pilares do sistema e demonstrar sua capacidade de operação e escalabilidade. Uma das primeiras entregas foi a criação de uma arquitetura generalista de conexão com múltiplas fontes de dados, suportando de forma modular a coleta e integração de metadados clínicos a partir de bancos PostgreSQL e de tabelas Delta Lake, além da ingestão de imagens médicas armazenadas no sistema distribuído MinIO. Essa arquitetura foi projetada para permitir, com mínima configuração adicional, a expansão para novas fontes de dados — como MongoDB, APIs externas ou outras instâncias relacionais — garantindo flexibilidade e escalabilidade da plataforma.
+\subsection{Infraestrutura Inicial Desenvolvida}
+Durante o desenvolvimento do TCC2, foi desenvolvida uma arquitetura inicial
+ funcional da solução DermAlert, focada em validar os principais pilares do sistema e demonstrar sua capacidade de operação e escalabilidade.
+  Uma das primeiras entregas foi a criação de uma arquitetura generalista de conexão com múltiplas fontes de dados,
+   suportando de forma modular a coleta e integração de metadados clínicos a partir de bancos PostgreSQL e de tabelas Delta Lake,
+    além da ingestão de imagens médicas armazenadas no sistema distribuído MinIO.
+     Essa arquitetura foi projetada para permitir, com mínima configuração adicional, a expansão para novas fontes de dados — 
+como MongoDB, APIs externas ou outras instâncias relacionais — garantindo flexibilidade e escalabilidade da plataforma.
 
 A implementação da Camada de Integração Semântica, permite agrupar diferentes nomes e termos utilizados por instituições distintas para representar a mesma informação clínica. Na prática, isso significa que o sistema consegue entender que colunas diferentes com nomes como “melanoma maligno”, “melanoma” e “tumor melanocítico maligno” fazem parte de um mesmo grupo e representam o mesmo conceito. É possível normalizar os valores desses campos, por exemplo, mesmo que diferentes fontes usem variações de nome, o sistema pode padronizar tudo para “Melanoma”, garantindo consistência e facilitando análises. Com isso, a plataforma se adapta de forma inteligente à diversidade dos dados e reduz a necessidade de ajustes manuais conforme novas fontes são integradas.
 
-Além da coleta e padronização, foi desenvolvida a etapa de unificação semântica e materialização dos dados harmonizados em datasets organizados dentro do Delta Lake. Os dados brutos permanecem nas fontes originais (camada Bronze), sendo acessados por meio de conectores diretos e pipelines orquestrados. Após validações iniciais, os dados transformados e enriquecidos passam a compor as camadas Silver e Gold, agora armazenadas no Delta Lake sobre o MinIO. Esses datasets permitem versionamento, rastreamento de alterações e auditoria completa. Ao final do pipeline, os dados harmonizados são publicados por meio do Delta Sharing, permitindo acesso controlado, seguro e auditável.
+Além da coleta e padronização, foi desenvolvida a etapa de unificação semântica e materialização dos dados harmonizados em datasets
+ organizados dentro do Delta Lake e MinIO. Os dados brutos permanecem nas fontes originais (camada Bronze), sendo acessados por meio de pipelines orquestrados. Após validações iniciais, os dados transformados e enriquecidos passam a compor as camadas Silver e Gold, agora armazenadas no Delta Lake sobre o MinIO. Esses datasets permitem versionamento, rastreamento de alterações e auditoria completa. Ao final do pipeline, os dados são publicados por meio do Delta Sharing, permitindo acesso controlado, seguro e auditável.
 
 \subsection{Telas do Sistema Implementado}
 A seguir, são exibidas algumas telas e interfaces desenvolvidas para o sistema DermAlert DataFabric.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+\subsubsection{1. Tela Inicial (Home Page)}
+Esta é a página inicial da aplicação, onde o usuário pode visualizar um resumo do total de datasets conectados e navegar para outras seções do aplicativo. Ela oferece uma visão geral do ambiente de dados, incluindo fontes recentes e datasets em destaque.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figuras/app_screenshot.eps}
-\caption{Tela de cadastro e coleta de dados clínicos no aplicativo DermAlert}
-\label{fig:tela_cadastro_paciente}
+\includegraphics[width=0.9\textwidth]{figuras/1_home_page.eps}
+\caption{Tela Inicial (Home Page)}
+\label{fig:home_page}
 \end{figure}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+\subsubsection{2. Tela de Tipo de Conexão}
+Nesta tela, é possível definir e visualizar os esquemas para as conexões de dados que serão conectadas ao DataFabric. Ela permite a configuração detalhada dos tipos de conexão, como Delta Lake, MinIO S3, MySQL e PostgreSQL, incluindo seus parâmetros e métodos de extração.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figuras/app_screenshot.eps}
-\caption{Listagem de imagens dermatológicas coletadas com metadados estruturados}
-\label{fig:tela_listagem_imagens}
+\includegraphics[width=0.9\textwidth]{figuras/2_tipo_connection.eps}
+\caption{Tela de Tipo de Conexão}
+\label{fig:tipo_connection}
 \end{figure}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+\subsubsection{3. Modal de Novas Conexões}
+Este modal permite ao usuário definir novas conexões de dados. Nele, são preenchidas informações básicas como nome da conexão, tipo de conexão, descrição e parâmetros específicos para a conexão, como endpoint S3A, chaves de acesso e segredo.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figuras/app_screenshot.eps}
-\caption{Dashboard inicial para visualização de dados e acompanhamento de ingestão}
-\label{fig:dashboard_analises}
+\includegraphics[width=0.8\textwidth]{figuras/3_modal_connections.eps}
+\caption{Modal de Novas Conexões}
+\label{fig:modal_connections}
 \end{figure}
+
+
+
+
+\subsubsection{4. Tela de Conexões de Dados}
+Esta tela exibe todas as conexões de dados existentes, permitindo ao usuário sincronizá-las ou verificar o status da conexão. É possível visualizar detalhes de cada conexão, como nome, tipo, status e parâmetros, além de testar a conectividade.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/4_data_conenctions.eps}
+\caption{Tela de Conexões de Dados}
+\label{fig:data_connections}
+\end{figure}
+
+
+
+
+\subsubsection{5. Modal de Visibilidade}
+Este modal permite ao usuário explorar o conteúdo das conexões de dados, visualizando tabelas e colunas. É o local onde se pode selecionar quais elementos (tabelas, colunas) se deseja tornar visíveis e acessíveis para o DataFabric, controlando a granularidade dos dados expostos.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/5_visiibility_modal.eps}
+\caption{Modal de Visibilidade}
+\label{fig:visibility_modal}
+\end{figure}
+
+
+
+
+\subsubsection{6. Modal de Mapeamento de Valores}
+Este modal é crucial para a padronização de dados, permitindo a definição de domínios, dicionários e grupos. Grupos são usados para padronizar colunas, onde se pode mapear colunas de diferentes fontes para um nome unificado. Além disso, é possível mapear valores dentro das colunas (ex: 'skin cancer' para 'câncer de pele'), garantindo que, ao criar um dataset, os valores sejam automaticamente traduzidos e consistentes.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/6_value_mapping.eps}
+\caption{Modal de Mapeamento de Valores}
+\label{fig:value_mapping}
+\end{figure}
+
+
+
+
+\subsubsection{7. Tela de Equivalência de Colunas}
+Esta tela oferece uma versão mais simplificada dos grupos, focando na equivalência entre colunas. Aqui, é possível agrupar colunas de diferentes fontes que representam o mesmo conceito, facilitando a padronização e a integração de dados sem a complexidade adicional da definição de dicionários e domínios, como no mapeamento de valores.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/7_equivalence_columns.eps}
+\caption{Tela de Equivalência de Colunas}
+\label{fig:equivalence_columns}
+\end{figure}
+
+
+
+
+\subsubsection{8. Tela de Visualização de Dataset}
+Esta tela apresenta a visualização de um dataset que foi conectado, por exemplo, via conexão MinIO. Ela permite explorar, analisar, consultar e documentar os dados, oferecendo uma interface para interagir com o conteúdo do dataset, como imagens e metadados associados.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/8_dataset_veiw.eps}
+\caption{Tela de Visualização de Dataset}
+\label{fig:dataset_view}
+\end{figure}
+
 
 
 \section{Evoluções Futuras}

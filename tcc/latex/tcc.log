@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.23)  23 JUL 2025 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  24 JUL 2025 02:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,16 +893,6 @@ Overfull \hbox (6.79524pt too wide) in paragraph at lines 3--3
  [][] [] []  
  []
 
-
-Overfull \hbox (18.25887pt too wide) in paragraph at lines 9--9
- [][] [] []  
- []
-
-
-Overfull \hbox (22.96082pt too wide) in paragraph at lines 10--10
- [][] [] []  
- []
-
 ) [11] [12
 
 ] (./tcc.lot) [13] [14
@@ -1101,25 +1091,55 @@ Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
 ) (./editaveis/implementacao.tex [73] [74
 
 ] [75]
-File: figuras/app_screenshot.eps Graphic file (type eps)
- <figuras/app_screenshot.eps>
-File: figuras/app_screenshot.eps Graphic file (type eps)
+File: figuras/1_home_page.eps Graphic file (type eps)
+ <figuras/1_home_page.eps>
+File: figuras/2_tipo_connection.eps Graphic file (type eps)
 
-<figuras/app_screenshot.eps>
+<figuras/2_tipo_connection.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76]
-File: figuras/app_screenshot.eps Graphic file (type eps)
+File: figuras/3_modal_connections.eps Graphic file (type eps)
 
-<figuras/app_screenshot.eps> [77]) (./tcc.bbl (./tcc.brf)
+<figuras/3_modal_connections.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+File: figuras/4_data_conenctions.eps Graphic file (type eps)
+
+<figuras/4_data_conenctions.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+File: figuras/5_visiibility_modal.eps Graphic file (type eps)
+
+<figuras/5_visiibility_modal.eps>
+File: figuras/6_value_mapping.eps Graphic file (type eps)
+ <figuras/6_value_mapping.eps>
+Underfull \vbox (badness 3792) has occurred while \output is active []
+
+ [79]
+File: figuras/7_equivalence_columns.eps Graphic file (type eps)
+
+<figuras/7_equivalence_columns.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+File: figuras/8_dataset_veiw.eps Graphic file (type eps)
+
+<figuras/8_dataset_veiw.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+[82]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [78]
-bibitemlist
-[79
+ [83] [84
 
-] [80]
+]
+bibitemlist
+[85] [86]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1131,11 +1151,11 @@ Underfull \hbox (badness 2096) in paragraph at lines 197--197
 la-ble at: 
  []
 
-[81] [82])
+[87] [88])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[83]
+[89]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1159,7 +1179,7 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: DB9DE3FF2EFC2B976D6AAF70E1176A7D;8610
+(rerunfilecheck)             Before: DC312E6ECF8AC71AF72E48BF12627854;8610
 (rerunfilecheck)             After:  3093CD9149D8F950EC83B0A50136BE79;8610.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1167,12 +1187,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 12226 strings out of 494542
- 184401 string characters out of 6176699
- 343936 words of memory out of 5000000
- 15624 multiletter control sequences out of 15000+600000
+ 12263 strings out of 494542
+ 185273 string characters out of 6176699
+ 344527 words of memory out of 5000000
+ 15653 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (85 pages, 485640 bytes).
+Output written on tcc.dvi (91 pages, 505120 bytes).
