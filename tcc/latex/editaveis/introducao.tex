@@ -1,35 +1,69 @@
-\chapter[Introdução]{Introdução}
+\chapter{Introdução}
 
-\section{INTRODUÇÃO}
-O Data Fabric é uma arquitetura de dados inteligente que integra, gerencia e orquestra dados distribuídos em diversos ambientes e localizações. Na área médica, essa arquitetura é valiosa para a integração segura de dados clínicos de múltiplas fontes, facilitando o acesso e a análise dessas informações.
+\section{Contexto e Motivação}
 
-O câncer de pele é o tipo de câncer mais comum no mundo. O uso de machine learning para a análise de imagens dermatológicas tem grande potencial para auxiliar no diagnóstico precoce. No entanto, um dos principais desafios é o viés nos dados de treinamento, que frequentemente sub-representam diferentes tons de pele, condições socioeconômicas e características demográficas.
+O uso de inteligência artificial na medicina tem crescido rapidamente, especialmente em áreas como dermatologia, onde a análise visual é central para o diagnóstico \cite{esteva2017dermatologist, topol2019high}. A capacidade de processar grandes volumes de imagens de pele através de algoritmos permite criar sistemas que auxiliam médicos, aumentam a precisão dos diagnósticos e ajudam a compensar a falta de especialistas em regiões distantes \cite{daneshjou2022disparities}.
 
-O Data Fabric pode ajudar a superar essas limitações, integrando e padronizando dados de diferentes instituições médicas, promovendo uma base de dados mais representativa. Essa arquitetura permite o compartilhamento seguro de dados entre instituições e a implementação de políticas de governança que garantem a qualidade e a diversidade dos dados utilizados no treinamento dos modelos de machine learning.
+O câncer de pele é o tipo mais comum de câncer no Brasil e no mundo, exigindo estratégias eficazes para detecção precoce \cite{who2020skin}. Embora o diagnóstico em estágios iniciais aumente muito as chances de cura, problemas como a distribuição irregular de dermatologistas e o acesso limitado a recursos especializados ainda representam grandes obstáculos \cite{freeman2020workforce, inca2020estimativa}. Além disso, a digitalização dos sistemas de saúde tem gerado uma explosão de dados clínicos, imagens médicas e registros eletrônicos, tornando o gerenciamento e a integração dessas informações um desafio técnico complexo \cite{raghupathi2014big, lehne2019digital}.
 
-Em resumo, o Data Fabric oferece uma solução robusta para integrar dados clínicos de forma segura e eficiente, promovendo a diversidade e a representatividade dos dados, essenciais para desenvolver modelos de machine learning mais precisos e justos.
+\section{Problemas na Integração de Dados Dermatológicos}
 
+O cenário brasileiro apresenta uma fragmentação intensa dos dados, com informações espalhadas entre múltiplos sistemas antigos, bancos de dados isolados e formas diferentes de armazenamento. Essa fragmentação prejudica o acompanhamento completo do paciente, limita análises epidemiológicas consistentes e dificulta o desenvolvimento de soluções de IA que funcionem bem em diferentes contextos populacionais.
 
-\subsection{Justificativa}
+A diversidade de padrões de codificação, classificações clínicas e formatos de imagens também complica a comunicação entre instituições e compromete a padronização dos dados. A ausência de sistemas integrados de governança e rastreamento cria riscos de inconsistência, duplicação e problemas de privacidade, especialmente considerando regulamentações como a LGPD \cite{benfeldt2020data}. Isso mostra a necessidade de arquiteturas flexíveis e escaláveis que promovam a integração semântica e operacional dos dados clínicos dermatológicos.
 
-A crescente necessidade de soluções robustas e seguras para o processamento de imagens médicas demanda arquiteturas de dados mais sofisticadas e integradas. O Data Fabric representa uma evolução significativa nesse contexto, oferecendo uma abordagem moderna que combina gestão eficiente, escalabilidade e segurança avançada. Esta solução é particularmente relevante para o processamento de imagens de câncer de pele, onde a precisão e a confiabilidade no gerenciamento dos dados são fundamentais para o desenvolvimento de modelos de machine learning e para o suporte à decisão clínica.
+\section{Arquitetura Data Fabric: Conceitos e Aplicações}
 
-\subsection{Objetivos}
+A abordagem Data Fabric surge como uma solução técnica para os desafios apresentados. Trata-se de uma arquitetura focada na integração distribuída, capaz de conectar fontes de dados diferentes sem precisar mover fisicamente os registros \cite{gartner2021data, sharma2023data}. O Data Fabric cria uma camada de abstração que permite orquestrar fluxos de dados, virtualizar informações, aplicar políticas de governança uniformes e automatizar processos de descoberta e padronização.
 
-Os objetivos deste trabalho são:
+Esta arquitetura possibilita acesso federado, seguro e auditável a múltiplos repositórios clínicos, facilitando análises em tempo real e incorporação de novos dados conforme o sistema evolui. No contexto dermatológico, o Data Fabric permite mapear dinamicamente terminologias clínicas diferentes, centralizar logicamente imagens e metadados, e integrar pipelines de processamento avançado para análise automatizada de lesões de pele. Também viabiliza a implementação de equivalências semânticas, garantindo que informações codificadas de formas distintas sejam corretamente interpretadas em análises clínicas e populacionais.
+
+\section{Governança, Segurança e Conformidade}
+
+Um dos pilares fundamentais do Data Fabric é a governança integrada, que inclui controle de acesso detalhado, rastreabilidade da origem dos dados e aplicação de políticas de anonimização e criptografia. O uso de catálogos de metadados inteligentes, potencializados por técnicas de IA, permite automatizar o enriquecimento, classificação e descoberta de informações relevantes, reduzindo riscos de exposição inadequada e facilitando auditorias. Esses mecanismos são essenciais para garantir conformidade com normas como a LGPD, promovendo uso ético e seguro de dados sensíveis \cite{benfeldt2020data}.
+
+\section{Aplicação Prática: O DermAlert}
+
+O desenvolvimento da plataforma DermAlert demonstra a aplicação prática desses conceitos. É uma solução baseada em Data Fabric, projetada para integrar imagens dermatológicas e metadados clínicos de múltiplas instituições, respeitando altos padrões de segurança, escalabilidade e interoperabilidade. O DermAlert incorpora pipelines que automatizam a captura, validação e enriquecimento dos dados, além de ter mecanismos de equivalência semântica e compartilhamento seguro.
+
+O objetivo é fornecer uma base sólida para o desenvolvimento de modelos de IA mais justos, abrangentes e capazes de atender à diversidade da população brasileira. A plataforma DermAlert prioriza flexibilidade na integração de fontes, governança distribuída e conformidade regulatória, estabelecendo um novo paradigma para gestão de dados dermatológicos no país.
+
+\section{Objetivos}
+
+Este trabalho tem como objetivo geral propor, projetar e validar uma arquitetura Data Fabric para integração e gestão de dados dermatológicos em ambientes de alta heterogeneidade e governança distribuída. Especificamente, busca-se:
+
 \begin{itemize}
-    \item Propor uma arquitetura de Data Fabric para armazenar e processar imagens de câncer de pele.
-    \item Analisar os desafios e requisitos para a implementação desta arquitetura.
-    \item Apresentar um roadmap detalhado para a implementação da arquitetura proposta.
-    \item Unifica dados de várias fontes em um armazenamento MinIO escalável, permitindo análises avançadas com segurança e eficiência.
+\item Projetar e implementar uma arquitetura Data Fabric voltada ao contexto dermatológico, com camadas de virtualização de dados, metadados inteligentes e federação de consultas, permitindo acesso unificado a diversas fontes heterogêneas \cite{sharma2023data}.
+
+\item Desenvolver conectores especializados para integração de múltiplas fontes de dados dermatológicos, usando técnicas de virtualização para criar uma visão lógica unificada dos dados sem necessidade de replicação física \cite{lee2024delta}.
+
+\item Implementar um catálogo de metadados abrangente, com mecanismos automatizados de descoberta de esquemas e relacionamentos, capaz de mapear semanticamente conceitos clínicos entre diferentes fontes \cite{sharma2023data,lee2024delta}.
+
+\item Desenvolver mecanismos de tradução e otimização de consultas distribuídas, permitindo operações analíticas eficientes sobre bancos de dados paralelos com diferentes modelos de acesso \cite{sharma2023data}.
+
+\item Estabelecer pipelines automatizados de ingestão, processamento e análise de dados usando tecnologias de orquestração, com DAGs específicos para fluxos de trabalho clínicos em dermatologia \cite{lee2024delta}.
+
+\item Implementar módulos de processamento de imagens dermatológicas integrados à arquitetura Data Fabric, possibilitando normalização, segmentação e extração de características relevantes.
+
+\item Desenvolver interfaces de visualização interativas que explorem a capacidade do Data Fabric de fornecer visões contextuais e multidimensionais dos dados em dashboards adaptados a diferentes perfis de usuários.
+
+\item Implantar mecanismos robustos de governança de dados distribuídos, em conformidade com regulamentações como LGPD, garantindo segurança, rastreabilidade e auditoria \cite{benfeldt2020data}.
+
+\item Desenvolver APIs e conectores de interoperabilidade compatíveis com padrões de saúde, expondo as capacidades do Data Fabric para integração com ecossistemas externos.
+
+\item Validar a eficácia da arquitetura Data Fabric em cenários práticos de diagnóstico dermatológico, mensurando melhorias em precisão diagnóstica, redução de tempo de espera e aumento da acessibilidade a cuidados especializados.
+\end{itemize}
+\section{Estrutura do Trabalho}
+
+Este trabalho está estruturado para fornecer uma compreensão abrangente sobre os desafios, fundamentos técnicos e soluções para integração de dados em dermatologia, com foco na arquitetura Data Fabric aplicada à plataforma DermAlert. A seguir, descreve-se a organização dos capítulos:
+
+\begin{itemize}
+    \item \textbf{Capítulo 1 – Introdução:} apresenta o contexto e motivação do tema, os principais problemas na integração de dados dermatológicos, os conceitos iniciais da arquitetura Data Fabric, questões de governança, segurança e conformidade, a aplicação prática na plataforma DermAlert, os objetivos do trabalho e, por fim, a estrutura do documento.
+    \item \textbf{Capítulo 2 – Referencial Teórico:} discute os principais conceitos e tecnologias relacionadas à engenharia de dados, data warehouse, data fabric, data lake, data mesh, orquestração de pipelines com Apache Airflow, processamento distribuído com Apache Spark, orquestração de containers com Kubernetes, desenvolvimento de APIs com FastAPI, pipelines de dados para diagnóstico de câncer de pele, fluxo de dados em arquitetura data fabric, ingestão e preprocessamento de imagens, armazenamento de objetos com MinIO, arquitetura Delta Lake e trabalhos relacionados.
+    \item \textbf{Capítulo 3 – Metodologia:} detalha a abordagem de pesquisa adotada, as perguntas de pesquisa, o processo de desenvolvimento da arquitetura proposta, as fases de levantamento de requisitos, concepção arquitetural, integração tecnológica, implementação da camada semântica, desenvolvimento do aplicativo, estratégias de validação (técnica e operacional), critérios de avaliação (métricas quantitativas e qualitativas), considerações de sustentabilidade e observações finais sobre a metodologia.
+    \item \textbf{Capítulo 4 – Projeto:} apresenta os requisitos funcionais e não funcionais do sistema, histórias de usuário, a arquitetura detalhada da solução, diagramas de arquitetura e fluxo de dados, descrição dos componentes, tecnologias utilizadas, roadmap e plano de implementação, além do detalhamento das etapas de construção.
+    \item \textbf{Capítulo 5 – Implementação Realizada e Considerações Finais:} documenta a implementação efetivamente realizada no TCC2, incluindo a infraestrutura inicial desenvolvida, apresentação detalhada das telas do sistema implementado (tela inicial, tipos de conexão, modais de configuração, conexões de dados, visibilidade, mapeamento de valores, equivalência de colunas e visualização de datasets), propostas de evoluções futuras e conclusões do trabalho.
+    \item \textbf{Referências:} reúne todas as fontes bibliográficas utilizadas no desenvolvimento do trabalho.
 \end{itemize}
 
-\subsection{Estrutura do Documento}
-
-Este documento está estruturado da seguinte forma:
-\begin{itemize}
-    \item \textbf{Capítulo 1} - Introdução: Apresenta o contexto, a justificativa, os objetivos e a estrutura do documento.
-    \item \textbf{Capítulo 2} - Referencial Teórico: Revisão da literatura sobre Data Fabric, Engenharia de Dados, Data Warehouse, Data Lake, Data Mesh, Apache Airflow, Apache Spark, Kubernetes, FastAPI, e Pipelines de dados.
-    \item \textbf{Capítulo 3} - Metodologia: Detalhamento da metodologia adotada, incluindo o experience report e as perguntas de pesquisa.
-    \item \textbf{Capítulo 4} - Projeto: Descrição dos requisitos, arquitetura proposta, tecnologias utilizadas e roadmap de implementação.
-\end{itemize}
+Dessa forma, o documento busca não apenas apresentar o embasamento teórico e metodológico, mas também detalhar a aplicação prática e os resultados obtidos com a proposta da arquitetura Data Fabric no contexto da integração de dados em dermatologia.

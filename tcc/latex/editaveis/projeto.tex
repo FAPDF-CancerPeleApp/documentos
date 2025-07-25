@@ -7,23 +7,28 @@
 Para o desenvolvimento do projeto de uma arquitetura de Data Fabric para salvar imagens de câncer de pele, foram definidos os seguintes requisitos:
 
 \subsection{Requisitos Funcionais}
+
 \begin{table}[H]
     \centering
+    \small
     \begin{tabular}{|c|p{12cm}|}
     \hline
     \textbf{ID} & \textbf{Requisito} \\ \hline
-    RFSO01 & O sistema deve ser capaz de armazenar grandes volumes de imagens de câncer de pele. \\ \hline
-    RFSO02 & O sistema deve permitir o processamento eficiente das imagens armazenadas. \\ \hline
-    RFSO03 & O sistema deve garantir a segurança e a privacidade dos dados dos pacientes. \\ \hline
-    RFSO04 & Os dados devem estar disponíveis para acesso por pesquisadores e profissionais de saúde de forma segura. \\ \hline
-    RFSO05 & O sistema deve ser escalável para acomodar o aumento no volume de dados ao longo do tempo. \\ \hline
-    RFSO06 & O sistema deve permitir o compartilhamento seguro de dados utilizando Delta Sharing. \\ \hline
-    RFSO07 & O sistema deve permitir a integração de dados de diferentes fontes de forma unificada. \\ \hline
-    RFSO08 & O sistema deve oferecer uma camada de virtualização para consulta de dados distribuídos. \\ \hline
-    RFSO09 & O sistema deve permitir a governança centralizada dos dados, com controle de acesso baseado em papéis. \\ \hline
-    RFSO10 & O sistema deve suportar análises em tempo real para dados armazenados e em trânsito. \\ \hline
-    RFSO11 & O sistema deve possuir uma camada de metadados para catalogação de imagens e dados relacionados. \\ \hline
-    RFSO12 & O sistema deve fornecer APIs para facilitar a integração com ferramentas de visualização de dados. \\ \hline
+    RFSO01 & O sistema deve ser capaz de inserir, armazenar e gerenciar grandes volumes de imagens dermatológicas de forma escalável, utilizando arquitetura distribuída em camadas (bronze, prata, ouro). \\ \hline
+    RFSO02 & O sistema deve implementar pipelines de processamento automatizados para transformação, normalização e enriquecimento de imagens e metadados associados. \\ \hline
+    RFSO03 & O sistema deve garantir segurança end-to-end através de criptografia, anonimização automática de dados sensíveis e controle de acesso baseado em papéis (RBAC). \\ \hline
+    RFSO04 & O sistema deve disponibilizar dados para pesquisadores e profissionais de saúde através de APIs seguras com autenticação e autorização. \\ \hline
+    RFSO05 & O sistema deve suportar elasticidade horizontal e vertical para acomodar crescimento dinâmico de dados e usuários simultâneos. \\ \hline
+    RFSO06 & O sistema deve implementar compartilhamento seguro de dados utilizando Delta Sharing com controle de linhagem e auditoria completa. \\ \hline
+    RFSO07 & O sistema deve integrar semanticamente dados de fontes heterogêneas através de mapeamentos terminológicos transitivos e equivalências dinâmicas. \\ \hline
+    RFSO08 & O sistema deve oferecer camada de virtualização de dados permitindo consultas federadas em fontes distribuídas sem movimentação física dos dados. \\ \hline
+    RFSO09 & O sistema deve implementar governança centralizada com catálogo de metadados inteligente, rastreabilidade de linhagem e políticas de qualidade automatizadas. \\ \hline
+    RFSO10 & O sistema deve suportar processamento de dados em lote e em tempo real utilizando Apache Spark com otimização de performance e memória. \\ \hline
+    RFSO11 & O sistema deve manter catálogo abrangente de metadados com descoberta automática via IA/ML e classificação inteligente de conteúdo. \\ \hline
+    RFSO12 & O sistema deve fornecer APIs RESTful padronizadas para integração com aplicações externas, dashboards e ferramentas de análise. \\ \hline
+    RFSO13 & O sistema deve implementar workflows de orquestração automatizados para ingestão, validação e processamento de dados utilizando Apache Airflow. \\ \hline
+    RFSO14 & O sistema deve suportar versionamento transacional de dados com capacidade de rollback e recuperação temporal utilizando Delta Lake. \\ \hline
+    RFSO15 & O sistema deve integrar-se com aplicativo de coleta móvel para sincronização assíncrona de imagens e metadados clínicos. \\ \hline
     \end{tabular}
     \caption{Tabela de Requisitos Funcionais}
     \label{tab:requisitos_funcionais}
@@ -32,16 +37,24 @@ Para o desenvolvimento do projeto de uma arquitetura de Data Fabric para salvar 
 \subsection{Requisitos Não Funcionais}
 \begin{table}[H]
     \centering
+    \small 
     \begin{tabular}{|c|p{12cm}|}
     \hline
     \textbf{ID} & \textbf{Requisito} \\ \hline
-    RNFSO01 & O sistema deve ser capaz de processar e recuperar dados rapidamente. \\ \hline
-    RNFSO02 & O sistema deve garantir a integridade e a consistência dos dados armazenados. \\ \hline
-    RNFSO03 & A interface do sistema deve ser intuitiva e fácil de usar para os profissionais de saúde. \\ \hline
-    RNFSO04 & O sistema deve ser de fácil manutenção e atualização. \\ \hline
-    RNFSO05 & A arquitetura deve ser modular para facilitar a expansão e substituição de componentes. \\ \hline
-    RNFSO06 & O sistema deve oferecer suporte a padrões de interoperabilidade, como FHIR. \\ \hline
-    RNFSO07 & O sistema deve garantir compatibilidade com regulamentações de proteção de dados, como LGPD. \\ \hline
+    RNFSO01 & O sistema deve garantir latência inferior a 2 segundos para consultas padrão . \\ \hline
+    RNFSO02 & O sistema deve assegurar integridade transacional ACID, consistência eventual em ambientes distribuídos e disponibilidade superior a 99,5\% (uptime). \\ \hline
+    RNFSO03 & As interfaces do sistema devem seguir princípios de UX/UI para profissionais de saúde, com fluxos intuitivos e tempo de aprendizado mínimo. \\ \hline
+    RNFSO04 & A arquitetura deve ser modular e baseada em microserviços containerizados para facilitar manutenção, atualização e substituição de componentes. \\ \hline
+    RNFSO05 & O sistema deve suportar elasticidade automática através de Kubernetes com auto-scaling baseado em métricas de CPU, memória e I/O. \\ \hline
+    RNFSO06 & O sistema deve aderir a padrões de interoperabilidade em saúde e protocolos de integração internacionais. \\ \hline
+    RNFSO07 & O sistema deve garantir conformidade total com LGPD, incluindo direitos dos titulares, minimização de dados e privacy by design. \\ \hline
+    RNFSO08 & O sistema deve implementar recuperação de desastres com RTO inferior a 4 horas e RPO inferior a 1 hora, incluindo backup automatizado multi-região. \\ \hline
+    RNFSO09 & O sistema deve suportar operação em ambientes com conectividade instável através de sincronização offline-first e retry automático. \\ \hline
+    RNFSO10 & O sistema deve ser custo-efetivo utilizando exclusivamente tecnologias open-source com estratégia de migração para nuvem híbrida. \\ \hline
+    RNFSO11 & O sistema deve garantir qualidade de dados através de validação automática de imagens (resolução, SNR, nitidez, contraste) com métricas específicas. \\ \hline
+    RNFSO12 & O sistema deve implementar observabilidade completa com logging estruturado, métricas de negócio e alertas proativos para monitoramento operacional. \\ \hline
+    RNFSO13 & O sistema deve suportar internacionalização (i18n) e localização (l10n) para diferentes regiões e idiomas do Brasil. \\ \hline
+    RNFSO14 & O sistema deve garantir eficiência e sustentabilidade através de otimização de recursos computacionais e estratégias. \\ \hline
     \end{tabular}
     \caption{Tabela de Requisitos Não Funcionais}
     \label{tab:requisitos_nao_funcionais}
@@ -50,117 +63,191 @@ Para o desenvolvimento do projeto de uma arquitetura de Data Fabric para salvar 
 \subsection{Histórias de Usuário}
 \begin{table}[H]
     \centering
-    \begin{tabular}{|c|p{8cm}|c|c|}
+    \footnotesize 
+    \begin{tabular}{|c|p{7cm}|c|c|}
     \hline
     \textbf{Requisitos} & \textbf{Descrição} & \textbf{MoSCoW} & \textbf{Pontuação} \\ \hline
-    RFSO01 & Como pesquisador, quero armazenar grandes volumes de imagens de câncer de pele para análise. & Must Have & 8 \\ \hline
-    RFSO03 & Como administrador, quero garantir a privacidade dos dados dos pacientes armazenados. & Must Have & 9 \\ \hline
-    RFSO04 & Como médico, quero acessar dados de forma segura para apoiar o diagnóstico. & Must Have & 8 \\ \hline
-    RFSO06 & Como pesquisador, quero compartilhar dados de forma segura com outras organizações ou contribuidores. & Should Have & 7 \\ \hline
-    RFSO07 & Como administrador, quero integrar dados de diferentes bases de dados para análise centralizada. & Must Have & 9 \\ \hline
-    RFSO08 & Como pesquisador, quero consultar dados distribuídos sem me preocupar com a origem física dos dados. & Should Have & 7 \\ \hline
-    RFSO09 & Como administrador, quero controlar acessos de forma centralizada para garantir segurança. & Must Have & 8 \\ \hline
-    RFSO10 & Como pesquisador, quero realizar análises em tempo real para melhorar a precisão dos resultados. & Could Have & 6 \\ \hline
-    RFSO11 & Como desenvolvedor, quero acessar um catálogo centralizado de metadados para identificar rapidamente os dados necessários. & Should Have & 7 \\ \hline
-    RNFSO07 & Como administrador, quero garantir que os dados do sistema estejam em conformidade com LGPD. & Must Have & 10 \\ \hline
+    RFSO01 & Como pesquisador, quero armazenar e organizar milhares de imagens dermatológicas com metadados associados para desenvolver modelos de ML mais diversos e representativos. & Must Have & 9 \\ \hline
+    RFSO03 & Como administrador de dados, quero garantir que todos os dados sensíveis sejam automaticamente anonimizados e criptografados, cumprindo rigorosamente a LGPD. & Must Have & 10 \\ \hline
+    RFSO04 & Como dermatologista, quero acessar de forma segura uma base unificada de casos clínicos para apoiar diagnósticos diferenciais e pesquisa comparativa. & Must Have & 8 \\ \hline
+    RFSO06 & Como coordenador de pesquisa, quero compartilhar datasets específicos com instituições parceiras de forma controlada e auditável, mantendo a propriedade intelectual. & Should Have & 7 \\ \hline
+    RFSO07 & Como analista de dados, quero consultar informações de múltiplas instituições usando terminologia unificada, independente das diferenças semânticas originais. & Must Have & 9 \\ \hline
+    RFSO08 & Como cientista de dados, quero executar análises complexas em dados distribuídos sem precisar conhecer a localização física ou estrutura técnica de cada fonte. & Should Have & 8 \\ \hline
+    RFSO09 & Como gestor de TI em saúde, quero controlar acessos e rastrear todas as operações realizadas nos dados. & Must Have & 9 \\ \hline
+    RFSO10 & Como epidemiologista, quero executar análises populacionais em tempo real para identificar padrões emergentes de incidência de câncer de pele. & Could Have & 6 \\ \hline
+    RFSO11 & Como desenvolvedor de aplicações, quero navegar facilmente pelo catálogo de dados para descobrir e integrar datasets relevantes aos meus projetos de IA. & Should Have & 7 \\ \hline
+    RFSO13 & Como médico da APS, quero que o sistema processe automaticamente as imagens coletadas no aplicativo móvel e as integre ao sistema central sem intervenção manual. & Must Have & 8 \\ \hline
+    RFSO15 & Como profissional de saúde, quero sincronizar dados coletados offline assim que a conectividade for restaurada, sem perda de informações. & Should Have & 7 \\ \hline
+    RNFSO07 & Como responsável pela proteção de dados, quero garantir que o sistema implemente todos os direitos dos titulares previstos na LGPD de forma automatizada e auditável. & Must Have & 10 \\ \hline
+    RNFSO08 & Como administrador de infraestrutura, quero que o sistema se recupere automaticamente de falhas com mínima perda de dados e interrupção de serviço. & Must Have & 9 \\ \hline
+    RNFSO11 & Como especialista em qualidade, quero que apenas imagens com qualidade técnica adequada sejam aceitas no sistema, com validação automática de critérios clínicos. & Should Have & 7 \\ \hline
     \end{tabular}
     \caption{Tabela de Histórias de Usuário}
     \label{tab:historias_usuario}
 \end{table}
 
+
+
 \section{Arquitetura}
 
-A arquitetura do projeto será baseada na abordagem de Data Fabric, que permite a integração e gestão de dados de forma unificada e eficiente. A seguir, a descrição dos principais componentes da arquitetura:
+A arquitetura do sistema DermAlert foi desenvolvida com base no paradigma de Data Fabric, visando atender aos requisitos de integração, governança, escalabilidade, interoperabilidade e segurança para dados dermatológicos heterogêneos. A seguir, são detalhados os principais aspectos dessa arquitetura.
 
-\subsection{Diagrama de Arquitetura}
-A figura \ref{fig:arquitetura_projeto} ilustra a arquitetura proposta, cujo núcleo é o Data Fabric, responsável por integrar fontes de dados internas e externas, incluindo Google Cloud Storage, MongoDB e bancos de dados relacionais. O MinIO funciona como a fonte interna de armazenamento, dividida nas camadas Bronze, Silver e Gold, que suportam, respectivamente, a inserção inicial, o pré-processamento e o enriquecimento dos dados. A ingestão se inicia por meio de uma DAG de inserção gerenciada pelo Apache Airflow, que realiza coleta (scraping) de imagens de câncer de pele em diferentes repositórios, armazenando-as na camada Bronze do Data Lake (MinIO) junto a seus metadados, os quais são registrados no Delta Lake. Em seguida, ocorre uma nova etapa coordenada por outra DAG do Apache Airflow, na qual o pré-processamento e a análise das imagens são executados, resultando em dados enriquecidos que passam a compor as camadas Silver ou Gold no MinIO, ao mesmo tempo em que o Delta Lake mantém a organização e o controle de versões dos metadados. O Spark atua como motor de processamento que aproveita a camada transacional do Delta Lake para garantir integridade (ACID) e versionamento, além de oferecer as ferramentas necessárias para manipular ou analisar grandes volumes de informações. Por fim, o Delta Sharing possibilita a disponibilização desses dados de maneira segura a pesquisadores e organizações, preservando a governança e a privacidade das informações.
+\subsection{Visão Geral e Diagrama de Arquitetura Geral}
+
+A Figura~\ref{fig:diagrama_geral_arquitetura} apresenta o diagrama geral da arquitetura DermAlert. O núcleo do sistema é a camada Data Fabric, que integra fontes internas e externas (hospitais, repositórios públicos, centros de pesquisa, sistemas legados) por meio de conectores e APIs customizadas. O armazenamento distribuído é realizado via MinIO, estruturado em múltiplas camadas (Bronze, Silver, Gold) para suportar ingestão, pré-processamento e enriquecimento de dados. O Apache Airflow gerencia o fluxo e a automação dos pipelines, enquanto o Delta Lake é responsável pelo gerenciamento transacional, versionamento e catalogação dos metadados. O Apache Spark atua como motor de processamento distribuído, permitindo análises em larga escala e consultas federadas. O Delta Sharing facilita o compartilhamento seguro dos dados, enquanto a interface de acesso é disponibilizada via FastAPI, e a infraestrutura de containers é orquestrada pelo Kubernetes para garantir escalabilidade e resiliência.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figuras/diagrama_geral_arquitetura.eps}
+    \caption{Diagrama Geral da Arquitetura DermAlert}
+    \label{fig:diagrama_geral_arquitetura}
+\end{figure}
+
+\subsection{Diagramas Específicos do Projeto}
+
+Esta seção apresenta diagramas específicos que detalham a arquitetura e os fluxos de dados do projeto DermAlert.
+
+\subsubsection{Diagrama de Arquitetura do Projeto}
+
+A Figura~\ref{fig:arquitetura_projeto} ilustra a arquitetura proposta, detalhando como o Data Fabric integra fontes de dados internas e externas, com armazenamento em camadas utilizando MinIO, orquestração de ingestão e processamento via Apache Airflow e análise/controle transacional por Delta Lake e Spark. O compartilhamento seguro de dados é realizado via Delta Sharing.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/arquitetura.eps}
-    \caption{Diagrama da Arquitetura do Projeto }
+    \caption{Diagrama da Arquitetura do Projeto}
     \label{fig:arquitetura_projeto}
-\end{figure} 
+\end{figure}
 
+\subsubsection{Diagrama de Fluxo de Dados}
 
-\subsection{Diagrama de Fluxo de Dados}
-A figura \ref{fig:fluxo_dados_projeto} ilustra um fluxo de dados em que múltiplas fontes (como hospitais, pesquisas colaborativas e repositórios de imagens médicas) alimentam o sistema por meio de uma DAG de inserção, orquestrada pelo Apache Airflow. Essa etapa controla a ingestão de arquivos e seus metadados, direcionando-os ao DataLake, no qual o MinIO provê armazenamento distribuído. Paralelamente, o Delta Lake é responsável por gerenciar as informações de metadados e garantir versionamento e rastreabilidade das atualizações. Na sequência, uma segunda fase de orquestração ocorre na etapa de Processamento de Dados, na qual o próprio Apache Airflow ativa as rotinas de pré-processamento e de análise, empregando o Spark especificamente para transformações nos metadados e extração de insights. Com os dados processados, o sistema conta com um módulo de Governança e Segurança que adota políticas de controle de acesso (RBAC) e está em conformidade com a LGPD, assegurando integridade e privacidade das informações médicas. Por fim, o módulo de Compartilhamento de Dados, apoiado no Delta Sharing, facilita o acesso seguro a pesquisadores e outras organizações, permitindo consultas autorizadas e promovendo a colaboração em larga escala.
+A Figura~\ref{fig:fluxo_dados_projeto} apresenta o fluxo de dados, desde as múltiplas fontes até o armazenamento, processamento, governança, segurança e compartilhamento de dados, orquestrados por Airflow, utilizando MinIO, Delta Lake, Spark e Delta Sharing.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figuras/diagrama_fluxo_dados.eps}
-    \caption{Diagrama da Fluxo de Dados }
+    \caption{Diagrama do Fluxo de Dados}
     \label{fig:fluxo_dados_projeto}
-\end{figure} 
+\end{figure}
 
+\subsection{Fluxo de Dados Detalhado}
 
+O fluxo de dados inicia-se com a ingestão proveniente de múltiplas fontes (postos de saúde, hospitais, repositórios externos, aplicativos móveis). O Apache Airflow orquestra a coleta automatizada de imagens dermatológicas e metadados, realizando validações iniciais e direcionando os dados para o armazenamento distribuído MinIO (camada Bronze). Os metadados clínicos e epidemiológicos são registrados e versionados no Delta Lake. Em seguida, o Airflow aciona pipelines para pré-processamento e enriquecimento das imagens, promovendo os dados para as camadas Silver e Gold conforme critérios de maturidade. O Spark executa análises e transformações em larga escala, promovendo integração semântica, classificação automática e extração de características relevantes.
 
-\subsection{Componentes da Arquitetura}
+A governança é garantida por um catálogo inteligente de metadados, permitindo rastreamento da linhagem, auditoria e aplicação de políticas de segurança. O compartilhamento seguro dos dados é viabilizado por Delta Sharing, permitindo acesso controlado para análises e treinamento de modelos de IA, em conformidade com a LGPD.
+
+\subsection{Componentes Principais da Arquitetura}
+
 \begin{itemize}
-    \item \textbf{Ingestão de Dados}: Utilização de pipelines de ingestão para coletar e armazenar imagens de câncer de pele de diversas fontes (hospitais, clínicas, pesquisas).
-    \item \textbf{Armazenamento de Dados}: Implementação de um sistema de armazenamento distribuído, como MinIO, para garantir a escalabilidade e a disponibilidade das imagens.
-    \item \textbf{Processamento de Dados}: Utilização de ferramentas como Apache Airflow para a orquestração de pipelines de processamento das imagens.
-    \item \textbf{Gestão de Dados}: Aplicação de Data Fabric para fornecer uma camada de abstração que facilita a integração e gestão dos dados distribuídos.
-    \item \textbf{Compartilhamento de Dados}: Utilização de Delta Sharing para permitir o compartilhamento seguro de dados entre diferentes organizações.
-    \item \textbf{Interface de Usuário}: Desenvolvimento de uma interface web utilizando FastAPI para permitir o acesso e a manipulação dos dados por pesquisadores e profissionais de saúde.
+    \item \textbf{Pipelines de Ingestão e Orquestração}: Automação da coleta, validação, tratamento e armazenamento dos dados utilizando Apache Airflow.
+    \item \textbf{Armazenamento Distribuído}: MinIO estruturado em múltiplas camadas (Bronze, Silver, Gold).
+    \item \textbf{Gestão Transacional e Metadados}: Delta Lake para versionamento, rastreabilidade e governança.
+    \item \textbf{Processamento de Dados}: Apache Spark para processamento em memória e integração semântica.
+    \item \textbf{Compartilhamento Seguro}: Delta Sharing para troca controlada de dados.
+    \item \textbf{Interface de Acesso}: FastAPI para APIs RESTful.
+    \item \textbf{Orquestração de Containers}: Kubernetes para gerenciamento de serviços e escalabilidade.
+    \item \textbf{Governança e Segurança}: Catálogo de metadados, RBAC, criptografia e anonimização.
+    \item \textbf{Frontend Interativo}: Next.js/React para dashboards e visualização de imagens, criação dos datasets e definição de equivalências semânticas.
 \end{itemize}
 
-\subsection{Fluxo de Dados}
+\subsection{Diferenciais Arquiteturais}
+
 \begin{itemize}
-    \item \textbf{Coleta e Ingestão}: As imagens são coletadas de diversas fontes e armazenadas no sistema de armazenamento distribuído.
-    \item \textbf{Processamento}: As imagens armazenadas são processadas através de pipelines orquestrados pelo Apache Airflow, que podem incluir etapas de pré-processamento, análise e extração de características.
-    \item \textbf{Armazenamento e Gestão}: Os dados processados são armazenados e geridos pela arquitetura de Data Fabric, que garante a integração e a consistência dos dados.
-    \item \textbf{Compartilhamento de Dados}: Utilizando Delta Sharing, os dados podem ser compartilhados de forma segura com outras organizações e pesquisadores.
-    \item \textbf{Acesso aos Dados}: A interface web desenvolvida com FastAPI permite que os usuários acessem e manipulem os dados de forma segura e eficiente.
+    \item \textbf{Virtualização e Federação de Dados}: Consulta federada sobre múltiplos bancos e data lakes.
+    \item \textbf{Integração Semântica Avançada}: Propagação transitiva e agrupamentos hierárquicos.
+    \item \textbf{Governança de Dados Distribuída}: Políticas centralizadas de segurança e rastreabilidade.
+    \item \textbf{Suporte à Diversidade}: Estruturação para diversidade de tons de pele e contextos epidemiológicos.
+    \item \textbf{Escalabilidade e Sustentabilidade}: Infraestrutura modular e uso de tecnologias open source.
 \end{itemize}
+
+\subsection{Aplicativo de Coleta DermAlert}
+
+Desenvolvemos o aplicativo DermAlert para uso em postos de saúde, visando a detecção precoce e o monitoramento padronizado de lesões suspeitas de câncer de pele. O aplicativo serve como ferramenta de apoio durante o atendimento, permitindo que médicos e enfermeiros documentem casos suspeitos diretamente no momento da consulta. O fluxo de trabalho foi desenvolvido em alinhamento com as rotinas dermatológicas.
+
+Quando um paciente apresenta sintomas suspeitos, o profissional inicia o cadastro no aplicativo seguindo um fluxo intuitivo:
+\begin{itemize}
+    \item Cadastro básico do paciente (nome ou identificador);
+    \item Anamnese simplificada com foco em fatores de risco (histórico familiar, exposição solar);
+    \item Documentação fotográfica da lesão com guias de enquadramento;
+    \item Marcação da região anatômica;
+    \item Caracterização da lesão por meio de formulário estruturado (tamanho, cor, bordas);
+    \item Adição de anotações clínicas relevantes.
+\end{itemize}
+
+Um aspecto importante é a implementação de um sistema integrado de consentimento digital, que explica ao paciente como seus dados serão utilizados para pesquisa e aprimoramento do sistema. O aplicativo é uma das principais fontes de dados conectadas ao Data Fabric.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figuras/app_screenshot.eps}
+    \caption{Tela do aplicativo DermAlert para coleta de dados clínicos e imagens}
+    \label{fig:app_screenshot}
+\end{figure}
+
+\subsection{Integração Técnica}
+
+A integração técnica foi desenvolvida considerando os desafios específicos do contexto brasileiro de saúde pública:
+\begin{itemize}
+    \item Anonimização parcial dos dados antes da sincronização com o Data Fabric;
+    \item Segregação de identificadores pessoais e dados clínicos;
+    \item Integração planejada com APIs governamentais para futuras validações.
+\end{itemize}
+
+O sistema está estruturado para receber resultados de biópsia através do sistema SISCAN, permitindo a comparação entre diagnósticos algorítmicos e confirmações histopatológicas. Esse feedback será fundamental para o aprimoramento contínuo dos modelos de aprendizado de máquina e avaliação de sua eficácia em diferentes cenários clínicos.
+
+A arquitetura técnica do aplicativo foi projetada com foco em escalabilidade. Iniciou-se com uma instalação piloto em cinco unidades, mas o sistema está dimensionado para suportar uso simultâneo em larga escala, sem necessidade de alterações significativas na infraestrutura.
+
+
+\subsection{Considerações Finais sobre a Arquitetura}
+
+A arquitetura DermAlert integra requisitos clínicos, regulatórios e tecnológicos, com desenho modular, governança robusta e uso extensivo de software livre, promovendo sustentabilidade e viabilidade para saúde pública no Brasil.
+
 
 \section{Tecnologias Utilizadas}
 
-Com base no referencial teórico, as seguintes tecnologias serão utilizadas no projeto:
 \begin{itemize}
-    \item \textbf{MinIO}: Para o armazenamento distribuído das imagens, garantindo escalabilidade e disponibilidade.
-    \item \textbf{Apache Airflow}: Para a orquestração de pipelines de processamento de dados.
-    \item \textbf{Data Fabric}: Para a integração e gestão de dados de forma unificada.
-    \item \textbf{Delta Sharing}: Para o compartilhamento seguro de dados entre diferentes organizações.
-    \item \textbf{FastAPI}: Para o desenvolvimento da interface web, permitindo o acesso e a manipulação dos dados.
-    \item \textbf{Kubernetes}: Para a orquestração de containers, garantindo a escalabilidade e a alta disponibilidade do sistema.
-    \item \textbf{Spark}: Fornece um alto nível de paralelismo, processando grandes quantidades de dados eficientimente em vários nós em um cluster.
+    \item \textbf{MinIO}: Armazenamento distribuído de imagens.
+    \item \textbf{Apache Airflow}: Orquestração de pipelines.
+    \item \textbf{Delta Lake/Delta Sharing}: Governança, versionamento e compartilhamento seguro.
+    \item \textbf{FastAPI}: APIs web.
+    \item \textbf{Kubernetes}: Orquestração de containers.
+    \item \textbf{Spark}: Processamento paralelo de dados.
 \end{itemize}
+
 
 \section{Roadmap e Plano de Implementação}
 
-A implementação dessa arquitetura será conduzida em etapas sequenciais, cada qual associada a um intervalo de tempo estimado, de modo a garantir uma implantação organizada e confiável. O desenvolvimento será estruturado em cinco fases principais:
+A implementação da arquitetura DermAlert será conduzida em etapas sequenciais, alinhadas aos requisitos funcionais e não funcionais definidos anteriormente. O objetivo é garantir uma implantação robusta, escalável e em conformidade com as melhores práticas de governança e segurança de dados. O desenvolvimento será estruturado em cinco fases principais:
 
 \begin{enumerate}
     \item \textbf{Fase de Preparação do Ambiente} (2-3 semanas)
     \begin{itemize}
-        \item Configuração do ambiente de desenvolvimento local
-        \item Implementação do cluster Kubernetes
-        \item Configuração inicial do MinIO
+        \item Configuração do ambiente de desenvolvimento local e repositórios de código.
+        \item Implantação do cluster Kubernetes para orquestração de containers.
+        \item Configuração inicial do MinIO para armazenamento distribuído em múltiplas camadas (Bronze, Silver, Gold).
     \end{itemize}
     \item \textbf{Fase de Desenvolvimento Base} (2-3 semanas)
     \begin{itemize}
-        \item Implementação do Delta Lake com MinIO
-        \item Configuração das camadas Bronze, Silver e Gold
-        \item Desenvolvimento das primeiras DAGs no Apache Airflow
+        \item Integração do Delta Lake ao MinIO, com versionamento e governança de dados.
+        \item Estruturação das camadas de dados e definição de políticas de acesso.
+        \item Desenvolvimento das primeiras DAGs no Apache Airflow para ingestão e pré-processamento.
     \end{itemize}
-    \item \textbf{Fase de Implementação Principal} (3-4 semanas)
+    \item \textbf{Fase de Implementação Principal} (6-7 semanas)
     \begin{itemize}
-        \item Desenvolvimento das pipelines de processamento
-        \item Implementação do Delta Sharing
-        \item Configuração das políticas de segurança
+        \item Desenvolvimento das pipelines completas de processamento, enriquecimento e promoção de dados.
+        \item Implementação do Delta Sharing para compartilhamento seguro e auditável.
+        \item Configuração das políticas de segurança, anonimização e RBAC.
+        \item Integração das APIs RESTful via FastAPI.
     \end{itemize}
     \item \textbf{Fase de Testes} (2 semanas)
     \begin{itemize}
-        \item Testes de integração entre componentes
-        \item Validação de performance e escalabilidade
-        \item Verificação de conformidade com LGPD
+        \item Testes de integração entre todos os componentes (MinIO, Delta Lake, Airflow, Spark, FastAPI).
+        \item Validação de performance, escalabilidade e conformidade com LGPD.
+        \item Testes de qualidade de dados e observabilidade.
     \end{itemize}
-    \item \textbf{Fase de Documentação} (2 semanas)
+    \item \textbf{Fase de Documentação e Entrega} (2 semanas)
     \begin{itemize}
-        \item Registro das experiências e desafios
-        \item Documentação das decisões técnicas
-        \item Compilação das lições aprendidas
+        \item Registro das experiências, desafios e decisões técnicas.
+        \item Documentação dos fluxos, APIs, pipelines e políticas de governança.
+        \item Compilação das lições aprendidas e entrega do ambiente operacional.
     \end{itemize}
 \end{enumerate}
 
@@ -169,36 +256,38 @@ A implementação dessa arquitetura será conduzida em etapas sequenciais, cada 
 \begin{enumerate}
     \item \textbf{Configuração do Ambiente e Kubernetes} (2 semanas)
     \begin{itemize}
-        \item Configuração do ambiente de desenvolvimento
-        \item Implantação do cluster Kubernetes
+        \item Configuração do ambiente de desenvolvimento e versionamento de código.
+        \item Implantação do cluster Kubernetes para garantir elasticidade e resiliência.
     \end{itemize}
     \item \textbf{Configuração do MinIO e Armazenamento} (1-2 semanas)
     \begin{itemize}
-        \item Configuração do MinIO para armazenamento distribuído
-        \item Testes iniciais de integração
+        \item Estruturação do MinIO em múltiplas camadas (Bronze, Silver, Gold) para ingestão, pré-processamento e enriquecimento.
+        \item Testes iniciais de integração e performance.
     \end{itemize}
-    \item \textbf{Integração do Delta Lake} (1 semana)
+    \item \textbf{Integração do Delta Lake e Governança} (1 semana)
     \begin{itemize}
-        \item Instalação e configuração do Delta Lake com MinIO
-        \item Adequação às políticas de governança
+        \item Instalação e configuração do Delta Lake sobre MinIO.
+        \item Implementação de versionamento, rastreabilidade e catálogo de metadados.
+        \item Adequação às políticas de governança e qualidade de dados.
     \end{itemize}
     \item \textbf{Orquestração com Apache Airflow} (2-3 semanas)
     \begin{itemize}
-        \item Configuração do Apache Airflow
-        \item Implementação das DAGs de inserção e processamento
-        \item Ajuste das pipelines e testes de escalabilidade
+        \item Configuração do Apache Airflow para automação dos pipelines.
+        \item Implementação das DAGs de ingestão, validação, processamento e promoção de dados.
+        \item Ajuste das pipelines para suportar processamento em lote e em tempo real com Spark.
     \end{itemize}
-    \item \textbf{Implementação do Delta Sharing e Segurança} (2 semanas)
+    \item \textbf{Implementação do Delta Sharing, Segurança e APIs} (2 semanas)
     \begin{itemize}
-        \item Configuração do Delta Sharing
-        \item Implementação de RBAC e conformidade com LGPD
+        \item Configuração do Delta Sharing para compartilhamento seguro e auditável.
+        \item Implementação de RBAC, criptografia, anonimização e conformidade com LGPD.
+        \item Integração das APIs RESTful via FastAPI para acesso e integração externa.
     \end{itemize}
-    \item \textbf{Testes e Validação Final} (2 semanas)
+    \item \textbf{Testes, Observabilidade e Validação Final} (2 semanas)
     \begin{itemize}
-        \item Testes de carga e desempenho
-        \item Monitoramento contínuo
+        \item Testes de carga, desempenho, segurança e conformidade.
+        \item Implementação de logging estruturado, métricas e alertas para monitoramento operacional.
+        \item Validação de qualidade de dados e internacionalização.
     \end{itemize}
 \end{enumerate}
 
-A implementação da arquitetura proposta foi realizada de maneira organizada e sequencial, conforme detalhado no roadmap e plano de implementação. Cada fase foi conduzida com foco na qualidade, escalabilidade e conformidade com as políticas de segurança e governança de dados.
-
+A implementação da arquitetura DermAlert será realizada de maneira incremental e iterativa, com foco em escalabilidade, segurança, governança e sustentabilidade, conforme detalhado nos requisitos e diferenciais arquiteturais apresentados neste capítulo.

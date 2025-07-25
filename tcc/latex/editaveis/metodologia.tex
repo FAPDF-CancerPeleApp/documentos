@@ -1,70 +1,40 @@
-\chapter[Metodologia]{Metodologia}
+\chapter{Metodologia}
 
-\section{Experience report}
+\section{Abordagem de Pesquisa}
 
-O Experience report é uma metodologia de pesquisa que descreve e analisa um processo ou projeto específico, destacando os passos planejados, os desafios esperados e as estratégias a serem adotadas. No presente trabalho, optamos por um Experience report para documentar o processo de concepção e planejamento da construção de uma arquitetura de Data Fabric para imagens de câncer de pele. 
+A metodologia adotada neste trabalho é o Relato de Experiência (\textit{Experience Report}), que consiste na descrição detalhada do processo de concepção, desenvolvimento e implementação da arquitetura Data Fabric DermAlert. Essa abordagem foi escolhida por ser adequada à documentação de soluções tecnológicas aplicadas em cenários reais, permitindo a análise de desafios enfrentados, decisões tomadas e lições aprendidas durante o desenvolvimento. O método se justifica pela natureza prática do projeto, que envolve integração de aspectos tecnológicos, regulatórios e clínicos para viabilizar a interoperabilidade de dados dermatológicos no contexto do Sistema Único de Saúde (SUS) brasileiro.
 
 \section{Perguntas de Pesquisa}
 
-As perguntas de pesquisa deste Experience report foram formuladas para investigar como a arquitetura de Data Fabric pode ser usada no armazenamento e processamento de imagens de câncer de pele. As perguntas específicas são:
+O desenvolvimento da arquitetura DermAlert foi orientado pelas seguintes perguntas de pesquisa:
 
 \begin{enumerate}
-\item \textbf{Como a arquitetura de Data Fabric pode ser implementada para melhorar o armazenamento e o processamento de imagens de câncer de pele?}
-\begin{itemize}
-\item Exemplo: Quais são os componentes essenciais para uma arquitetura de Data Fabric eficaz nesse caso?
-\end{itemize}
-
-\item \textbf{Quais são os desafios enfrentados na implementação de uma arquitetura de Data Fabric para imagens médicas?}
-\begin{itemize}
-    \item Exemplo: Quais são as principais dificuldades técnicas e operacionais que podem surgir durante a implementação?
-\end{itemize}
-
-\item \textbf{De que maneira a arquitetura de Data Fabric pode impactar a eficiência do processamento de imagens de câncer de pele?}
-\begin{itemize}
-    \item Exemplo: Como a utilização de Data Fabric pode influenciar a velocidade e a precisão do processamento dessas imagens?
-\end{itemize}
-
-\item \textbf{Quais são as percepções dos profissionais de saúde sobre a eficácia da arquitetura de Data Fabric no armazenamento de imagens de câncer de pele?}
-\begin{itemize}
-    \item Exemplo: Como os profissionais avaliam a usabilidade e os benefícios dessa tecnologia?
-\end{itemize}
-
-\item \textbf{Quais são as melhores práticas para garantir a segurança e a privacidade dos dados armazenados em uma arquitetura de Data Fabric?}
-\begin{itemize}
-    \item Exemplo: Quais medidas são recomendadas para proteger as informações sensíveis dos pacientes?
-\end{itemize}
-
+    \item Como implementar uma arquitetura Data Fabric que atenda aos requisitos específicos de armazenamento, processamento e governança de imagens dermatológicas e metadados clínicos associados?
+    \item Quais são os principais desafios técnicos, operacionais e regulamentares na implementação de uma arquitetura Data Fabric para dados médicos sensíveis em conformidade com a LGPD?
+    \item De que forma a integração semântica pode resolver a heterogeneidade entre diferentes instituições de saúde em um sistema distribuído?
+    \item Como a virtualização e federação de dados podem melhorar a eficiência no acesso a informações distribuídas sem comprometer a segurança e governança?
+    \item Qual o impacto da arquitetura proposta na qualidade, diversidade e acessibilidade dos dados para o desenvolvimento de modelos de \textit{machine learning} mais equitativos?
 \end{enumerate}
 
-\section{Processo de Construção da Arquitetura de Data Fabric}
 
-A construção da arquitetura de Data Fabric para armazenamento e processamento de imagens de câncer de pele será realizada no TCC2, com base nos requisitos definidos. O objetivo será validar a viabilidade da arquitetura proposta e garantir que os componentes funcionem de maneira integrada, eficiente e segura. A seguir, detalhamos as etapas que serão seguidas na execução do projeto.
+\section{Processo de Desenvolvimento da Arquitetura}
 
-\subsection{Implementação da Arquitetura}
+O desenvolvimento da arquitetura foi realizado em etapas. Primeiro, analisou-se o cenário da dermatologia no Brasil, considerando desafios, limitações tecnológicas, exigências legais e necessidades dos profissionais da Atenção Primária. A arquitetura foi desenhada com foco em descentralização, escalabilidade, segurança, interoperabilidade e uso de tecnologias \textit{open source}. A escolha das ferramentas considerou critérios como facilidade de manutenção, custo e flexibilidade. O conjunto de tecnologias incluiu MinIO para armazenamento, Delta Lake para gerenciamento de dados, Apache Airflow para orquestração, Apache Spark para processamento, Delta Sharing para compartilhamento seguro, FastAPI para API, Kubernetes para containers, catálogo de metadados para governança e interface web em Next.js/React.
 
-A implementação será conduzida de forma iterativa e incremental, garantindo que cada componente seja validado antes da integração final. A arquitetura será implantada utilizando Kubernetes, proporcionando escalabilidade e alta disponibilidade. Os principais componentes a serem configurados incluem o MinIO para armazenamento distribuído de imagens médicas, Apache Airflow para orquestração de pipelines de dados, Delta Lake para gestão transacional e versionamento dos dados e Delta Sharing para compartilhamento seguro e governança de dados, onde cada componente será implantado e testado individualmente antes da integração completa da solução.
+Na integração semântica, foi criado um sistema para mapear termos clínicos, organizar hierarquias e permitir interoperabilidade entre instituições. O aplicativo DermAlert foi desenvolvido para uso em unidades de saúde, com fluxo clínico simples, captura padronizada de imagens, consentimento digital, anonimização e sincronização dos dados.
 
-\subsection{Testes e Validação}
+\section{Estratégia de Validação}
 
-Os testes no TCC2 serão fundamentais para avaliar a eficiência, segurança e confiabilidade da arquitetura. Serão realizadas verificações de integração para garantir a comunicação entre os componentes, testes de desempenho para avaliar a escalabilidade e latência no processamento de imagens médicas, testes de segurança para validar criptografia, controle de acesso e anonimização de dados conforme a LGPD, além de testes de conformidade para assegurar o alinhamento com regulamentações e boas práticas de proteção de dados.
+A validação técnica envolveu testes de integração, avaliação de desempenho (latência, throughput, escalabilidade) e verificação de segurança e conformidade com a LGPD. A validação operacional foi feita com testes de usabilidade e um piloto em cinco unidades de saúde para acompanhar métricas e impacto no trabalho.
 
-\subsection{Resultados Esperados}
-Ao final do TCC2, espera-se obter uma arquitetura funcional, testada e validada, pronta para aplicação prática no armazenamento e processamento de imagens de câncer de pele. A implementação servirá como base para futuras melhorias e adaptações, além de permitir a análise de desafios práticos não previstos no modelo teórico.
+\section{Critérios de Avaliação}
 
-\section{Lições Aprendidas}
-A proposta desenvolvida concentrou-se em projetar uma arquitetura de Data Fabric para armazenamento e processamento de imagens de câncer de pele, sem a realização de experimentos práticos. O estudo teórico e a elaboração do projeto proporcionaram reflexões importantes que direcionaram escolhas tecnológicas e de design. A seguir, destacamos as principais lições aprendidas.
+Foram definidos critérios quantitativos, como escalabilidade, disponibilidade, latência, throughput e qualidade das imagens (resolução, nitidez, contraste), e qualitativos, como usabilidade, interoperabilidade, governança e diversidade dos dados.
 
-\subsection{Benefícios de Integrar Fontes Externas de Dados}
-A integração de dados provenientes de fontes externas, como bases públicas, bancos de parceiros e repositórios de pesquisas clínicas, mostrou-se essencial para aprimorar a diversidade e a qualidade dos dados. No caso de imagens médicas, especialmente em diagnósticos de câncer de pele, essa diversidade é fundamental para reduzir vieses e melhorar a generalização dos modelos de machine learning. Além disso, a integração evita a criação de silos de dados, garantindo que as informações sejam acessíveis e analisáveis de forma unificada e segura. Outro benefício é a otimização de custos e esforços, pois a centralização da ingestão e do gerenciamento de dados permite maior produtividade, eliminando a necessidade de recriar processos de ETL, ferramentas de segurança e configurações de infraestrutura para cada nova fonte.
+\section{Considerações sobre Sustentabilidade}
 
-\subsection{Por que Data Fabric em vez de apenas um Data Lake}
-Embora um Data Lake isolado pudesse armazenar grandes volumes de dados não estruturados, a adoção de uma abordagem de Data Fabric se mostrou mais vantajosa. Isso porque o Data Fabric oferece uma visão global e governança unificada, com mecanismos avançados de auditoria, segurança granular e rastreabilidade, superando a limitação dos Data Lakes tradicionais, que funcionam apenas como grandes repositórios de arquivos. Além disso, o Data Fabric permite a integração com diversas fontes de dados, suportando múltiplos formatos e ecossistemas híbridos sem exigir a migração física dos dados para um único local. Outro diferencial é a camada semântica e o uso avançado de metadados, que possibilitam a descoberta, catalogação e correlação automática dos dados, facilitando a busca e o consumo self-service de informações. Por fim, o Data Fabric se destaca pela automação de processos de ingestão, limpeza e enriquecimento de dados por meio de orquestradores como o Apache Airflow, tornando a arquitetura mais escalável e reduzindo custos operacionais.
+A sustentabilidade foi buscada com uso de soluções \textit{open source}, modularidade, padrões internacionais e envolvimento da comunidade. Também foram priorizadas capacitação das equipes, documentação, suporte e planejamento para evolução futura.
 
-\subsection{Automação e Eficiência Operacional}
-A arquitetura projetada destacou a importância da automação para garantir escalabilidade. O Apache Airflow desempenha um papel fundamental na automação das etapas de ingestão, limpeza e processamento dos dados, permitindo que as equipes foquem em análise e desenvolvimento, e não em tarefas repetitivas. Além disso, a integração do Delta Lake e do Delta Sharing permitiu maior controle sobre a qualidade e versionamento dos dados, viabilizando auditorias detalhadas e o compartilhamento seguro de informações entre diferentes organizações, garantindo conformidade com a LGPD.
+\section{Considerações Finais sobre a Metodologia}
 
-\subsection{Importância da Segurança e Conformidade}
-A conformidade com regulamentações como a LGPD deve ser priorizada desde o início do projeto. Medidas como criptografia, controle de acesso baseado em funções (RBAC) e anonimização de dados são essenciais para proteger informações sensíveis e garantir transparência e rastreabilidade no uso dos dados.
-
-
-O estudo reforçou que um Data Fabric bem estruturado pode melhorar significativamente a qualidade, governança e eficiência operacional de um sistema de análise de imagens médicas. A escolha cuidadosa das tecnologias, a integração de fontes diversas e a automação de processos são fatores-chave para o sucesso do projeto. Além disso, a segurança e conformidade com regulamentações não devem ser vistas apenas como obrigações, mas como diferenciais estratégicos que garantem confiabilidade e longevidade à solução desenvolvida.
+A abordagem adotada permitiu desenvolver a arquitetura DermAlert de forma adequada ao contexto da saúde pública brasileira, com atenção à segurança, equidade e sustentabilidade.
