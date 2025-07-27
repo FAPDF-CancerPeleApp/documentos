@@ -117,7 +117,25 @@ Esta tela apresenta a visualização de um dataset que foi conectado, por exempl
 \label{fig:dataset_view}
 \end{figure}
 
+\subsubsection{9. Delta Sharing}
+Esta tela é responsável pela configuração e gerenciamento do compartilhamento seguro de dados através do protocolo Delta Sharing. Nela, o usuário pode definir compartilhamentos, esquemas, tabelas e recipientes, controlando de forma segura o acesso aos datasets. É possível estabelecer limites mínimos e máximos de buscas permitidas para cada recipiente específico, garantindo controle de uso e governança dos dados. Além disso, a interface permite associar recipientes com diferentes compartilhamentos, oferecendo flexibilidade na distribuição controlada dos dados entre parceiros e colaboradores autorizados.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/9_deltasharing.eps}
+\caption{Tela de Delta Sharing}
+\label{fig:delta_sharing}
+\end{figure}
+
+\subsubsection{10. Configuração de Recipiente}
+Esta tela apresenta as configurações detalhadas para cada recipiente no sistema de Delta Sharing. Aqui, o usuário pode definir parâmetros específicos de acesso, incluindo limites mínimos e máximos de consultas permitidas, estabelecendo cotas de uso personalizadas para cada colaborador. Além disso, é possível configurar e gerenciar tokens de autorização únicos para cada recipiente, garantindo autenticação segura e rastreabilidade de acesso aos dados compartilhados.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/10_recipiente.eps}
+\caption{Configuração de Recipiente}
+\label{fig:recipiente}
+\end{figure}
 
 \section{Evoluções Futuras}
 Com base na arquitetura completa proposta, algumas funcionalidades planejadas para uma futura versão da plataforma incluem o desenvolvimento de filtros personalizados para facilitar a criação de novos datasets com base em critérios específicos definidos pelo usuário. Também está planejada a ampliação do suporte a diferentes tipos de conexões com novas fontes de dados, aumentando a flexibilidade e a abrangência da plataforma. Outro avanço será a implementação de um modelo de permissões baseado em RBAC (Role-Based Access Control), permitindo um controle mais refinado de acesso aos dados e datasets. Por fim, o suporte ao mapeamento e relacionamento entre tabelas de uma mesma fonte, possibilitando análises mais completas e estruturadas dentro do próprio contexto da origem dos dados.

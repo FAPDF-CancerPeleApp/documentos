@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  24 JUL 2025 02:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  27 JUL 2025 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,15 +1131,23 @@ File: figuras/8_dataset_veiw.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
-[82]) (./tcc.bbl (./tcc.brf)
+File: figuras/9_deltasharing.eps Graphic file (type eps)
+
+<figuras/9_deltasharing.eps>
+Underfull \vbox (badness 6412) has occurred while \output is active []
+
+ [82]
+File: figuras/10_recipiente.eps Graphic file (type eps)
+
+<figuras/10_recipiente.eps> [83]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [83] [84
-
-]
+ [84]
 bibitemlist
-[85] [86]
+[85
+
+] [86]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1187,12 +1195,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 12263 strings out of 494542
- 185273 string characters out of 6176699
- 344527 words of memory out of 5000000
- 15653 multiletter control sequences out of 15000+600000
+ 12273 strings out of 494542
+ 185485 string characters out of 6176699
+ 344813 words of memory out of 5000000
+ 15661 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 45i,13n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (91 pages, 505120 bytes).
+Output written on tcc.dvi (91 pages, 510280 bytes).
