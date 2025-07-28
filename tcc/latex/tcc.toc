@@ -138,8 +138,9 @@
 \contentsline {subsubsection}{\numberline {5.1.2.8}8. Tela de Visualiza\IeC {\c c}\IeC {\~a}o de Dataset}{81}{subsubsection.5.1.2.8}% 
 \contentsline {subsubsection}{\numberline {5.1.2.9}9. Delta Sharing}{82}{subsubsection.5.1.2.9}% 
 \contentsline {subsubsection}{\numberline {5.1.2.10}10. Configura\IeC {\c c}\IeC {\~a}o de Recipiente}{83}{subsubsection.5.1.2.10}% 
-\contentsline {section}{\numberline {5.2}Evolu\IeC {\c c}\IeC {\~o}es Futuras}{83}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Conclus\IeC {\~a}o}{83}{section.5.3}% 
+\contentsline {subsubsection}{\numberline {5.1.2.11}11. Carregamento do Dataset}{83}{subsubsection.5.1.2.11}% 
+\contentsline {section}{\numberline {5.2}Evolu\IeC {\c c}\IeC {\~o}es Futuras}{84}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Conclus\IeC {\~a}o}{84}{section.5.3}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{85}{section*.14}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{87}{section*.14}% 
