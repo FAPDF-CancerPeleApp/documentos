@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.28)  28 JUL 2025 02:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.29)  31 JUL 2025 05:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,15 +1079,19 @@ File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [67]
-Overfull \hbox (2.70137pt too wide) in paragraph at lines 142--143
+Overfull \hbox (2.70137pt too wide) in paragraph at lines 144--145
 []\T1/lmr/bx/n/12 Armazenamento Dis-tri-buído\T1/lmr/m/n/12 : Mi-nIO es-tru-tu-
 rado em múl-ti-plas ca-ma-das (Bronze,
  []
 
-[68] [69]
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [68]
+[69]
 File: figuras/app_screenshot.eps Graphic file (type eps)
  <figuras/app_screenshot.eps> [70] [71] [72]
-Overfull \hbox (10.72043pt too wide) in paragraph at lines 282--283
+Overfull \hbox (10.72043pt too wide) in paragraph at lines 284--285
 []\T1/lmr/m/n/12 Implementação de RBAC, crip-to-gra-fia, ano-ni-mi-za-ção e con
 -for-mi-dade com LGPD. 
  []
@@ -1145,19 +1149,22 @@ File: figuras/10_recipiente.eps Graphic file (type eps)
 
 <figuras/10_recipiente.eps>
 File: figuras/get_dataset_delta.eps Graphic file (type eps)
- <figuras/get_dataset_delta.eps>
+ <figuras/get_dataset_delta.eps>)
+(./editaveis/conclusao.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83]
-[84]) (./tcc.bbl (./tcc.brf)
+[84]) [85
+
+] (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [85] [86
-
-]
+ [86]
 bibitemlist
-[87] [88]
+[87
+
+] [88]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1183,14 +1190,14 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `tcc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 51.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 52.
 \BKM@file=\write9
 \openout9 = `tcc.out.ps'.
 
  (./tcc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 
 
 Package rerunfilecheck Warning: File `tcc.brf' has changed.
@@ -1202,15 +1209,15 @@ Package rerunfilecheck Info: Checksums for `tcc.brf':
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 12277 strings out of 494542
- 185584 string characters out of 6176699
- 344884 words of memory out of 5000000
- 15664 multiletter control sequences out of 15000+600000
+ 12282 strings out of 494542
+ 185691 string characters out of 6176699
+ 344771 words of memory out of 5000000
+ 15666 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 45i,12n,51p,2384b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,51p,2181b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (93 pages, 513840 bytes).
+Output written on tcc.dvi (93 pages, 514268 bytes).

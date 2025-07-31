@@ -109,7 +109,9 @@ Esta seção apresenta diagramas específicos que detalham a arquitetura e os fl
 
 \subsubsection{Diagrama de Arquitetura do Projeto}
 
-A Figura~\ref{fig:arquitetura_projeto} ilustra a arquitetura proposta, detalhando como o Data Fabric integra fontes de dados internas e externas, com armazenamento em camadas utilizando MinIO, orquestração de ingestão e processamento via Apache Airflow e análise/controle transacional por Delta Lake e Spark. O compartilhamento seguro de dados é realizado via Delta Sharing.
+A Figura~\ref{fig:arquitetura_projeto} ilustra a arquitetura atualizada do projeto, evidenciando como o Data Fabric integra múltiplas fontes de dados internas e externas, com armazenamento em camadas utilizando o MinIO (nos níveis Bronze, Silver e Gold). A ingestão de dados é orquestrada por pipelines do Apache Airflow, que também coordena o processamento posterior realizado pelo Apache Spark. Os dados processados são estruturados no Delta Lake, que mantém os metadados e garante transações ACID.
+    
+O compartilhamento seguro de dados é viabilizado por meio do Delta Sharing, permitindo o acesso controlado às informações. Além disso, a arquitetura contempla um backend desenvolvido com FastAPI, responsável por intermediar as requisições entre os usuários e os dados disponíveis, e um frontend construído em ReactJS, que oferece uma interface amigável de acesso às funcionalidades da plataforma. Por fim, o PostgreSQL atua como banco de dados relacional para armazenamento de metadados e informações complementares do sistema.
 
 \begin{figure}[h]
     \centering
