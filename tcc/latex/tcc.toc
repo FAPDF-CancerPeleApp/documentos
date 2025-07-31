@@ -99,10 +99,7 @@
 \contentsline {section}{\numberline {3.1}Abordagem de Pesquisa}{59}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{59}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{59}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o}{60}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Crit\IeC {\'e}rios de Avalia\IeC {\c c}\IeC {\~a}o}{60}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Considera\IeC {\c c}\IeC {\~o}es sobre Sustentabilidade}{60}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Metodologia}{60}{section.3.7}% 
+\contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o e Considera\IeC {\c c}\IeC {\~o}es Finais}{60}{section.3.4}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{61}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Requisitos}{61}{section.4.1}% 

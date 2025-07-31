@@ -16,25 +16,16 @@ O desenvolvimento da arquitetura DermAlert foi orientado pelas seguintes pergunt
     \item Qual o impacto da arquitetura proposta na qualidade, diversidade e acessibilidade dos dados para o desenvolvimento de modelos de \textit{machine learning} mais equitativos?
 \end{enumerate}
 
-
 \section{Processo de Desenvolvimento da Arquitetura}
 
-O desenvolvimento da arquitetura foi realizado em etapas. Primeiro, analisou-se o cenário da dermatologia no Brasil, considerando desafios, limitações tecnológicas, exigências legais e necessidades dos profissionais da Atenção Primária. A arquitetura foi desenhada com foco em descentralização, escalabilidade, segurança, interoperabilidade e uso de tecnologias \textit{open source}. A escolha das ferramentas considerou critérios como facilidade de manutenção, custo e flexibilidade. O conjunto de tecnologias incluiu MinIO para armazenamento, Delta Lake para gerenciamento de dados, Apache Airflow para orquestração, Apache Spark para processamento, Delta Sharing para compartilhamento seguro, FastAPI para API, Kubernetes para containers, catálogo de metadados para governança e interface web em Next.js/React.
+O processo de desenvolvimento da Prova de Conceito (PoC) iniciou-se com um \textbf{levantamento de requisitos}, baseado na análise do problema e na literatura, que levou à seleção do conjunto de tecnologias (MinIO, Delta Lake, Apache Spark, etc.). Em seguida, foi realizado o \textbf{projeto detalhado da arquitetura}, definindo o fluxo de dados, os componentes e as interações entre eles, conforme ilustrado nos diagramas do Capítulo 4.
 
-Na integração semântica, foi criado um sistema para mapear termos clínicos, organizar hierarquias e permitir interoperabilidade entre instituições. O aplicativo DermAlert foi desenvolvido para uso em unidades de saúde, com fluxo clínico simples, captura padronizada de imagens, consentimento digital, anonimização e sincronização dos dados.
+A fase final foi a \textbf{implementação do protótipo funcional} da plataforma DermAlert. O desenvolvimento focou em materializar as capacidades essenciais da arquitetura, como a conexão a fontes de dados distintas, a interface para mapeamento semântico, a visualização de datasets unificados e a configuração do compartilhamento seguro via Delta Sharing. O resultado desta implementação está documentado visualmente através das telas do sistema no Capítulo 5.
 
-\section{Estratégia de Validação}
+\section{Estratégia de Validação e Considerações Finais}
 
-A validação técnica envolveu testes de integração, avaliação de desempenho (latência, throughput, escalabilidade) e verificação de segurança e conformidade com a LGPD. A validação operacional foi feita com testes de usabilidade e um piloto em cinco unidades de saúde para acompanhar métricas e impacto no trabalho.
+A validação deste trabalho focou na \textbf{demonstração da viabilidade da arquitetura} através da Prova de Conceito implementada. A estratégia não previu a execução de testes formais de performance, sendo estes recomendados como próximos passos em trabalhos futuros.
 
-\section{Critérios de Avaliação}
+Os critérios de avaliação foram, portanto, qualitativos. A \textbf{validação funcional} foi confirmada pela operação integrada das funcionalidades essenciais no protótipo, como demonstrado nas telas do sistema. A \textbf{validação arquitetural} foi atestada pelo sucesso na integração das tecnologias escolhidas, provando que o modelo teórico se sustenta na prática.
 
-Foram definidos critérios quantitativos, como escalabilidade, disponibilidade, latência, throughput e qualidade das imagens (resolução, nitidez, contraste), e qualitativos, como usabilidade, interoperabilidade, governança e diversidade dos dados.
-
-\section{Considerações sobre Sustentabilidade}
-
-A sustentabilidade foi buscada com uso de soluções \textit{open source}, modularidade, padrões internacionais e envolvimento da comunidade. Também foram priorizadas capacitação das equipes, documentação, suporte e planejamento para evolução futura.
-
-\section{Considerações Finais sobre a Metodologia}
-
-A abordagem adotada permitiu desenvolver a arquitetura DermAlert de forma adequada ao contexto da saúde pública brasileira, com atenção à segurança, equidade e sustentabilidade.
+Conclui-se que a metodologia adotada foi eficaz para comprovar que a arquitetura Data Fabric proposta é uma solução promissora e tecnicamente realizável. O protótipo desenvolvido serve como uma base sólida para futuras evoluções, que poderão incluir os ciclos de testes rigorosos e a validação em um contexto clínico real.

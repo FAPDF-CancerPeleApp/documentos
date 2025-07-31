@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.29)  31 JUL 2025 05:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  31 JUL 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,12 +1212,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 12282 strings out of 494542
- 185691 string characters out of 6176699
- 344771 words of memory out of 5000000
- 15666 multiletter control sequences out of 15000+600000
+ 12279 strings out of 494542
+ 185670 string characters out of 6176699
+ 344741 words of memory out of 5000000
+ 15663 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2181b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (93 pages, 514268 bytes).
+Output written on tcc.dvi (93 pages, 511716 bytes).
