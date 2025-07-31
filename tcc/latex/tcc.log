@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  31 JUL 2025 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=latex 2025.7.21)  31 JUL 2025 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,6 +897,11 @@ Overfull \hbox (6.79524pt too wide) in paragraph at lines 3--3
  [][] [] []  
  []
 
+
+Overfull \hbox (12.4769pt too wide) in paragraph at lines 4--4
+ [][] [] []  
+ []
+
 ) [11] [12
 
 ] (./tcc.lot) [13] [14
@@ -1045,31 +1050,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [55]
 [56]) (./editaveis/metodologia.tex [57] [58
 
-] [59]) (./editaveis/projeto.tex
-[60]
+]
+File: figuras/metodologia_fluxo.eps Graphic file (type eps)
+ <figuras/metodologia_fluxo.eps>
+[59]) (./editaveis/projeto.tex [60] [61] [62
+
+]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 14.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
 Overfull \vbox (19.22592pt too high) has occurred while \output is active []
 
 
-[65]
+[67]
 File: figuras/diagrama_geral_arquitetura.eps Graphic file (type eps)
- <figuras/diagrama_geral_arquitetura.eps> [66]
+ <figuras/diagrama_geral_arquitetura.eps> [68]
 File: figuras/arquitetura.eps Graphic file (type eps)
  <figuras/arquitetura.eps>
 File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
@@ -1078,7 +1085,7 @@ File: figuras/diagrama_fluxo_dados.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67]
+[69]
 Overfull \hbox (2.70137pt too wide) in paragraph at lines 144--145
 []\T1/lmr/bx/n/12 Armazenamento Dis-tri-buído\T1/lmr/m/n/12 : Mi-nIO es-tru-tu-
 rado em múl-ti-plas ca-ma-das (Bronze,
@@ -1087,18 +1094,18 @@ rado em múl-ti-plas ca-ma-das (Bronze,
 
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
- [68]
-[69]
+ [70]
+[71]
 File: figuras/app_screenshot.eps Graphic file (type eps)
- <figuras/app_screenshot.eps> [70] [71] [72]
+ <figuras/app_screenshot.eps> [72] [73] [74]
 Overfull \hbox (10.72043pt too wide) in paragraph at lines 284--285
 []\T1/lmr/m/n/12 Implementação de RBAC, crip-to-gra-fia, ano-ni-mi-za-ção e con
 -for-mi-dade com LGPD. 
  []
 
-) (./editaveis/implementacao.tex [73] [74
+) (./editaveis/implementacao.tex [75] [76
 
-] [75]
+] [77]
 File: figuras/1_home_page.eps Graphic file (type eps)
  <figuras/1_home_page.eps>
 File: figuras/2_tipo_connection.eps Graphic file (type eps)
@@ -1106,19 +1113,19 @@ File: figuras/2_tipo_connection.eps Graphic file (type eps)
 <figuras/2_tipo_connection.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [78]
 File: figuras/3_modal_connections.eps Graphic file (type eps)
 
 <figuras/3_modal_connections.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [79]
 File: figuras/4_data_conenctions.eps Graphic file (type eps)
 
 <figuras/4_data_conenctions.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [80]
 File: figuras/5_visiibility_modal.eps Graphic file (type eps)
 
 <figuras/5_visiibility_modal.eps>
@@ -1126,25 +1133,25 @@ File: figuras/6_value_mapping.eps Graphic file (type eps)
  <figuras/6_value_mapping.eps>
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [79]
+ [81]
 File: figuras/7_equivalence_columns.eps Graphic file (type eps)
 
 <figuras/7_equivalence_columns.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [82]
 File: figuras/8_dataset_veiw.eps Graphic file (type eps)
 
 <figuras/8_dataset_veiw.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
+ [83]
 File: figuras/9_deltasharing.eps Graphic file (type eps)
 
 <figuras/9_deltasharing.eps>
 Underfull \vbox (badness 6412) has occurred while \output is active []
 
- [82]
+ [84]
 File: figuras/10_recipiente.eps Graphic file (type eps)
 
 <figuras/10_recipiente.eps>
@@ -1153,18 +1160,18 @@ File: figuras/get_dataset_delta.eps Graphic file (type eps)
 (./editaveis/conclusao.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
-[84]) [85
+ [85]
+[86]) [87
 
 ] (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [86]
+ [88]
 bibitemlist
-[87
+[89
 
-] [88]
+] [90]
 Underfull \hbox (badness 1496) in paragraph at lines 197--197
 []\T1/lmr/m/n/12 Instituto Na-ci-o-nal de Cân-cer (INCA). \T1/lmr/m/it/12 Es-ti
 -ma-tiva 2020: 
@@ -1176,11 +1183,11 @@ Underfull \hbox (badness 2096) in paragraph at lines 197--197
 la-ble at: 
  []
 
-[89] [90])
+[91] [92])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[91]
+[93]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1212,12 +1219,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 12279 strings out of 494542
- 185670 string characters out of 6176699
- 344741 words of memory out of 5000000
- 15663 multiletter control sequences out of 15000+600000
+ 12283 strings out of 494542
+ 185785 string characters out of 6176699
+ 345954 words of memory out of 5000000
+ 15666 multiletter control sequences out of 15000+600000
  85445 words of font info for 58 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  45i,12n,51p,2181b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (93 pages, 511716 bytes).
+Output written on tcc.dvi (95 pages, 513908 bytes).

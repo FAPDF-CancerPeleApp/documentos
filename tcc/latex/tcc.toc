@@ -98,47 +98,47 @@
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{59}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Abordagem de Pesquisa}{59}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Perguntas de Pesquisa}{59}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{59}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Processo de Desenvolvimento da Arquitetura}{60}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Estrat\IeC {\'e}gia de Valida\IeC {\c c}\IeC {\~a}o e Considera\IeC {\c c}\IeC {\~o}es Finais}{60}{section.3.4}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{61}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Requisitos}{61}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{62}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{63}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{65}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Arquitetura}{66}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{66}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{66}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{67}{subsubsection.4.2.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{67}{subsubsection.4.2.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{67}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{68}{subsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{69}{subsection.4.2.5}% 
-\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{69}{subsection.4.2.6}% 
-\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{70}{subsection.4.2.7}% 
-\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{71}{subsection.4.2.8}% 
-\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{71}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{71}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{72}{section.4.5}% 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto}}{63}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos}{63}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Requisitos Funcionais}{64}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Requisitos N\IeC {\~a}o Funcionais}{65}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Hist\IeC {\'o}rias de Usu\IeC {\'a}rio}{67}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Arquitetura}{68}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Vis\IeC {\~a}o Geral e Diagrama de Arquitetura Geral}{68}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Diagramas Espec\IeC {\'\i }ficos do Projeto}{68}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrama de Arquitetura do Projeto}{69}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Diagrama de Fluxo de Dados}{69}{subsubsection.4.2.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Fluxo de Dados Detalhado}{69}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Componentes Principais da Arquitetura}{70}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Diferenciais Arquiteturais}{71}{subsection.4.2.5}% 
+\contentsline {subsection}{\numberline {4.2.6}Aplicativo de Coleta DermAlert}{71}{subsection.4.2.6}% 
+\contentsline {subsection}{\numberline {4.2.7}Integra\IeC {\c c}\IeC {\~a}o T\IeC {\'e}cnica}{72}{subsection.4.2.7}% 
+\contentsline {subsection}{\numberline {4.2.8}Considera\IeC {\c c}\IeC {\~o}es Finais sobre a Arquitetura}{73}{subsection.4.2.8}% 
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{73}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Roadmap e Plano de Implementa\IeC {\c c}\IeC {\~a}o}{73}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Detalhamento das Etapas}{74}{section.4.5}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o Realizada e Considera\IeC {\c c}\IeC {\~o}es Finais}}{75}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Implementa\IeC {\c c}\IeC {\~a}o Realizada (TCC2)}{75}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Infraestrutura Inicial Desenvolvida}{75}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Telas do Sistema Implementado}{76}{subsection.5.1.2}% 
-\contentsline {subsubsection}{\numberline {5.1.2.1}1. Tela Inicial (Home Page)}{76}{subsubsection.5.1.2.1}% 
-\contentsline {subsubsection}{\numberline {5.1.2.2}2. Tela de Tipo de Conex\IeC {\~a}o}{76}{subsubsection.5.1.2.2}% 
-\contentsline {subsubsection}{\numberline {5.1.2.3}3. Modal de Novas Conex\IeC {\~o}es}{77}{subsubsection.5.1.2.3}% 
-\contentsline {subsubsection}{\numberline {5.1.2.4}4. Tela de Conex\IeC {\~o}es de Dados}{78}{subsubsection.5.1.2.4}% 
-\contentsline {subsubsection}{\numberline {5.1.2.5}5. Modal de Visibilidade}{79}{subsubsection.5.1.2.5}% 
-\contentsline {subsubsection}{\numberline {5.1.2.6}6. Modal de Mapeamento de Valores}{80}{subsubsection.5.1.2.6}% 
-\contentsline {subsubsection}{\numberline {5.1.2.7}7. Tela de Equival\IeC {\^e}ncia de Colunas}{81}{subsubsection.5.1.2.7}% 
-\contentsline {subsubsection}{\numberline {5.1.2.8}8. Tela de Visualiza\IeC {\c c}\IeC {\~a}o de Dataset}{81}{subsubsection.5.1.2.8}% 
-\contentsline {subsubsection}{\numberline {5.1.2.9}9. Delta Sharing}{82}{subsubsection.5.1.2.9}% 
-\contentsline {subsubsection}{\numberline {5.1.2.10}10. Configura\IeC {\c c}\IeC {\~a}o de Recipiente}{83}{subsubsection.5.1.2.10}% 
-\contentsline {subsubsection}{\numberline {5.1.2.11}11. Carregamento do Dataset}{83}{subsubsection.5.1.2.11}% 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Implementa\IeC {\c c}\IeC {\~a}o Realizada e Considera\IeC {\c c}\IeC {\~o}es Finais}}{77}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Implementa\IeC {\c c}\IeC {\~a}o Realizada (TCC2)}{77}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Infraestrutura Inicial Desenvolvida}{77}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Telas do Sistema Implementado}{78}{subsection.5.1.2}% 
+\contentsline {subsubsection}{\numberline {5.1.2.1}1. Tela Inicial (Home Page)}{78}{subsubsection.5.1.2.1}% 
+\contentsline {subsubsection}{\numberline {5.1.2.2}2. Tela de Tipo de Conex\IeC {\~a}o}{78}{subsubsection.5.1.2.2}% 
+\contentsline {subsubsection}{\numberline {5.1.2.3}3. Modal de Novas Conex\IeC {\~o}es}{79}{subsubsection.5.1.2.3}% 
+\contentsline {subsubsection}{\numberline {5.1.2.4}4. Tela de Conex\IeC {\~o}es de Dados}{80}{subsubsection.5.1.2.4}% 
+\contentsline {subsubsection}{\numberline {5.1.2.5}5. Modal de Visibilidade}{81}{subsubsection.5.1.2.5}% 
+\contentsline {subsubsection}{\numberline {5.1.2.6}6. Modal de Mapeamento de Valores}{82}{subsubsection.5.1.2.6}% 
+\contentsline {subsubsection}{\numberline {5.1.2.7}7. Tela de Equival\IeC {\^e}ncia de Colunas}{83}{subsubsection.5.1.2.7}% 
+\contentsline {subsubsection}{\numberline {5.1.2.8}8. Tela de Visualiza\IeC {\c c}\IeC {\~a}o de Dataset}{83}{subsubsection.5.1.2.8}% 
+\contentsline {subsubsection}{\numberline {5.1.2.9}9. Delta Sharing}{84}{subsubsection.5.1.2.9}% 
+\contentsline {subsubsection}{\numberline {5.1.2.10}10. Configura\IeC {\c c}\IeC {\~a}o de Recipiente}{85}{subsubsection.5.1.2.10}% 
+\contentsline {subsubsection}{\numberline {5.1.2.11}11. Carregamento do Dataset}{85}{subsubsection.5.1.2.11}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {conclus\IeC {\~a}o}}{85}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Evolu\IeC {\c c}\IeC {\~o}es Futuras}{85}{section.6.1}% 
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {conclus\IeC {\~a}o}}{87}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Evolu\IeC {\c c}\IeC {\~o}es Futuras}{87}{section.6.1}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{87}{section*.14}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{89}{section*.14}% 
